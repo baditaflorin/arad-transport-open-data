@@ -1,0 +1,2 @@
+# Export hashes and ZIP payloads refer to exact bytes, including CSV CRLF.
+docs/data/** -text
