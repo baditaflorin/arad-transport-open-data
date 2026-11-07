@@ -1,0 +1,692 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://baditaflorin.github.io/arad-transport-open-data/schema.json",
+  "title": "Arad transport public API and normalized export definitions",
+  "$defs": {
+    "RawPattern": {
+      "type": "object",
+      "properties": {
+        "routeId": {
+          "type": "integer"
+        },
+        "index": {
+          "type": "integer",
+          "description": "May be negative; scoped to routeId."
+        },
+        "direction": {
+          "type": "integer",
+          "description": "Preserved from source; -1 is possible. Do not infer outbound/inbound."
+        },
+        "fromStopId": {
+          "type": "integer"
+        },
+        "toStopId": {
+          "type": "integer"
+        },
+        "viaStopId": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "patternHash": {
+          "type": "string"
+        },
+        "stops": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "geometry": {
+          "type": "string",
+          "description": "Encoded polyline, precision 5."
+        }
+      },
+      "required": [
+        "routeId",
+        "index",
+        "stops"
+      ],
+      "additionalProperties": true
+    },
+    "Pattern": {
+      "type": "object",
+      "properties": {
+        "routeId": {
+          "type": "integer"
+        },
+        "index": {
+          "type": "integer",
+          "description": "May be negative; scoped to routeId."
+        },
+        "direction": {
+          "type": "integer",
+          "description": "Preserved from source; -1 is possible. Do not infer outbound/inbound."
+        },
+        "fromStopId": {
+          "type": "integer"
+        },
+        "toStopId": {
+          "type": "integer"
+        },
+        "viaStopId": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "patternHash": {
+          "type": "string"
+        },
+        "patternId": {
+          "type": "string"
+        },
+        "stopIds": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "stopCount": {
+          "type": "integer"
+        },
+        "encodedPolyline": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "patternId",
+        "routeId",
+        "index",
+        "stopIds",
+        "stopCount"
+      ],
+      "additionalProperties": true
+    },
+    "RawRoute": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "shortName": {
+          "type": "string"
+        },
+        "longName": {
+          "type": "string"
+        },
+        "type": {
+          "type": "integer",
+          "description": "GTFS route type: 0 tram, 3 bus."
+        },
+        "color": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "textColor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inbound": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outbound": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RawPattern"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "shortName",
+        "longName",
+        "type",
+        "patterns"
+      ],
+      "additionalProperties": true
+    },
+    "Route": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "shortName": {
+          "type": "string"
+        },
+        "longName": {
+          "type": "string"
+        },
+        "type": {
+          "type": "integer",
+          "description": "GTFS route type: 0 tram, 3 bus."
+        },
+        "color": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "textColor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inbound": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outbound": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "tram",
+            "bus",
+            "other"
+          ]
+        },
+        "patternCount": {
+          "type": "integer"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "id",
+        "shortName",
+        "longName",
+        "type",
+        "mode",
+        "patternCount"
+      ],
+      "additionalProperties": true
+    },
+    "RouteStop": {
+      "type": "object",
+      "properties": {
+        "routeId": {
+          "type": "integer"
+        },
+        "patternId": {
+          "type": "string"
+        },
+        "patternIndex": {
+          "type": "integer"
+        },
+        "stopSequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "stopId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "routeId",
+        "patternId",
+        "patternIndex",
+        "stopSequence",
+        "stopId"
+      ],
+      "additionalProperties": true
+    },
+    "RawStop": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "wheelchairBoarding": {
+          "type": "integer",
+          "description": "GTFS enum: 0 unknown, 1 possible, 2 not possible. Preserve source value."
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "routeId": {
+                "type": "integer"
+              },
+              "index": {
+                "type": "integer",
+                "description": "May be negative; scoped to routeId."
+              },
+              "direction": {
+                "type": "integer",
+                "description": "Preserved from source; -1 is possible. Do not infer outbound/inbound."
+              },
+              "fromStopId": {
+                "type": "integer"
+              },
+              "toStopId": {
+                "type": "integer"
+              },
+              "viaStopId": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "latitude",
+        "longitude"
+      ],
+      "additionalProperties": true
+    },
+    "Stop": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "wheelchairBoarding": {
+          "type": "integer",
+          "description": "GTFS enum: 0 unknown, 1 possible, 2 not possible. Preserve source value."
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "routeId": {
+                "type": "integer"
+              },
+              "index": {
+                "type": "integer",
+                "description": "May be negative; scoped to routeId."
+              },
+              "direction": {
+                "type": "integer",
+                "description": "Preserved from source; -1 is possible. Do not infer outbound/inbound."
+              },
+              "fromStopId": {
+                "type": "integer"
+              },
+              "toStopId": {
+                "type": "integer"
+              },
+              "viaStopId": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        "routeIds": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "latitude",
+        "longitude",
+        "routeIds"
+      ],
+      "additionalProperties": true
+    },
+    "Vehicle": {
+      "type": "object",
+      "properties": {
+        "vehicleId": {
+          "type": "string",
+          "description": "Opaque ID; keep as string."
+        },
+        "label": {
+          "type": "string"
+        },
+        "routeId": {
+          "type": "integer",
+          "description": "Join to route.id, never to shortName."
+        },
+        "patternIndex": {
+          "type": "integer",
+          "description": "Join to pattern.index together with routeId. Can be negative."
+        },
+        "tripId": {
+          "type": "string"
+        },
+        "headsign": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Position time in UTC. Demo considers age >120s stale."
+        },
+        "heading": {
+          "type": "number"
+        },
+        "speed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Optional; unit not documented by this project."
+        },
+        "delaySeconds": {
+          "type": "integer",
+          "description": "Seconds versus schedule, negative means ahead."
+        },
+        "nextStopArrival": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "stopId": {
+          "type": "integer"
+        },
+        "stopStatus": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "vehicleId",
+        "routeId",
+        "patternIndex",
+        "latitude",
+        "longitude",
+        "lastUpdated"
+      ],
+      "additionalProperties": true
+    },
+    "RouteVehicle": {
+      "type": "object",
+      "properties": {
+        "vehicleId": {
+          "type": "string",
+          "description": "Opaque ID; keep as string."
+        },
+        "label": {
+          "type": "string"
+        },
+        "routeId": {
+          "type": "integer",
+          "description": "Join to route.id, never to shortName."
+        },
+        "patternIndex": {
+          "type": "integer",
+          "description": "Join to pattern.index together with routeId. Can be negative."
+        },
+        "tripId": {
+          "type": "string"
+        },
+        "headsign": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Position time in UTC. Demo considers age >120s stale."
+        },
+        "heading": {
+          "type": "number"
+        },
+        "speed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Optional; unit not documented by this project."
+        },
+        "delaySeconds": {
+          "type": "integer",
+          "description": "Seconds versus schedule, negative means ahead."
+        },
+        "nextStopArrival": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "stopStatus": {
+          "type": "string"
+        },
+        "currentStopId": {
+          "type": "integer"
+        },
+        "stopId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "vehicleId",
+        "routeId",
+        "latitude",
+        "longitude",
+        "lastUpdated"
+      ],
+      "additionalProperties": true,
+      "description": "The route-specific endpoint was observed returning currentStopId instead of stopId. Normalize explicitly."
+    },
+    "Arrival": {
+      "type": "object",
+      "properties": {
+        "stopId": {
+          "type": "integer"
+        },
+        "tripId": {
+          "type": "string"
+        },
+        "scheduledArrival": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "scheduledDeparture": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "arrivalDelay": {
+          "type": "integer",
+          "description": "Seconds; negative means ahead."
+        },
+        "departureDelay": {
+          "type": "integer"
+        },
+        "realtime": {
+          "type": "boolean"
+        },
+        "wheelchairAccessible": {
+          "type": "integer"
+        },
+        "bikesAllowed": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "stopId",
+        "tripId",
+        "scheduledArrival",
+        "realtime"
+      ],
+      "additionalProperties": true
+    },
+    "ArrivalSnapshot": {
+      "type": "object",
+      "properties": {
+        "stopId": {
+          "type": "integer"
+        },
+        "tripId": {
+          "type": "string"
+        },
+        "scheduledArrival": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "scheduledDeparture": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "arrivalDelay": {
+          "type": "integer",
+          "description": "Seconds; negative means ahead."
+        },
+        "departureDelay": {
+          "type": "integer"
+        },
+        "realtime": {
+          "type": "boolean"
+        },
+        "wheelchairAccessible": {
+          "type": "integer"
+        },
+        "bikesAllowed": {
+          "type": "integer"
+        },
+        "routeId": {
+          "type": "integer"
+        },
+        "patternIndex": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "stopId",
+        "tripId",
+        "routeId",
+        "patternIndex",
+        "scheduledArrival",
+        "realtime"
+      ],
+      "additionalProperties": true
+    },
+    "ArrivalGroup": {
+      "type": "object",
+      "properties": {
+        "route": {
+          "type": "object",
+          "properties": {
+            "routeId": {
+              "type": "integer"
+            },
+            "index": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "routeId",
+            "index"
+          ],
+          "additionalProperties": true
+        },
+        "times": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Arrival"
+          }
+        }
+      },
+      "required": [
+        "route",
+        "times"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+when:
+  - event: [push, pull_request, manual]
+
+steps:
+  validate-data-and-exporter:
+    image: python:3.12-alpine
+    commands:
+      - python -m compileall -q scripts tests
+      - python -m unittest discover -s tests -v
+      - python scripts/validate.py
+  check-javascript:
+    image: node:22-alpine
+    commands:
+      - node --check docs/assets/app.js
+      - node --check examples/live.mjs
+  check-go:
+    image: golang:1.24-alpine
+    commands:
+      - test -z "$(gofmt -l examples/go/main.go)"
+      - cd examples/go
+      - go vet ./...
+      - go build -o /tmp/arad-live .

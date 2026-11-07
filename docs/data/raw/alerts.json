@@ -1,0 +1,9 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": 0,
+    "hasIncrementality": true,
+    "timestamp": 1794052910
+  },
+  "entity": []
+}

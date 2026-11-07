@@ -1,0 +1,30 @@
+﻿id,shortName,longName,type,mode,color,textColor,patternCount,inbound,outbound,sourceUrl
+3,21,Podgoria-Faleza Sud,3,bus,5300eb,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/3
+2,19,Piata UTA-Vantului,3,bus,004dcf,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/2
+5,39b,Podgoria-Artarului,3,bus,b80000,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/5
+4,31,Podgoria-Trenului,3,bus,333333,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/4
+7,46,Parcul Reconcilierii-Cartier San Paolo,3,bus,fccb00,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/7
+6,41,Piata Romana-Bujac,3,bus,db3e00,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/6
+9,49,Posada-Caraimanului,3,bus,006b76,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/9
+8,48,Billa-Anl-Selgros-Real,3,bus,008b02,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/8
+41,7A,PODGORIA-PODGORIA,3,bus,fccb00,ffffff,1,,,https://arad-transport.telelink.city/app/lines/route/41
+40,VL - POD,VLPOD,3,bus,,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/40
+21,15,Fat Frumos-Gara CFR-Sere,0,tram,db3e00,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/21
+42,18A,PODGORIA-PODGORIA,3,bus,008b02,ffffff,1,,,https://arad-transport.telelink.city/app/lines/route/42
+12,1b,Zona Industriala-Fat Frumos,0,tram,db3e00,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/12
+11,1,Fat Frumos-Podgoria-Piata Romana,0,tram,b80000,ffffff,5,,,https://arad-transport.telelink.city/app/lines/route/11
+36,52,Podgoria - Gelu,3,bus,fccb00,ffffff,1,,,https://arad-transport.telelink.city/app/lines/route/36
+14,6,Piata Gai-Podgoria-Piata Romana,0,tram,008b02,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/14
+13,3,Fat Frumos-Podgoria-Piata Romana-Gara Aradul Nou,0,tram,fccb00,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/13
+38,49b,Piata UTA - Economu - Gara Aradul Nou,3,bus,,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/38
+15,7,Fat Frumos-Podgoria-Miorita-Billa-Podgoria-Fat Frumos,0,tram,006b76,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/15
+39,GH - POD,GHPOD,3,bus,004dcf,ffffff,6,,,https://arad-transport.telelink.city/app/lines/route/39
+30,GEN4+LTB,Artarului - Gen4 -LTB,3,bus,fccb00,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/30
+10,60,Piata Romana-Concordiei,3,bus,004dcf,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/10
+31,Raza de Soare,Fortuna - Raza de Soare,3,bus,1273de,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/31
+23,16,Piata Romana-Podgoria-Sere,0,tram,008b02,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/23
+25,18b,Fat Frumos-Cpt. Ignat-Piata Romana-Podgoria-Maranata-Billa-Renasterii-Miorita-Podgoria-Piata Romana-Cpt. Ignat-Fat Frumos,0,tram,1273de,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/25
+27,Santoma,Santoma - ScGim Fratii Neuman,3,bus,008b02,ffffff,5,,,https://arad-transport.telelink.city/app/lines/route/27
+26,54,Podgoria-IAS Muresul,3,bus,1273de,ffffff,2,,,https://arad-transport.telelink.city/app/lines/route/26
+29,IAS Muresul,IAS Muresul - SG IM - SG AI,3,bus,1273de,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/29
+28,IAS ArNou,IAS ArNou - LT AMG,3,bus,,ffffff,4,,,https://arad-transport.telelink.city/app/lines/route/28

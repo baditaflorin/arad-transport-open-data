@@ -1,0 +1,2531 @@
+{
+  "schemaVersion": "1.0.0",
+  "fetchedAt": "2026-11-07T12:04:25.048022+00:00",
+  "timezone": "Europe/Bucharest",
+  "sourceUrl": "https://arad-transport.telelink.city",
+  "settingsUrl": "https://arad-transport.telelink.city/wp-content/plugins/planner/data/settings.json",
+  "apiBaseUrl": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport",
+  "endpoints": {
+    "routes": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/routes",
+    "stops": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops",
+    "vehicles": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/vehicles",
+    "routeVehicles": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/vehicles/route/{routeId}",
+    "stopTimes": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/{stopId}/times",
+    "alerts": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/gtfsrt/alerts?mediaType=WebPortal"
+  },
+  "counts": {
+    "routes": 29,
+    "patterns": 77,
+    "routeStops": 805,
+    "stops": 299,
+    "vehiclesSnapshot": 21,
+    "arrivalsSnapshot": 1035,
+    "tramRoutes": 8,
+    "busRoutes": 21
+  },
+  "arrivalsIncluded": true,
+  "coverage": "All routes and stops returned by the public web planner; not independently verified against the full CTP network.",
+  "dataLicense": "No explicit upstream data reuse license identified. Source attribution is retained. MIT covers project code only.",
+  "notes": [
+    "Snapshot files do not update live.",
+    "Arrivals are an upcoming-departure window, not a complete weekly timetable.",
+    "Route type 0 = tram, 3 = bus (GTFS codes). Pattern index and direction are preserved, including negative values.",
+    "GeoJSON uses WGS84 longitude, latitude. CSV is UTF-8 with BOM. speed is preserved without assuming its undocumented unit."
+  ],
+  "requests": [
+    {
+      "url": "https://arad-transport.telelink.city/wp-content/plugins/planner/data/settings.json",
+      "fetchedAt": "2026-11-07T12:01:48.327654+00:00",
+      "httpStatus": 200,
+      "sha256": "9a4ccd48fcace1404d34d181c05b88c3e63a139fd08ffc0b840e63569a135adc",
+      "bytes": 2755,
+      "serverDate": "Sat, 07 Nov 2026 12:01:48 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/routes",
+      "fetchedAt": "2026-11-07T12:01:49.063073+00:00",
+      "httpStatus": 200,
+      "sha256": "d099c4e3c7afbd739937fd80454c050203a39581523c3c2719c3530f49dfb328",
+      "bytes": 50797,
+      "serverDate": "Sat, 07 Nov 2026 12:01:48 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops",
+      "fetchedAt": "2026-11-07T12:01:49.508608+00:00",
+      "httpStatus": 200,
+      "sha256": "8a0d0649991fdc40f667266339782cc26e00db671e23da2bb1c2c52866d16c9f",
+      "bytes": 94791,
+      "serverDate": "Sat, 07 Nov 2026 12:01:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/vehicles",
+      "fetchedAt": "2026-11-07T12:01:49.869277+00:00",
+      "httpStatus": 200,
+      "sha256": "7c77735a8a45821c55cfe6ff768ae92c3898e576f88c02f762887db20c6cd774",
+      "bytes": 6587,
+      "serverDate": "Sat, 07 Nov 2026 12:01:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/gtfsrt/alerts?mediaType=WebPortal",
+      "fetchedAt": "2026-11-07T12:01:50.379593+00:00",
+      "httpStatus": 200,
+      "sha256": "e5cc6e5f8c66f129ab950c0a16cec82ff88cbb6d948b10a82173e6a63600312e",
+      "bytes": 119,
+      "serverDate": "Sat, 07 Nov 2026 12:01:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/10/times",
+      "fetchedAt": "2026-11-07T12:01:50.904684+00:00",
+      "httpStatus": 200,
+      "sha256": "b398e69e038506aac09540970a5932b48d1e470462436d0b9ff478c6fef0a912",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:01:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/100/times",
+      "fetchedAt": "2026-11-07T12:01:51.388196+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:01:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/101/times",
+      "fetchedAt": "2026-11-07T12:01:51.879030+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:01:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/102/times",
+      "fetchedAt": "2026-11-07T12:01:52.403025+00:00",
+      "httpStatus": 200,
+      "sha256": "33925f4fa9779ad2666636693b5e9817876804853b7bf05a47d057478bc8e95e",
+      "bytes": 1002,
+      "serverDate": "Sat, 07 Nov 2026 12:01:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/103/times",
+      "fetchedAt": "2026-11-07T12:01:52.894722+00:00",
+      "httpStatus": 200,
+      "sha256": "763a90a9f1bd7b4a900e0c0d097a0d45e28daa879c49e758bdde6b8eb5845c22",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/104/times",
+      "fetchedAt": "2026-11-07T12:01:53.402548+00:00",
+      "httpStatus": 200,
+      "sha256": "354cb7c39fe37b6e4c4803e779bc5b6b8bc7663855d9546eec176686cfd8210f",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/105/times",
+      "fetchedAt": "2026-11-07T12:01:53.896339+00:00",
+      "httpStatus": 200,
+      "sha256": "71e775cf3a8ebc837c71f02f49ff6958222ff6a478edfc49bb146a2129c9fc49",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/106/times",
+      "fetchedAt": "2026-11-07T12:01:54.418548+00:00",
+      "httpStatus": 200,
+      "sha256": "32921b4f1a135b19a931e230369d4064d98a82fe2d0af3dbca024aacaa58e703",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/108/times",
+      "fetchedAt": "2026-11-07T12:01:54.899383+00:00",
+      "httpStatus": 200,
+      "sha256": "a4950f1cc87229023ec359826e7eefcaa15b6f45b1b936c4e69ef8dbfdf6d228",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/109/times",
+      "fetchedAt": "2026-11-07T12:01:55.452215+00:00",
+      "httpStatus": 200,
+      "sha256": "aa0c7d1710d97b4215b252556c47f09bc1cb922db98e3ff188e870490245b140",
+      "bytes": 3556,
+      "serverDate": "Sat, 07 Nov 2026 12:01:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/11/times",
+      "fetchedAt": "2026-11-07T12:01:55.926676+00:00",
+      "httpStatus": 200,
+      "sha256": "7c489ad38d058bf3cb6b5c7e9028001d36bca2a7989690018181f98765f2d493",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:01:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/110/times",
+      "fetchedAt": "2026-11-07T12:01:56.418341+00:00",
+      "httpStatus": 200,
+      "sha256": "0a7074c3cc3cadbbb628ea2f8371c6fe91a0e37433a56d1e110b182da6526e00",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:01:56 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/112/times",
+      "fetchedAt": "2026-11-07T12:01:56.928927+00:00",
+      "httpStatus": 200,
+      "sha256": "9594057791bca622bd2346688f6a3ab7a01b6aeafc919f585028c9b2963800ec",
+      "bytes": 2893,
+      "serverDate": "Sat, 07 Nov 2026 12:01:56 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/114/times",
+      "fetchedAt": "2026-11-07T12:01:57.427254+00:00",
+      "httpStatus": 200,
+      "sha256": "dd7242e26dc12b1d9863613b25a6670d3ea3bd247c44384143f547243f4202c2",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:57 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/115/times",
+      "fetchedAt": "2026-11-07T12:01:57.959162+00:00",
+      "httpStatus": 200,
+      "sha256": "83efa60d3d82a88de8256c4c65b657d45d2de8887f0096f9b1b0735aeb62ee2d",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:57 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/116/times",
+      "fetchedAt": "2026-11-07T12:01:58.442222+00:00",
+      "httpStatus": 200,
+      "sha256": "5820dc81a4b5721f5a4ca34a172d525848bb2e273be5dce232fb09832e086162",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:58 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/117/times",
+      "fetchedAt": "2026-11-07T12:01:58.955253+00:00",
+      "httpStatus": 200,
+      "sha256": "08b83029a09a5181574f4ad3fd51dbee54915a58aa84cc749e93d5e61217a23b",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:01:58 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/12/times",
+      "fetchedAt": "2026-11-07T12:01:59.462565+00:00",
+      "httpStatus": 200,
+      "sha256": "6e56c8329b337409fe8232e645148348df1194281d6da941930ab53a026bce99",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:01:59 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/120/times",
+      "fetchedAt": "2026-11-07T12:01:59.960715+00:00",
+      "httpStatus": 200,
+      "sha256": "8b3a190576ed6afc92ff71496b17afbdd6ceaba144237ece7aea8a08e0f8dae2",
+      "bytes": 1005,
+      "serverDate": "Sat, 07 Nov 2026 12:01:59 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/121/times",
+      "fetchedAt": "2026-11-07T12:02:00.488431+00:00",
+      "httpStatus": 200,
+      "sha256": "0f8fe4f0d0513646bf8b3005244236968811418dfe4833bd08538fd824cc643d",
+      "bytes": 1951,
+      "serverDate": "Sat, 07 Nov 2026 12:02:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/122/times",
+      "fetchedAt": "2026-11-07T12:02:00.978599+00:00",
+      "httpStatus": 200,
+      "sha256": "303d83a90c7799fa93560a5749600d1307cb8c4914c428eb9e0e4be7864d5535",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/123/times",
+      "fetchedAt": "2026-11-07T12:02:01.463616+00:00",
+      "httpStatus": 200,
+      "sha256": "d5313264ebad8dfda50c83430a967bfa594811e6cf43a0e770234fed0059976d",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/124/times",
+      "fetchedAt": "2026-11-07T12:02:01.962345+00:00",
+      "httpStatus": 200,
+      "sha256": "217a3741c9fc9c0321e85ed495d9ec61dc4be3bf0f98c59ad1697c15ab5dd9d9",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/125/times",
+      "fetchedAt": "2026-11-07T12:02:02.583697+00:00",
+      "httpStatus": 200,
+      "sha256": "7c5c7336b5fcd8d193bf249a765bfe58b1e096fafb48d3d1121c2f21cff262d3",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:02 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/126/times",
+      "fetchedAt": "2026-11-07T12:02:02.981428+00:00",
+      "httpStatus": 200,
+      "sha256": "2576096ce0145357ba38fa983d178ebe40836e6b767b02444f92c69087ba9a4c",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:02 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/127/times",
+      "fetchedAt": "2026-11-07T12:02:03.470359+00:00",
+      "httpStatus": 200,
+      "sha256": "0d82da2d8efaa96f02e6f1154789c6cc0908b6c1705e74782011ed605b03a8b9",
+      "bytes": 949,
+      "serverDate": "Sat, 07 Nov 2026 12:02:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/128/times",
+      "fetchedAt": "2026-11-07T12:02:03.998342+00:00",
+      "httpStatus": 200,
+      "sha256": "010c308f510424e440a501ee85398a418cd7924eb4d965212e53417ee5ff57cf",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/129/times",
+      "fetchedAt": "2026-11-07T12:02:04.485738+00:00",
+      "httpStatus": 200,
+      "sha256": "330649eea4f384e841088ec29ab6ecd681c4cb0e06a7ce8ac718f61afd67409e",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/13/times",
+      "fetchedAt": "2026-11-07T12:02:04.992682+00:00",
+      "httpStatus": 200,
+      "sha256": "1f9f1e07e632b8413e44133e5524a7f543845c5c87b91bd5f902004fa4fa4013",
+      "bytes": 263,
+      "serverDate": "Sat, 07 Nov 2026 12:02:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/130/times",
+      "fetchedAt": "2026-11-07T12:02:05.524823+00:00",
+      "httpStatus": 200,
+      "sha256": "16301b3ffe95d04431276dfa5d18105f93dea5dead1547554ad498af36e332e6",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/131/times",
+      "fetchedAt": "2026-11-07T12:02:05.999201+00:00",
+      "httpStatus": 200,
+      "sha256": "986f4f36300415bb3d10d0b69bd123bd3e19f4047626ed04b5d77f6b8bbc4ad1",
+      "bytes": 474,
+      "serverDate": "Sat, 07 Nov 2026 12:02:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/132/times",
+      "fetchedAt": "2026-11-07T12:02:06.495300+00:00",
+      "httpStatus": 200,
+      "sha256": "366e63dd2dafeeffad819beb320166368d669b6df45e665337fb5d2b33f1452a",
+      "bytes": 1477,
+      "serverDate": "Sat, 07 Nov 2026 12:02:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/133/times",
+      "fetchedAt": "2026-11-07T12:02:07.015642+00:00",
+      "httpStatus": 200,
+      "sha256": "0171bd34f0b7e27ed635ca07576893e24710ca3b53abe450b6704f11fc9c6bc4",
+      "bytes": 1482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/134/times",
+      "fetchedAt": "2026-11-07T12:02:07.566359+00:00",
+      "httpStatus": 200,
+      "sha256": "c4e3c43766c0588abcebc36f4677b2444bc5287a75da97fca5e1094217f4b588",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:07 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/135/times",
+      "fetchedAt": "2026-11-07T12:02:08.052414+00:00",
+      "httpStatus": 200,
+      "sha256": "f16bc3d1c54d05c3e688de0603eafb4758beab88b3cf0e90e895496806ac9b56",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/138/times",
+      "fetchedAt": "2026-11-07T12:02:08.541650+00:00",
+      "httpStatus": 200,
+      "sha256": "e0d06c8eb74c1d73cf87a9a19442274729d7606a81f4aca0810f702fd6089871",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/14/times",
+      "fetchedAt": "2026-11-07T12:02:09.046570+00:00",
+      "httpStatus": 200,
+      "sha256": "509bbd64f2a939877bbf7922c237bc47a44cbbf473cc780f86da83ece9689d8a",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:02:09 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/140/times",
+      "fetchedAt": "2026-11-07T12:02:09.765921+00:00",
+      "httpStatus": 200,
+      "sha256": "3394502290bc1425929053f2ea2ce693843d97d4b6f3e05364ec8f4c55e5807b",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:09 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/141/times",
+      "fetchedAt": "2026-11-07T12:02:10.035984+00:00",
+      "httpStatus": 200,
+      "sha256": "bc3341cf5ca2fa15e0633533190b32d8fd42803d089cb0685a4d45e98d983ca5",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:02:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/142/times",
+      "fetchedAt": "2026-11-07T12:02:10.541549+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/143/times",
+      "fetchedAt": "2026-11-07T12:02:11.047657+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/144/times",
+      "fetchedAt": "2026-11-07T12:02:11.568429+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/145/times",
+      "fetchedAt": "2026-11-07T12:02:12.038646+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/146/times",
+      "fetchedAt": "2026-11-07T12:02:12.563942+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/147/times",
+      "fetchedAt": "2026-11-07T12:02:13.105070+00:00",
+      "httpStatus": 200,
+      "sha256": "b322f38fee96fa0f28911d9844e0aead7241e5bc70437b158fabfe9745723348",
+      "bytes": 530,
+      "serverDate": "Sat, 07 Nov 2026 12:02:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/148/times",
+      "fetchedAt": "2026-11-07T12:02:13.569589+00:00",
+      "httpStatus": 200,
+      "sha256": "ab8f7ae06ac72620f9f85570df935e463612dbf1eeabcd7b9efebed39038f5d4",
+      "bytes": 530,
+      "serverDate": "Sat, 07 Nov 2026 12:02:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/149/times",
+      "fetchedAt": "2026-11-07T12:02:14.094432+00:00",
+      "httpStatus": 200,
+      "sha256": "fac064bbe1cc19f8ce97d254c10c58aa532f20758790e379857c5ec9893ce2c0",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:02:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/15/times",
+      "fetchedAt": "2026-11-07T12:02:14.569068+00:00",
+      "httpStatus": 200,
+      "sha256": "26db4c068c9e6a0b68a0b5b5c9dce45a8a301a170fa3cf912a2d91356fce801e",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:02:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/150/times",
+      "fetchedAt": "2026-11-07T12:02:15.069586+00:00",
+      "httpStatus": 200,
+      "sha256": "871ae93151162cdf3c8a7b7b6b783a707c463298b213610e05e358bb8f76570f",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:02:15 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/151/times",
+      "fetchedAt": "2026-11-07T12:02:15.564946+00:00",
+      "httpStatus": 200,
+      "sha256": "9deafde15f65f62b2fc993eddc4badf6e4d79d7d92c3494d2f53c586e2565794",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:15 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/152/times",
+      "fetchedAt": "2026-11-07T12:02:16.073720+00:00",
+      "httpStatus": 200,
+      "sha256": "e26aca4230a0e9934a7df74d552aa98ffbeca202fb9680f7e2fcaad23be9467c",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/153/times",
+      "fetchedAt": "2026-11-07T12:02:16.585210+00:00",
+      "httpStatus": 200,
+      "sha256": "6437ce81ce22283280198ffd68f5dfa67f0011862b845fdd8331df12fdb57a2a",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/154/times",
+      "fetchedAt": "2026-11-07T12:02:17.080127+00:00",
+      "httpStatus": 200,
+      "sha256": "0f751c003c7adeae429ac5a73d240cd2a80439468f1dec3babfcad1a43a20d06",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/155/times",
+      "fetchedAt": "2026-11-07T12:02:17.603955+00:00",
+      "httpStatus": 200,
+      "sha256": "15f99b7dc73e9b13b1213ccc0e704fab9cdc92f7f8dee367014da48ed6da0230",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/156/times",
+      "fetchedAt": "2026-11-07T12:02:18.122179+00:00",
+      "httpStatus": 200,
+      "sha256": "72d2acebb3565681f886b353e716447eacba8a3caa3e339788352cafbf1f09e7",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/157/times",
+      "fetchedAt": "2026-11-07T12:02:18.600505+00:00",
+      "httpStatus": 200,
+      "sha256": "cda6b1302f255d49278470660cff4b6f5e2bb7194ce9ebfe303ffcfd9645435e",
+      "bytes": 1443,
+      "serverDate": "Sat, 07 Nov 2026 12:02:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/158/times",
+      "fetchedAt": "2026-11-07T12:02:19.106511+00:00",
+      "httpStatus": 200,
+      "sha256": "0983bc0179519d11bd9cdc5420c9b5dd9cc6432e8234fcfa5037b3721beb1f46",
+      "bytes": 1438,
+      "serverDate": "Sat, 07 Nov 2026 12:02:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/159/times",
+      "fetchedAt": "2026-11-07T12:02:19.630402+00:00",
+      "httpStatus": 200,
+      "sha256": "fd5e8ab290629f10c63f571db213dbe34014997fd5660203828a2d7fcef87c21",
+      "bytes": 3149,
+      "serverDate": "Sat, 07 Nov 2026 12:02:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/16/times",
+      "fetchedAt": "2026-11-07T12:02:20.099933+00:00",
+      "httpStatus": 200,
+      "sha256": "a45d42b8106bfcb9bf311401ffb9feb5db4bfebd96ba671b960fbe9dae6bbc17",
+      "bytes": 528,
+      "serverDate": "Sat, 07 Nov 2026 12:02:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/160/times",
+      "fetchedAt": "2026-11-07T12:02:20.619452+00:00",
+      "httpStatus": 200,
+      "sha256": "6718815423f6b1823ca2aba3aaf5f88c13700f93af6e8127392d1a0e6f708116",
+      "bytes": 3360,
+      "serverDate": "Sat, 07 Nov 2026 12:02:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/161/times",
+      "fetchedAt": "2026-11-07T12:02:21.176692+00:00",
+      "httpStatus": 200,
+      "sha256": "b948e58c42c58038e569f69851c35fd699d1804297bf5234fb6d48d3119d6ab8",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:02:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/162/times",
+      "fetchedAt": "2026-11-07T12:02:21.735264+00:00",
+      "httpStatus": 200,
+      "sha256": "396feefcf6e7cab30eb867edfad82feaf93812dc127f6509c91070ecfe1bbc49",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:02:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/165/times",
+      "fetchedAt": "2026-11-07T12:02:22.124895+00:00",
+      "httpStatus": 200,
+      "sha256": "8dbb36610b69e231660eca2e2cf514165051214903c79a54ac7f64fc6d6a372c",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:22 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/166/times",
+      "fetchedAt": "2026-11-07T12:02:22.637003+00:00",
+      "httpStatus": 200,
+      "sha256": "ab25ed3bbe299da454372a4f18382d99f7f5af6d15a87ba5ddb98f84633f2e84",
+      "bytes": 484,
+      "serverDate": "Sat, 07 Nov 2026 12:02:22 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/167/times",
+      "fetchedAt": "2026-11-07T12:02:23.140794+00:00",
+      "httpStatus": 200,
+      "sha256": "12d0c0533c75d129004efbcff983e3f97860ad91213547227d6c070bcfa5a3c0",
+      "bytes": 3149,
+      "serverDate": "Sat, 07 Nov 2026 12:02:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/168/times",
+      "fetchedAt": "2026-11-07T12:02:23.652551+00:00",
+      "httpStatus": 200,
+      "sha256": "8087711d2c90f781e6833cca6b4ad1b83ceb813b51f2cd4948c2f037c2fe9c69",
+      "bytes": 3366,
+      "serverDate": "Sat, 07 Nov 2026 12:02:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/169/times",
+      "fetchedAt": "2026-11-07T12:02:24.234603+00:00",
+      "httpStatus": 200,
+      "sha256": "2dc74d761791991664d674102f57f36d8f0e8ad84ff98ab0b6aa0d658cc071dc",
+      "bytes": 481,
+      "serverDate": "Sat, 07 Nov 2026 12:02:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/17/times",
+      "fetchedAt": "2026-11-07T12:02:24.677040+00:00",
+      "httpStatus": 200,
+      "sha256": "04af335ae5a9c31622df7a903de0161daf8a93f6932548648ba4d2d08ca680db",
+      "bytes": 529,
+      "serverDate": "Sat, 07 Nov 2026 12:02:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/170/times",
+      "fetchedAt": "2026-11-07T12:02:25.171885+00:00",
+      "httpStatus": 200,
+      "sha256": "9a083e013c8bddd7fb8ba95fe27f03b13f3e740bf8387a220a7bc06a03e9bbaf",
+      "bytes": 2393,
+      "serverDate": "Sat, 07 Nov 2026 12:02:25 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/171/times",
+      "fetchedAt": "2026-11-07T12:02:25.692083+00:00",
+      "httpStatus": 200,
+      "sha256": "5cc2c36046c4b3f4ac4e8c3b1e162d5ad89ec23a64d4d24032417c3cfed646a8",
+      "bytes": 481,
+      "serverDate": "Sat, 07 Nov 2026 12:02:25 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/172/times",
+      "fetchedAt": "2026-11-07T12:02:26.177087+00:00",
+      "httpStatus": 200,
+      "sha256": "7dbe19968a4d1dedd2b58b4d146e765dd017c46e7f5c693e33500713e5fede48",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:26 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/175/times",
+      "fetchedAt": "2026-11-07T12:02:26.679116+00:00",
+      "httpStatus": 200,
+      "sha256": "ec340af079506d661249fd9eba14bf08ca0804cd7212ada44cfa4df70ad75b86",
+      "bytes": 963,
+      "serverDate": "Sat, 07 Nov 2026 12:02:26 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/176/times",
+      "fetchedAt": "2026-11-07T12:02:27.186961+00:00",
+      "httpStatus": 200,
+      "sha256": "d873ffc772a75b08ba8fe443f41a13a426ad2d93d51e243602e3dbde2358d31e",
+      "bytes": 955,
+      "serverDate": "Sat, 07 Nov 2026 12:02:27 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/177/times",
+      "fetchedAt": "2026-11-07T12:02:27.719697+00:00",
+      "httpStatus": 200,
+      "sha256": "0558d88b19df604b4b1236822d0c4c07d08681a316eb765d0e9f2a170be5906f",
+      "bytes": 961,
+      "serverDate": "Sat, 07 Nov 2026 12:02:27 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/181/times",
+      "fetchedAt": "2026-11-07T12:02:28.170575+00:00",
+      "httpStatus": 200,
+      "sha256": "b1bac43d85afe957b98dc779a022cbee9c060e89a6cad5c50d01a3a7ec1ba23b",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:02:28 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/182/times",
+      "fetchedAt": "2026-11-07T12:02:28.680496+00:00",
+      "httpStatus": 200,
+      "sha256": "a7548e42a598b3d7ec311452f2dfc0716d6f5a808ae13ea5873f097fb2fbb426",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:02:28 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/183/times",
+      "fetchedAt": "2026-11-07T12:02:29.222381+00:00",
+      "httpStatus": 200,
+      "sha256": "e8ea345796fa8b1119f2880d6d7002a769cb6a2e9b90d30645ddc30048ea71e9",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:29 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/184/times",
+      "fetchedAt": "2026-11-07T12:02:29.696732+00:00",
+      "httpStatus": 200,
+      "sha256": "88fb416c1e9ce110aa98f4452ecb3ae5183a9a45295a887008ee78d931bd53cb",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:29 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/185/times",
+      "fetchedAt": "2026-11-07T12:02:30.197105+00:00",
+      "httpStatus": 200,
+      "sha256": "0100190bcf3a2e5159dbebcab566cd279387b933594696db0ea4a12bc430cb8f",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:30 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/186/times",
+      "fetchedAt": "2026-11-07T12:02:30.715822+00:00",
+      "httpStatus": 200,
+      "sha256": "2685de2538fce48f813d407516eea9e779338553371a40cf9ae41c2735d2cf80",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:30 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/187/times",
+      "fetchedAt": "2026-11-07T12:02:31.205979+00:00",
+      "httpStatus": 200,
+      "sha256": "2ad0459bfdfb04cf7f140f8085765d627a3eab21d2663adac0906b9d8b5f8088",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:31 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/188/times",
+      "fetchedAt": "2026-11-07T12:02:31.699715+00:00",
+      "httpStatus": 200,
+      "sha256": "6703739fd38280139fcb12c7617773b7975bb4bfef0d36735d8a491c4e9f8a01",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:31 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/189/times",
+      "fetchedAt": "2026-11-07T12:02:32.256985+00:00",
+      "httpStatus": 200,
+      "sha256": "18c78abffc89ccbcfa508b990dfb1cc3ce92d13f2a8fc70fd534be0b8a78d90a",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:32 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/190/times",
+      "fetchedAt": "2026-11-07T12:02:32.697222+00:00",
+      "httpStatus": 200,
+      "sha256": "0dd54fd5ba27a9f35facc028a0f32dff862e4c3b5cf4fe25c6bb2e97e5f579cd",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:32 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/191/times",
+      "fetchedAt": "2026-11-07T12:02:33.207202+00:00",
+      "httpStatus": 200,
+      "sha256": "8f9ffcca94804da374d791fe9da75cd833129a079a6fe809164b140e061cea3b",
+      "bytes": 2883,
+      "serverDate": "Sat, 07 Nov 2026 12:02:33 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/192/times",
+      "fetchedAt": "2026-11-07T12:02:33.718682+00:00",
+      "httpStatus": 200,
+      "sha256": "70dedebc93f89fd0351b94e92d54b499a3e05903479d8237ed3c1930e9851de5",
+      "bytes": 2671,
+      "serverDate": "Sat, 07 Nov 2026 12:02:33 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/193/times",
+      "fetchedAt": "2026-11-07T12:02:34.231113+00:00",
+      "httpStatus": 200,
+      "sha256": "a442357ecfc5e8575dc20279d45c4f8d88f481f4ef8919248ff786b37c8fe951",
+      "bytes": 2412,
+      "serverDate": "Sat, 07 Nov 2026 12:02:34 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/194/times",
+      "fetchedAt": "2026-11-07T12:02:34.715615+00:00",
+      "httpStatus": 200,
+      "sha256": "eb9b6407e34d2e2067143395bb43fea42aa6c3c73611ee5beb0cdeb0c1b332c4",
+      "bytes": 2401,
+      "serverDate": "Sat, 07 Nov 2026 12:02:34 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/196/times",
+      "fetchedAt": "2026-11-07T12:02:35.221043+00:00",
+      "httpStatus": 200,
+      "sha256": "0fe51e302da0265a83fd823d767a0e2cd6aaa8c26dcc95d908664c433e8f8818",
+      "bytes": 1913,
+      "serverDate": "Sat, 07 Nov 2026 12:02:35 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/197/times",
+      "fetchedAt": "2026-11-07T12:02:35.736226+00:00",
+      "httpStatus": 200,
+      "sha256": "912ec9b21ae63dcc8d08537b67add62963faffb41861f331047a2da6a7d64284",
+      "bytes": 2412,
+      "serverDate": "Sat, 07 Nov 2026 12:02:35 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/198/times",
+      "fetchedAt": "2026-11-07T12:02:36.245610+00:00",
+      "httpStatus": 200,
+      "sha256": "a9700dbd0a7a1bcb1b48545e2ede7d37d03b4a3a20425b80061bd100d8a82471",
+      "bytes": 2393,
+      "serverDate": "Sat, 07 Nov 2026 12:02:36 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/199/times",
+      "fetchedAt": "2026-11-07T12:02:36.760554+00:00",
+      "httpStatus": 200,
+      "sha256": "da405ca7ecd4ccc584cabd9ce156b4fb77efa8f2981865d709ba5266e9dbaa18",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:02:36 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/20/times",
+      "fetchedAt": "2026-11-07T12:02:37.254895+00:00",
+      "httpStatus": 200,
+      "sha256": "cc136bedd4b5e2cfbe9012bf21668ca4a51e061bd4b5cd80a98eff1da2de0307",
+      "bytes": 528,
+      "serverDate": "Sat, 07 Nov 2026 12:02:37 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/200/times",
+      "fetchedAt": "2026-11-07T12:02:37.766379+00:00",
+      "httpStatus": 200,
+      "sha256": "4e2aedccccf8adb40992a426126b37c205db90161a358030f439a1d13335f96a",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:02:37 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/201/times",
+      "fetchedAt": "2026-11-07T12:02:38.259561+00:00",
+      "httpStatus": 200,
+      "sha256": "771fececcd8b10f7485534b27f82bc2bebe786b5625cbf290fa847baa04d3e35",
+      "bytes": 3149,
+      "serverDate": "Sat, 07 Nov 2026 12:02:38 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/202/times",
+      "fetchedAt": "2026-11-07T12:02:38.819699+00:00",
+      "httpStatus": 200,
+      "sha256": "28cb9a8819fa0bb5b5185196080c8331521a81791e7afd8ef7d1bc2942481ad4",
+      "bytes": 3366,
+      "serverDate": "Sat, 07 Nov 2026 12:02:38 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/203/times",
+      "fetchedAt": "2026-11-07T12:02:39.271670+00:00",
+      "httpStatus": 200,
+      "sha256": "0c11bc04a5394b6a0e90cd087a4f79e28459e16e12c300bbf5837ad30ce897f9",
+      "bytes": 1443,
+      "serverDate": "Sat, 07 Nov 2026 12:02:39 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/204/times",
+      "fetchedAt": "2026-11-07T12:02:39.752978+00:00",
+      "httpStatus": 200,
+      "sha256": "d7dec3d297ac39ee9b1f6fb119eac069e9ade3bf00d583a15d1c7bbc4ed3a18d",
+      "bytes": 1435,
+      "serverDate": "Sat, 07 Nov 2026 12:02:39 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/205/times",
+      "fetchedAt": "2026-11-07T12:02:40.271354+00:00",
+      "httpStatus": 200,
+      "sha256": "d7ac87c5ed4a84b918029acde2151d9f95ea2d24697bf5f6b3c0e66934eb0cfe",
+      "bytes": 525,
+      "serverDate": "Sat, 07 Nov 2026 12:02:40 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/206/times",
+      "fetchedAt": "2026-11-07T12:02:40.904784+00:00",
+      "httpStatus": 200,
+      "sha256": "66be75f19f07af2b3510a1e8e0c75b88669b697028f6eecc676e3f1b2f4bc03f",
+      "bytes": 522,
+      "serverDate": "Sat, 07 Nov 2026 12:02:40 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/209/times",
+      "fetchedAt": "2026-11-07T12:02:41.272476+00:00",
+      "httpStatus": 200,
+      "sha256": "d1cfef9cc65cd69c645b65cb42a2f0ed15df245861cda83dfe7e001996ca18af",
+      "bytes": 486,
+      "serverDate": "Sat, 07 Nov 2026 12:02:41 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/21/times",
+      "fetchedAt": "2026-11-07T12:02:41.780145+00:00",
+      "httpStatus": 200,
+      "sha256": "22a5161a546f5aa79909b762e144bb8ad52e1ffe47341566d85cebaf638ad83e",
+      "bytes": 529,
+      "serverDate": "Sat, 07 Nov 2026 12:02:41 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/210/times",
+      "fetchedAt": "2026-11-07T12:02:42.303389+00:00",
+      "httpStatus": 200,
+      "sha256": "a9fe1ed6bf612877fd08cea05ce637a23813fd6ef65046143f2c34853e613bfa",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:42 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/215/times",
+      "fetchedAt": "2026-11-07T12:02:42.777349+00:00",
+      "httpStatus": 200,
+      "sha256": "460a32e19e271e2a6282cfc673096662df236b8cdc2c085aa17871576aff8c09",
+      "bytes": 2087,
+      "serverDate": "Sat, 07 Nov 2026 12:02:42 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/217/times",
+      "fetchedAt": "2026-11-07T12:02:43.300834+00:00",
+      "httpStatus": 200,
+      "sha256": "ea058e4968e73ed3bd0cecb8f0a6f6c017cfd1553a61dc95ca49c1137bfb87d5",
+      "bytes": 488,
+      "serverDate": "Sat, 07 Nov 2026 12:02:43 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/218/times",
+      "fetchedAt": "2026-11-07T12:02:43.790962+00:00",
+      "httpStatus": 200,
+      "sha256": "9472ec546daf5930cbd13a25a11be444e44f3ed360b5af26e1a3d87a0c136215",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:43 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/219/times",
+      "fetchedAt": "2026-11-07T12:02:44.299322+00:00",
+      "httpStatus": 200,
+      "sha256": "8ff4f604a83f2402891eaa8f88002c1f47c0c1db21a03123467fbaf573317982",
+      "bytes": 2087,
+      "serverDate": "Sat, 07 Nov 2026 12:02:44 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/22/times",
+      "fetchedAt": "2026-11-07T12:02:44.804080+00:00",
+      "httpStatus": 200,
+      "sha256": "c464c256641c443f2a79b40f3b70278a8881bdd8c104c98f71f6e32bc71bd3d3",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:02:44 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/220/times",
+      "fetchedAt": "2026-11-07T12:02:45.292970+00:00",
+      "httpStatus": 200,
+      "sha256": "e8eaf949c087c937d650273642baaa154f6023a5ebb43a37b55e69bf6cf3400f",
+      "bytes": 2893,
+      "serverDate": "Sat, 07 Nov 2026 12:02:45 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/221/times",
+      "fetchedAt": "2026-11-07T12:02:45.861040+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:45 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/222/times",
+      "fetchedAt": "2026-11-07T12:02:46.294763+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:46 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/223/times",
+      "fetchedAt": "2026-11-07T12:02:46.830865+00:00",
+      "httpStatus": 200,
+      "sha256": "f240d46eadf39da2c75e6dc81084add52271ea58ac032c54a7f7143ce18c929b",
+      "bytes": 484,
+      "serverDate": "Sat, 07 Nov 2026 12:02:46 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/224/times",
+      "fetchedAt": "2026-11-07T12:02:47.307369+00:00",
+      "httpStatus": 200,
+      "sha256": "5a9ef4c0bbb92f735059798d2b800c8ce1c4923df7b458057aa21038eeb31cbf",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:47 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/225/times",
+      "fetchedAt": "2026-11-07T12:02:47.827886+00:00",
+      "httpStatus": 200,
+      "sha256": "6ca466652a0219e046432c4dfe673264f392b543d4159f18d0fdcc53bbb1d23d",
+      "bytes": 2885,
+      "serverDate": "Sat, 07 Nov 2026 12:02:47 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/226/times",
+      "fetchedAt": "2026-11-07T12:02:48.380759+00:00",
+      "httpStatus": 200,
+      "sha256": "df5d6b8f7a031244b3205d38edc7332597300087dca97ce936a2946e6b30e465",
+      "bytes": 2657,
+      "serverDate": "Sat, 07 Nov 2026 12:02:48 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/227/times",
+      "fetchedAt": "2026-11-07T12:02:48.842255+00:00",
+      "httpStatus": 200,
+      "sha256": "b878d1f512f966fb19efd6a0c46b98326af1d8b138011dd078e384838f39636a",
+      "bytes": 482,
+      "serverDate": "Sat, 07 Nov 2026 12:02:48 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/228/times",
+      "fetchedAt": "2026-11-07T12:02:49.345178+00:00",
+      "httpStatus": 200,
+      "sha256": "cab95badf6e5c59ea45e4f45c9afd532d8006a40d21370fab04d1267fb49f743",
+      "bytes": 1221,
+      "serverDate": "Sat, 07 Nov 2026 12:02:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/229/times",
+      "fetchedAt": "2026-11-07T12:02:49.856651+00:00",
+      "httpStatus": 200,
+      "sha256": "57e4b5eb53a477726dd83bc0330bcd6121c918178998cdce6a80f8b5887c5859",
+      "bytes": 3362,
+      "serverDate": "Sat, 07 Nov 2026 12:02:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/23/times",
+      "fetchedAt": "2026-11-07T12:02:50.349979+00:00",
+      "httpStatus": 200,
+      "sha256": "a6862dd0340ac43f72fdac323f982acde21c2869558b23947c189c5c89eb0b7b",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:02:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/230/times",
+      "fetchedAt": "2026-11-07T12:02:50.846377+00:00",
+      "httpStatus": 200,
+      "sha256": "5c3fab407e54fd337850ee9a4357f688c4b12adbbbb2cde9663d72efaed9e160",
+      "bytes": 1923,
+      "serverDate": "Sat, 07 Nov 2026 12:02:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/231/times",
+      "fetchedAt": "2026-11-07T12:02:51.346223+00:00",
+      "httpStatus": 200,
+      "sha256": "52783e7027d8de49e34f59c5bee18708604ec5573e5705d461923db9808b19c2",
+      "bytes": 479,
+      "serverDate": "Sat, 07 Nov 2026 12:02:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/232/times",
+      "fetchedAt": "2026-11-07T12:02:51.856910+00:00",
+      "httpStatus": 200,
+      "sha256": "73d2ae758d952256c11750784a5c083d1303a872f5d9625e4c5e9041fe99e216",
+      "bytes": 488,
+      "serverDate": "Sat, 07 Nov 2026 12:02:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/233/times",
+      "fetchedAt": "2026-11-07T12:02:52.371251+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/234/times",
+      "fetchedAt": "2026-11-07T12:02:52.869619+00:00",
+      "httpStatus": 200,
+      "sha256": "54eb8d5db413f72bb7ccc2fdfae6c6a4e092bd33b514bbca9a394e4546531377",
+      "bytes": 2883,
+      "serverDate": "Sat, 07 Nov 2026 12:02:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/235/times",
+      "fetchedAt": "2026-11-07T12:02:53.367221+00:00",
+      "httpStatus": 200,
+      "sha256": "a1ad0f0c8166e8db9f160eb08e307f44e4efd63f07b0dd3d3d1e5a8ea31e776c",
+      "bytes": 2671,
+      "serverDate": "Sat, 07 Nov 2026 12:02:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/236/times",
+      "fetchedAt": "2026-11-07T12:02:53.865462+00:00",
+      "httpStatus": 200,
+      "sha256": "a8abe6791221a80a841aa584e1673b1b851a76fb81bbbf9c6bff20c61356366e",
+      "bytes": 3414,
+      "serverDate": "Sat, 07 Nov 2026 12:02:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/237/times",
+      "fetchedAt": "2026-11-07T12:02:54.385149+00:00",
+      "httpStatus": 200,
+      "sha256": "9b021054bd1acfc9a95531f7a7595115ad1fa4199b4f3798d4630d18c967538c",
+      "bytes": 488,
+      "serverDate": "Sat, 07 Nov 2026 12:02:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/238/times",
+      "fetchedAt": "2026-11-07T12:02:54.873409+00:00",
+      "httpStatus": 200,
+      "sha256": "0332d8e95f89f7eee94c892666d10839f8d78db8c52aa49768553cd9d8857bfc",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:02:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/239/times",
+      "fetchedAt": "2026-11-07T12:02:55.369079+00:00",
+      "httpStatus": 200,
+      "sha256": "ab3dd5f15fbfebca1fdc75510dde30b6f7cccdd54431825760ec1d70fcc3aef4",
+      "bytes": 2885,
+      "serverDate": "Sat, 07 Nov 2026 12:02:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/24/times",
+      "fetchedAt": "2026-11-07T12:02:55.870710+00:00",
+      "httpStatus": 200,
+      "sha256": "ff4ee307933515d7ddd0997314a5ac92167c52e3349abaf0172b8eff6b182435",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:02:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/240/times",
+      "fetchedAt": "2026-11-07T12:02:56.490911+00:00",
+      "httpStatus": 200,
+      "sha256": "4e10e7e7f087a26c3e2890aa97d01498e66c919424ff03be66d45fb476114363",
+      "bytes": 2671,
+      "serverDate": "Sat, 07 Nov 2026 12:02:56 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/241/times",
+      "fetchedAt": "2026-11-07T12:02:56.932244+00:00",
+      "httpStatus": 200,
+      "sha256": "f4c37167ac9f6e9c461ab5c359e8530c5539a80bf8e12423eef89661e04f288f",
+      "bytes": 488,
+      "serverDate": "Sat, 07 Nov 2026 12:02:56 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/242/times",
+      "fetchedAt": "2026-11-07T12:02:57.413690+00:00",
+      "httpStatus": 200,
+      "sha256": "0c00d38c64ae29ff4d26a502f40cff4d8436ad8b8b8e1c16bbbe262392888760",
+      "bytes": 480,
+      "serverDate": "Sat, 07 Nov 2026 12:02:57 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/243/times",
+      "fetchedAt": "2026-11-07T12:02:57.938655+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:57 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/244/times",
+      "fetchedAt": "2026-11-07T12:02:58.468828+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:02:58 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/245/times",
+      "fetchedAt": "2026-11-07T12:02:58.902814+00:00",
+      "httpStatus": 200,
+      "sha256": "ae793a5288d7695b746b3f85b7475ecd8407b1a3b96c5ee3141af9fd46e42d89",
+      "bytes": 522,
+      "serverDate": "Sat, 07 Nov 2026 12:02:58 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/247/times",
+      "fetchedAt": "2026-11-07T12:02:59.406197+00:00",
+      "httpStatus": 200,
+      "sha256": "e1041eeea6cd87d7957ebb2a73bacd95afb8f1d2352dc5d0b61eaae84846a517",
+      "bytes": 2087,
+      "serverDate": "Sat, 07 Nov 2026 12:02:59 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/249/times",
+      "fetchedAt": "2026-11-07T12:02:59.910369+00:00",
+      "httpStatus": 200,
+      "sha256": "94dcfe6e59cdb26a6975adc5c2e0c5da6bb6192b348a23a334bc6f19d4bcd569",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:02:59 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/25/times",
+      "fetchedAt": "2026-11-07T12:03:00.413877+00:00",
+      "httpStatus": 200,
+      "sha256": "865caa2cfa719efeb7c2af39f0b643771b89f09881ce24d81c3320bb18062556",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:03:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/250/times",
+      "fetchedAt": "2026-11-07T12:03:00.913174+00:00",
+      "httpStatus": 200,
+      "sha256": "929609deb7e20ff7797f525bc0461ce2d137b5529b8044ed336a5079ae197baf",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:03:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/251/times",
+      "fetchedAt": "2026-11-07T12:03:01.435045+00:00",
+      "httpStatus": 200,
+      "sha256": "4d6052c36ebae73addd9aae2c255f82a541bffec739b915d143a34cc03266bf7",
+      "bytes": 961,
+      "serverDate": "Sat, 07 Nov 2026 12:03:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/253/times",
+      "fetchedAt": "2026-11-07T12:03:01.944787+00:00",
+      "httpStatus": 200,
+      "sha256": "c07597c0eaf612526a791ea4c6c4342363903810072512d0314408a60e8dfed0",
+      "bytes": 1446,
+      "serverDate": "Sat, 07 Nov 2026 12:03:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/254/times",
+      "fetchedAt": "2026-11-07T12:03:02.443982+00:00",
+      "httpStatus": 200,
+      "sha256": "b25d37a1b94992963c3f55820fed60c7ef23dea317a334fcc9e753c4dd02a1ef",
+      "bytes": 1435,
+      "serverDate": "Sat, 07 Nov 2026 12:03:02 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/255/times",
+      "fetchedAt": "2026-11-07T12:03:02.919729+00:00",
+      "httpStatus": 200,
+      "sha256": "ad59ae0c064e086ffe6377ae3d7b9795e49ae553be5db7071dcdee0f21a2ea92",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:03:02 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/256/times",
+      "fetchedAt": "2026-11-07T12:03:03.430412+00:00",
+      "httpStatus": 200,
+      "sha256": "f7028ab99026c86f4dc995140410abe28285ed4cb4786fe6b98ab2495ecf1b09",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:03:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/257/times",
+      "fetchedAt": "2026-11-07T12:03:03.951011+00:00",
+      "httpStatus": 200,
+      "sha256": "9a57d1772fada6256f7f981982b0dfe9a695fa2a84fdb9e2d0da0c1b7ba7c083",
+      "bytes": 2885,
+      "serverDate": "Sat, 07 Nov 2026 12:03:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/258/times",
+      "fetchedAt": "2026-11-07T12:03:04.455845+00:00",
+      "httpStatus": 200,
+      "sha256": "6c12ac4b014d1bb99fba1455897c452c3732fd707015cda2a0eacf4b31046d34",
+      "bytes": 2661,
+      "serverDate": "Sat, 07 Nov 2026 12:03:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/259/times",
+      "fetchedAt": "2026-11-07T12:03:04.941102+00:00",
+      "httpStatus": 200,
+      "sha256": "e53c9797d80ead1db257dd50834b1042ba64787c9aa690086892425ed80cde86",
+      "bytes": 960,
+      "serverDate": "Sat, 07 Nov 2026 12:03:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/26/times",
+      "fetchedAt": "2026-11-07T12:03:05.468755+00:00",
+      "httpStatus": 200,
+      "sha256": "2c0814d9711d71c9dedd3430366d99467119e21d638c21e44a94646be77b4e26",
+      "bytes": 1465,
+      "serverDate": "Sat, 07 Nov 2026 12:03:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/260/times",
+      "fetchedAt": "2026-11-07T12:03:05.957893+00:00",
+      "httpStatus": 200,
+      "sha256": "dd58d4341357416262fdca844e5d4ea3e41b143aaddb6bcffb6e1603143e2e60",
+      "bytes": 742,
+      "serverDate": "Sat, 07 Nov 2026 12:03:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/261/times",
+      "fetchedAt": "2026-11-07T12:03:06.453369+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/262/times",
+      "fetchedAt": "2026-11-07T12:03:06.962021+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/265/times",
+      "fetchedAt": "2026-11-07T12:03:07.480042+00:00",
+      "httpStatus": 200,
+      "sha256": "e39025a69744fc0d134597be4ea740b0029eab368b4dbfa46a6b225da574709a",
+      "bytes": 3891,
+      "serverDate": "Sat, 07 Nov 2026 12:03:07 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/267/times",
+      "fetchedAt": "2026-11-07T12:03:07.995940+00:00",
+      "httpStatus": 200,
+      "sha256": "33c1f1312f9727635c5dfe1568efb60aa73a12822ee314c6e1138d2277bec088",
+      "bytes": 1443,
+      "serverDate": "Sat, 07 Nov 2026 12:03:07 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/268/times",
+      "fetchedAt": "2026-11-07T12:03:08.493735+00:00",
+      "httpStatus": 200,
+      "sha256": "958b6c36f273cf74306d67c5c1460a934e501bb764f69112b04b8321f3631aea",
+      "bytes": 1435,
+      "serverDate": "Sat, 07 Nov 2026 12:03:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/269/times",
+      "fetchedAt": "2026-11-07T12:03:08.989418+00:00",
+      "httpStatus": 200,
+      "sha256": "1b905ddb5fc1ed6b35340dc2ac91135e218d882e919c1bb00433ef5232bee552",
+      "bytes": 1563,
+      "serverDate": "Sat, 07 Nov 2026 12:03:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/27/times",
+      "fetchedAt": "2026-11-07T12:03:09.689717+00:00",
+      "httpStatus": 200,
+      "sha256": "5acbab13da50e7b973cdd11ed34a0de3a092a43ac2a84e427fbf67174de2b1cf",
+      "bytes": 1942,
+      "serverDate": "Sat, 07 Nov 2026 12:03:09 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/270/times",
+      "fetchedAt": "2026-11-07T12:03:10.017038+00:00",
+      "httpStatus": 200,
+      "sha256": "333033b986e652bd21f318d5c6a536b7a50e25b8877996aa443b01e6c2d91238",
+      "bytes": 2372,
+      "serverDate": "Sat, 07 Nov 2026 12:03:09 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/272/times",
+      "fetchedAt": "2026-11-07T12:03:10.616849+00:00",
+      "httpStatus": 200,
+      "sha256": "6e0be206bbdb0600007ade8eace351ab41d1f59119268ab8b8a5305c715f3c01",
+      "bytes": 522,
+      "serverDate": "Sat, 07 Nov 2026 12:03:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/274/times",
+      "fetchedAt": "2026-11-07T12:03:11.024504+00:00",
+      "httpStatus": 200,
+      "sha256": "5982d5eb5cd8f8f4071d03899eac0f195086953d8274e3ba1a54418ae2569ef4",
+      "bytes": 1043,
+      "serverDate": "Sat, 07 Nov 2026 12:03:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/275/times",
+      "fetchedAt": "2026-11-07T12:03:11.552061+00:00",
+      "httpStatus": 200,
+      "sha256": "55f46ea65165988ac77b3feedd07e244fc5bdd48d6fefa48617ec29930e64e39",
+      "bytes": 1851,
+      "serverDate": "Sat, 07 Nov 2026 12:03:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/278/times",
+      "fetchedAt": "2026-11-07T12:03:12.035447+00:00",
+      "httpStatus": 200,
+      "sha256": "5ce0ba16692028f8c1ac37b6ba9aceb4e4b132fb30f87d4297dff8862b0d99ab",
+      "bytes": 2086,
+      "serverDate": "Sat, 07 Nov 2026 12:03:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/279/times",
+      "fetchedAt": "2026-11-07T12:03:12.521844+00:00",
+      "httpStatus": 200,
+      "sha256": "889bb5127d3faa2fdb663f322e41399a39d02712c2124b8f37eea09641daf32a",
+      "bytes": 519,
+      "serverDate": "Sat, 07 Nov 2026 12:03:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/28/times",
+      "fetchedAt": "2026-11-07T12:03:13.028996+00:00",
+      "httpStatus": 200,
+      "sha256": "368b3f2a75bdd78fc41b02f6a0c3e290bc0dce513841d3c74ae88cc893f1364f",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:03:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/280/times",
+      "fetchedAt": "2026-11-07T12:03:13.516207+00:00",
+      "httpStatus": 200,
+      "sha256": "f6f6d9772b1e316afeabe8acee22900b108ae015cb23aa75311da384a8a68cb6",
+      "bytes": 1043,
+      "serverDate": "Sat, 07 Nov 2026 12:03:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/281/times",
+      "fetchedAt": "2026-11-07T12:03:14.026210+00:00",
+      "httpStatus": 200,
+      "sha256": "7335215c9953ae532dff7afe20fe57ae681f86b5fc8f2bb5ae48f0642c08f76f",
+      "bytes": 1851,
+      "serverDate": "Sat, 07 Nov 2026 12:03:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/282/times",
+      "fetchedAt": "2026-11-07T12:03:14.524636+00:00",
+      "httpStatus": 200,
+      "sha256": "eceb8aacdb8b61c450187bb10be845c6e8844d6153291fb313ff74eec2215e20",
+      "bytes": 1043,
+      "serverDate": "Sat, 07 Nov 2026 12:03:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/283/times",
+      "fetchedAt": "2026-11-07T12:03:15.026843+00:00",
+      "httpStatus": 200,
+      "sha256": "b7a27afa215990d855ce309c29201da7443fa3639d0cabe6a22685c7fc26374e",
+      "bytes": 1851,
+      "serverDate": "Sat, 07 Nov 2026 12:03:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/285/times",
+      "fetchedAt": "2026-11-07T12:03:15.540264+00:00",
+      "httpStatus": 200,
+      "sha256": "0904c6bd9e5c90afd948dc9219ed2c950eeb52d36dea276b543bf866c55b5a17",
+      "bytes": 2893,
+      "serverDate": "Sat, 07 Nov 2026 12:03:15 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/29/times",
+      "fetchedAt": "2026-11-07T12:03:16.048745+00:00",
+      "httpStatus": 200,
+      "sha256": "9ec424f69f0a5e8651930bb2688618fd9733c7b1220d52f0acad1ede1d584581",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:03:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/291/times",
+      "fetchedAt": "2026-11-07T12:03:16.537171+00:00",
+      "httpStatus": 200,
+      "sha256": "609e834a0435251bf9eecc503db1ee0933d0998785e7fda994d8468581fc52bb",
+      "bytes": 1563,
+      "serverDate": "Sat, 07 Nov 2026 12:03:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/292/times",
+      "fetchedAt": "2026-11-07T12:03:17.046940+00:00",
+      "httpStatus": 200,
+      "sha256": "0ce5f9a870447098d3ed50ebd924aac1d4d89324ebdc262843eca363c6bb8ea3",
+      "bytes": 2372,
+      "serverDate": "Sat, 07 Nov 2026 12:03:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/293/times",
+      "fetchedAt": "2026-11-07T12:03:17.555016+00:00",
+      "httpStatus": 200,
+      "sha256": "02019aaf1b4dc01db75d01eb8f3ccfbfb2b7c4fc03794025e9a508ed8a97ec5a",
+      "bytes": 1563,
+      "serverDate": "Sat, 07 Nov 2026 12:03:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/294/times",
+      "fetchedAt": "2026-11-07T12:03:18.056466+00:00",
+      "httpStatus": 200,
+      "sha256": "9655a93103ea76591306a23a138e932017b1ad1e0bb2a0c96ca35fdf1d0b14f4",
+      "bytes": 2372,
+      "serverDate": "Sat, 07 Nov 2026 12:03:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/295/times",
+      "fetchedAt": "2026-11-07T12:03:18.552496+00:00",
+      "httpStatus": 200,
+      "sha256": "6058d8965b95a391de93553eea28e17386e1a5b766e7821132194f235db9e132",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/296/times",
+      "fetchedAt": "2026-11-07T12:03:19.087463+00:00",
+      "httpStatus": 200,
+      "sha256": "f48b3caa1dba0bc231a3d59195f742a87ee4a5a0afa19b83c4594b72fc87bbcd",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/297/times",
+      "fetchedAt": "2026-11-07T12:03:19.559933+00:00",
+      "httpStatus": 200,
+      "sha256": "1dbe4947125927fc1023573fa722974ffad0f11ff396438bcc3c860b9ae88d91",
+      "bytes": 948,
+      "serverDate": "Sat, 07 Nov 2026 12:03:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/298/times",
+      "fetchedAt": "2026-11-07T12:03:20.056953+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/299/times",
+      "fetchedAt": "2026-11-07T12:03:20.566742+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/3/times",
+      "fetchedAt": "2026-11-07T12:03:21.070967+00:00",
+      "httpStatus": 200,
+      "sha256": "28ca01748eb49f260cece0aa2b21ded30bd5d0d74a62f78d10db673040ee6856",
+      "bytes": 474,
+      "serverDate": "Sat, 07 Nov 2026 12:03:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/30/times",
+      "fetchedAt": "2026-11-07T12:03:21.588287+00:00",
+      "httpStatus": 200,
+      "sha256": "5e58dcc76b95ff463993c73a6c660956dc1cc3a0b8cbd9fbe8ca7386eb1003bb",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:03:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/300/times",
+      "fetchedAt": "2026-11-07T12:03:22.086338+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:22 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/301/times",
+      "fetchedAt": "2026-11-07T12:03:22.746388+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:22 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/302/times",
+      "fetchedAt": "2026-11-07T12:03:23.092248+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/303/times",
+      "fetchedAt": "2026-11-07T12:03:23.586463+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/304/times",
+      "fetchedAt": "2026-11-07T12:03:24.102818+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/305/times",
+      "fetchedAt": "2026-11-07T12:03:24.611787+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/306/times",
+      "fetchedAt": "2026-11-07T12:03:25.119395+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:25 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/307/times",
+      "fetchedAt": "2026-11-07T12:03:25.627807+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:25 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/308/times",
+      "fetchedAt": "2026-11-07T12:03:26.118071+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:26 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/309/times",
+      "fetchedAt": "2026-11-07T12:03:26.617885+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:26 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/31/times",
+      "fetchedAt": "2026-11-07T12:03:27.130206+00:00",
+      "httpStatus": 200,
+      "sha256": "a1ce9695f92ab38c56e0543dc9bc89e935a778da8d2b4bf992763e52d8587021",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:03:27 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/315/times",
+      "fetchedAt": "2026-11-07T12:03:27.633726+00:00",
+      "httpStatus": 200,
+      "sha256": "6b71c7fc98b0de810892f20b0bdfda66ff8dadae6b8f016f178a371308bd70a5",
+      "bytes": 2669,
+      "serverDate": "Sat, 07 Nov 2026 12:03:27 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/316/times",
+      "fetchedAt": "2026-11-07T12:03:28.124322+00:00",
+      "httpStatus": 200,
+      "sha256": "359f3757640108ebd857ab9b35b1743000e20ec2b6f67fb926c38462ef364eb8",
+      "bytes": 478,
+      "serverDate": "Sat, 07 Nov 2026 12:03:28 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/317/times",
+      "fetchedAt": "2026-11-07T12:03:28.627000+00:00",
+      "httpStatus": 200,
+      "sha256": "8dd093f9df93df1b200a074f130d0e8dc8d799d0df853682e0066b02bd1b8a15",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:28 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/318/times",
+      "fetchedAt": "2026-11-07T12:03:29.129703+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:29 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/319/times",
+      "fetchedAt": "2026-11-07T12:03:29.625046+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:29 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/320/times",
+      "fetchedAt": "2026-11-07T12:03:30.140199+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:30 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/321/times",
+      "fetchedAt": "2026-11-07T12:03:30.637602+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:30 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/322/times",
+      "fetchedAt": "2026-11-07T12:03:31.138971+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:31 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/323/times",
+      "fetchedAt": "2026-11-07T12:03:31.643293+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:31 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/324/times",
+      "fetchedAt": "2026-11-07T12:03:32.156862+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:32 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/325/times",
+      "fetchedAt": "2026-11-07T12:03:32.659862+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:32 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/326/times",
+      "fetchedAt": "2026-11-07T12:03:33.172644+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:33 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/327/times",
+      "fetchedAt": "2026-11-07T12:03:33.659965+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:33 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/328/times",
+      "fetchedAt": "2026-11-07T12:03:34.153371+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:34 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/329/times",
+      "fetchedAt": "2026-11-07T12:03:34.659490+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:34 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/33/times",
+      "fetchedAt": "2026-11-07T12:03:35.163130+00:00",
+      "httpStatus": 200,
+      "sha256": "f2cd6e235b76b4a3090237bfe51aba8bce806e908cdbe98eec97a717c54dcd8f",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:03:35 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/330/times",
+      "fetchedAt": "2026-11-07T12:03:35.670597+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:35 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/331/times",
+      "fetchedAt": "2026-11-07T12:03:36.166144+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:36 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/332/times",
+      "fetchedAt": "2026-11-07T12:03:36.687796+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:36 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/335/times",
+      "fetchedAt": "2026-11-07T12:03:37.196227+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:37 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/336/times",
+      "fetchedAt": "2026-11-07T12:03:37.710714+00:00",
+      "httpStatus": 200,
+      "sha256": "def737ca724cbbab2742d14936f13d4b07d7d933c8ceb8fcf44ecde411e4d657",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:37 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/337/times",
+      "fetchedAt": "2026-11-07T12:03:38.285230+00:00",
+      "httpStatus": 200,
+      "sha256": "3e0fc323079090883297d205630774b40a7100ebb8e05f3b4c057e807a43ef29",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:38 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/34/times",
+      "fetchedAt": "2026-11-07T12:03:38.742909+00:00",
+      "httpStatus": 200,
+      "sha256": "c6e6f2fc4959f9940cbfb607add1311726f8b9caa4a612b57bdba3d35607bc40",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:38 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/346/times",
+      "fetchedAt": "2026-11-07T12:03:39.263105+00:00",
+      "httpStatus": 200,
+      "sha256": "2dbb8f180c53ff4d381050d199df9b62fa204ec4462c895e2f590be72f1214d8",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:39 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/347/times",
+      "fetchedAt": "2026-11-07T12:03:39.812772+00:00",
+      "httpStatus": 200,
+      "sha256": "75d2d9363d1013a74cdf0078ad6c3c36dcf6f2d4c8d06ccaaeb27c0f6df68b74",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:39 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/349/times",
+      "fetchedAt": "2026-11-07T12:03:40.297072+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:40 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/35/times",
+      "fetchedAt": "2026-11-07T12:03:40.867510+00:00",
+      "httpStatus": 200,
+      "sha256": "ddeddfc418200f1121dccc55b7e5427174598d768508655ad15d7df9196228b4",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:40 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/350/times",
+      "fetchedAt": "2026-11-07T12:03:41.271531+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:41 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/351/times",
+      "fetchedAt": "2026-11-07T12:03:41.901614+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:41 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/352/times",
+      "fetchedAt": "2026-11-07T12:03:42.637449+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:42 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/353/times",
+      "fetchedAt": "2026-11-07T12:03:42.858227+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:42 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/354/times",
+      "fetchedAt": "2026-11-07T12:03:43.499725+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:43 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/356/times",
+      "fetchedAt": "2026-11-07T12:03:43.918783+00:00",
+      "httpStatus": 200,
+      "sha256": "ef3a9659c4a3dcfed594225b56faf7785cb5b226640e839c0764843e114e33be",
+      "bytes": 532,
+      "serverDate": "Sat, 07 Nov 2026 12:03:43 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/357/times",
+      "fetchedAt": "2026-11-07T12:03:44.553346+00:00",
+      "httpStatus": 200,
+      "sha256": "8edcd6cc93e1a6a3a743bdc74570e18148b872b9cd2aa5a23bd4e8213037d519",
+      "bytes": 531,
+      "serverDate": "Sat, 07 Nov 2026 12:03:44 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/358/times",
+      "fetchedAt": "2026-11-07T12:03:45.082238+00:00",
+      "httpStatus": 200,
+      "sha256": "c8017cddfae47205d9a08a33db49540dad0837ca9e184e3b6436104d80789b29",
+      "bytes": 531,
+      "serverDate": "Sat, 07 Nov 2026 12:03:44 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/359/times",
+      "fetchedAt": "2026-11-07T12:03:45.575100+00:00",
+      "httpStatus": 200,
+      "sha256": "185c31fe3db4aa12018561e62600df0ea1d4983e3c4e836c78f9996e846099cd",
+      "bytes": 531,
+      "serverDate": "Sat, 07 Nov 2026 12:03:45 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/36/times",
+      "fetchedAt": "2026-11-07T12:03:46.083237+00:00",
+      "httpStatus": 200,
+      "sha256": "d05ae88b647a43528ee9a6f34bcca5ee266644db5b73279bd50a93ab20cf7ee9",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:46 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/360/times",
+      "fetchedAt": "2026-11-07T12:03:46.512935+00:00",
+      "httpStatus": 200,
+      "sha256": "6ed6dea8a9fc7ac59cc4e146fd281c0bc10d480e725bf1f679307d2f3b470fa4",
+      "bytes": 532,
+      "serverDate": "Sat, 07 Nov 2026 12:03:46 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/361/times",
+      "fetchedAt": "2026-11-07T12:03:46.975510+00:00",
+      "httpStatus": 200,
+      "sha256": "aff7f61a00c3d8d883ec9a10da03e05d23dc17ca331916ebfa157c1fc9909202",
+      "bytes": 531,
+      "serverDate": "Sat, 07 Nov 2026 12:03:46 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/362/times",
+      "fetchedAt": "2026-11-07T12:03:47.461892+00:00",
+      "httpStatus": 200,
+      "sha256": "83f96ac29f2091a8525bf0ede8744f8182375f28b2303133a90cb166f907fe5e",
+      "bytes": 3082,
+      "serverDate": "Sat, 07 Nov 2026 12:03:47 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/363/times",
+      "fetchedAt": "2026-11-07T12:03:48.040898+00:00",
+      "httpStatus": 200,
+      "sha256": "1763e025c7966b8ecdc4aa92cc0d102d8cb9fcf72ed7b2cc304f68a98c702bb1",
+      "bytes": 2893,
+      "serverDate": "Sat, 07 Nov 2026 12:03:47 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/364/times",
+      "fetchedAt": "2026-11-07T12:03:48.805456+00:00",
+      "httpStatus": 200,
+      "sha256": "f65888be6a8c6026e1c566469bf805af4681c83eff04f1f48767bd8dd116541e",
+      "bytes": 2087,
+      "serverDate": "Sat, 07 Nov 2026 12:03:48 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/365/times",
+      "fetchedAt": "2026-11-07T12:03:49.160277+00:00",
+      "httpStatus": 200,
+      "sha256": "3486b09239efbbeca841782a1dcd5c05cd454b58ef73ff411f719596ebb5e6d6",
+      "bytes": 1932,
+      "serverDate": "Sat, 07 Nov 2026 12:03:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/366/times",
+      "fetchedAt": "2026-11-07T12:03:49.603237+00:00",
+      "httpStatus": 200,
+      "sha256": "27e047289cd299e7307142f340853aba9bf1fcb757c29293cb250e6605bcf892",
+      "bytes": 3934,
+      "serverDate": "Sat, 07 Nov 2026 12:03:49 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/367/times",
+      "fetchedAt": "2026-11-07T12:03:50.148501+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/368/times",
+      "fetchedAt": "2026-11-07T12:03:50.773395+00:00",
+      "httpStatus": 200,
+      "sha256": "d4b7ba407398aa980f55c6b4c0479e510b7f078ee7e3d593a09156317e250fb1",
+      "bytes": 475,
+      "serverDate": "Sat, 07 Nov 2026 12:03:50 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/37/times",
+      "fetchedAt": "2026-11-07T12:03:51.213064+00:00",
+      "httpStatus": 200,
+      "sha256": "c55df8481258b0cf25ee6cdf90cdbd579c5681c94c7c857d2e9152ce136cdc57",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/38/times",
+      "fetchedAt": "2026-11-07T12:03:51.717935+00:00",
+      "httpStatus": 200,
+      "sha256": "b212b05411818fcbea3eaac0fbf34b13056ebebe922568ee577e93e13a1c5957",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:51 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/39/times",
+      "fetchedAt": "2026-11-07T12:03:52.185284+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/4/times",
+      "fetchedAt": "2026-11-07T12:03:52.674064+00:00",
+      "httpStatus": 200,
+      "sha256": "5d78fd6f58b1689c0552f9f2ec1bb3d01b28b8eb94c446b5f0c62bff1371c017",
+      "bytes": 470,
+      "serverDate": "Sat, 07 Nov 2026 12:03:52 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/40/times",
+      "fetchedAt": "2026-11-07T12:03:53.131696+00:00",
+      "httpStatus": 200,
+      "sha256": "06a5dc231f009f1d68097edbe258058b8d4577d78d4507ecf01832ca5b1eec04",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:03:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/41/times",
+      "fetchedAt": "2026-11-07T12:03:53.829585+00:00",
+      "httpStatus": 200,
+      "sha256": "2b285ddfa7e792e6b0ca5e9f2b4d11a4ad4eefe342c60cb12b053930ed276da1",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:03:53 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/44/times",
+      "fetchedAt": "2026-11-07T12:03:54.312086+00:00",
+      "httpStatus": 200,
+      "sha256": "ef3b10a778a4bc6743c1e704a3c073314d5ee28ed6330d12e966771eccc30f80",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/45/times",
+      "fetchedAt": "2026-11-07T12:03:54.816602+00:00",
+      "httpStatus": 200,
+      "sha256": "f7a9b9e3cb31ee7be69528863b977c074118ffa32c05217a8fb39ff1f7a1a0d9",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:54 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/46/times",
+      "fetchedAt": "2026-11-07T12:03:55.299169+00:00",
+      "httpStatus": 200,
+      "sha256": "687d0716cbc64d5999aa0f99ae12843a9ccfc569085f2c383b12934ab73c8ec8",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:03:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/47/times",
+      "fetchedAt": "2026-11-07T12:03:55.913216+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:55 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/48/times",
+      "fetchedAt": "2026-11-07T12:03:56.744919+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:03:56 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/49/times",
+      "fetchedAt": "2026-11-07T12:04:00.133435+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/50/times",
+      "fetchedAt": "2026-11-07T12:04:00.356813+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/53/times",
+      "fetchedAt": "2026-11-07T12:04:00.938910+00:00",
+      "httpStatus": 200,
+      "sha256": "c12ccc9e6227de8333fbfb4fb4eac3fb17a6405b367ddd88068401d891bd9e9f",
+      "bytes": 1476,
+      "serverDate": "Sat, 07 Nov 2026 12:04:00 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/54/times",
+      "fetchedAt": "2026-11-07T12:04:01.400275+00:00",
+      "httpStatus": 200,
+      "sha256": "a01ee0348e928fdead74bf15d6fe903d6002a2a96d7ff97f175b5efc5c20de39",
+      "bytes": 1469,
+      "serverDate": "Sat, 07 Nov 2026 12:04:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/55/times",
+      "fetchedAt": "2026-11-07T12:04:01.963218+00:00",
+      "httpStatus": 200,
+      "sha256": "2908fb2a9532131917fcd4cea783139fbd611b5d231d3b35e04df72424317d0a",
+      "bytes": 992,
+      "serverDate": "Sat, 07 Nov 2026 12:04:01 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/56/times",
+      "fetchedAt": "2026-11-07T12:04:02.406887+00:00",
+      "httpStatus": 200,
+      "sha256": "d6e3af213866418342000d271ec9ca98738a13a95a1fd200f699408e3e0e2aa3",
+      "bytes": 995,
+      "serverDate": "Sat, 07 Nov 2026 12:04:02 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/57/times",
+      "fetchedAt": "2026-11-07T12:04:03.105849+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/58/times",
+      "fetchedAt": "2026-11-07T12:04:03.418193+00:00",
+      "httpStatus": 200,
+      "sha256": "5a6c82df3680064455badd00b12111edcdc46de7f5770ee26356611d0e97037d",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:04:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/59/times",
+      "fetchedAt": "2026-11-07T12:04:03.963866+00:00",
+      "httpStatus": 200,
+      "sha256": "ac806c849162861079b296c7e3506735a5fba192a8e30d56e681237d97ae5eaf",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:04:03 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/6/times",
+      "fetchedAt": "2026-11-07T12:04:04.439819+00:00",
+      "httpStatus": 200,
+      "sha256": "29f8a8d5f6ad633822002d204b2e10579ec71ef003d75cbdedce3fae1ca0942b",
+      "bytes": 1886,
+      "serverDate": "Sat, 07 Nov 2026 12:04:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/60/times",
+      "fetchedAt": "2026-11-07T12:04:04.961279+00:00",
+      "httpStatus": 200,
+      "sha256": "cf28f6c8398a763b3b8ca5d88bb14f72e7390cd6a2e1f46dd4ce6351f142dba0",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:04:04 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/61/times",
+      "fetchedAt": "2026-11-07T12:04:05.419060+00:00",
+      "httpStatus": 200,
+      "sha256": "db6fc4738c7e6439f5898feaf81a5d2c7613ccf9e1dbb0ec10366b12b0f9b3a9",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/62/times",
+      "fetchedAt": "2026-11-07T12:04:05.918602+00:00",
+      "httpStatus": 200,
+      "sha256": "c3dbd698e4836cf05a9c12397827fd7364b007fd61458241c0f459b8c9188b30",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:05 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/63/times",
+      "fetchedAt": "2026-11-07T12:04:06.376133+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/64/times",
+      "fetchedAt": "2026-11-07T12:04:06.948464+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:06 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/66/times",
+      "fetchedAt": "2026-11-07T12:04:07.425496+00:00",
+      "httpStatus": 200,
+      "sha256": "6f85ffd9d48701ee9b328c6b5a3a073d31f1fd8717c5c8b31b62a194ffe6721e",
+      "bytes": 1001,
+      "serverDate": "Sat, 07 Nov 2026 12:04:07 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/67/times",
+      "fetchedAt": "2026-11-07T12:04:07.954160+00:00",
+      "httpStatus": 200,
+      "sha256": "4452cf557933c591508f81d3a90c478e3df3ebe3d6bf0642302f846e0302d320",
+      "bytes": 1002,
+      "serverDate": "Sat, 07 Nov 2026 12:04:07 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/68/times",
+      "fetchedAt": "2026-11-07T12:04:08.449427+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/69/times",
+      "fetchedAt": "2026-11-07T12:04:09.004384+00:00",
+      "httpStatus": 200,
+      "sha256": "ebd05e6c6f957047af0c0717dff7bf173ba51262a9b96ed886ef107c8e68e89b",
+      "bytes": 261,
+      "serverDate": "Sat, 07 Nov 2026 12:04:08 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/7/times",
+      "fetchedAt": "2026-11-07T12:04:09.799086+00:00",
+      "httpStatus": 200,
+      "sha256": "14897c83070cd31479cf78457ac9fe07a3947116a10f979485c3c0e4fcf5516d",
+      "bytes": 527,
+      "serverDate": "Sat, 07 Nov 2026 12:04:09 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/70/times",
+      "fetchedAt": "2026-11-07T12:04:10.152705+00:00",
+      "httpStatus": 200,
+      "sha256": "0ad68efe15f0236f712b7e02316676f5a7885d09de3790a688c8b38c0a3bec8f",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/71/times",
+      "fetchedAt": "2026-11-07T12:04:10.625590+00:00",
+      "httpStatus": 200,
+      "sha256": "491b15398e233b5b7bb5dc1575a690fe6e446e464be812a514de0de9da8fc722",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:10 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/72/times",
+      "fetchedAt": "2026-11-07T12:04:11.237402+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/73/times",
+      "fetchedAt": "2026-11-07T12:04:11.536486+00:00",
+      "httpStatus": 200,
+      "sha256": "36b51aff0796001e1051feaf242b5ad9a5fec066bd7ea90177c4de3fa061d5ec",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:04:11 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/74/times",
+      "fetchedAt": "2026-11-07T12:04:12.102019+00:00",
+      "httpStatus": 200,
+      "sha256": "16fbf59c53a16800e6752395d23d57d1394d714fc3692d31dccf37c113fc5e7e",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:04:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/75/times",
+      "fetchedAt": "2026-11-07T12:04:12.529994+00:00",
+      "httpStatus": 200,
+      "sha256": "46463f2305c6ac023e47b93e9b515f271d5c426846e06260eb437a8cf65d174b",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:12 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/76/times",
+      "fetchedAt": "2026-11-07T12:04:13.205285+00:00",
+      "httpStatus": 200,
+      "sha256": "7d62b9437bd8735cd00beb70c1d40c7642d8e45e028183fb911bd9395c362cc2",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/77/times",
+      "fetchedAt": "2026-11-07T12:04:13.685536+00:00",
+      "httpStatus": 200,
+      "sha256": "804aaa3040edb721a9f13469b32f0b63fa74238d3595d802b55d25d6287685a9",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:04:13 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/78/times",
+      "fetchedAt": "2026-11-07T12:04:14.558894+00:00",
+      "httpStatus": 200,
+      "sha256": "299469f751187b9e72c136c7221657ab8e69ac641f5fe4def228296080b7af74",
+      "bytes": 474,
+      "serverDate": "Sat, 07 Nov 2026 12:04:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/8/times",
+      "fetchedAt": "2026-11-07T12:04:14.821639+00:00",
+      "httpStatus": 200,
+      "sha256": "9800993c46a5b21ff5ce3b3e9795b2d92fe6a966205384e72a3e85d2d4cc4179",
+      "bytes": 524,
+      "serverDate": "Sat, 07 Nov 2026 12:04:14 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/80/times",
+      "fetchedAt": "2026-11-07T12:04:15.422121+00:00",
+      "httpStatus": 200,
+      "sha256": "80b4e30569619b5fbc4ec4eefa988babfa22e43a473a18f3fc5a77f0ff6a4b64",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:15 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/81/times",
+      "fetchedAt": "2026-11-07T12:04:15.922330+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:15 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/82/times",
+      "fetchedAt": "2026-11-07T12:04:16.488513+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/83/times",
+      "fetchedAt": "2026-11-07T12:04:16.892742+00:00",
+      "httpStatus": 200,
+      "sha256": "a36f8950bbdfb44fc9ca11d3e3bbdad18c840ac3d43a69844fe2ebabce2a3a23",
+      "bytes": 992,
+      "serverDate": "Sat, 07 Nov 2026 12:04:16 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/84/times",
+      "fetchedAt": "2026-11-07T12:04:17.441305+00:00",
+      "httpStatus": 200,
+      "sha256": "5eb0b25c224901e29141005d004de4e390c6f856ef4098c2b68019b6dfc387c4",
+      "bytes": 995,
+      "serverDate": "Sat, 07 Nov 2026 12:04:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/86/times",
+      "fetchedAt": "2026-11-07T12:04:17.856623+00:00",
+      "httpStatus": 200,
+      "sha256": "76c3c491ce3dd7d9f227123aa869587307ad2b2145eb27d876a72bbf4fd0b9fc",
+      "bytes": 2882,
+      "serverDate": "Sat, 07 Nov 2026 12:04:17 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/87/times",
+      "fetchedAt": "2026-11-07T12:04:18.395674+00:00",
+      "httpStatus": 200,
+      "sha256": "d6976b231df1703603ee3a3baaea9c262dbee02e1d746a770f2c52b688c93b07",
+      "bytes": 529,
+      "serverDate": "Sat, 07 Nov 2026 12:04:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/88/times",
+      "fetchedAt": "2026-11-07T12:04:18.858994+00:00",
+      "httpStatus": 200,
+      "sha256": "0a06f954d742918b5947a76c1b85da4ab58d13ee7630c7b82bb4fda69986d406",
+      "bytes": 530,
+      "serverDate": "Sat, 07 Nov 2026 12:04:18 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/89/times",
+      "fetchedAt": "2026-11-07T12:04:19.424776+00:00",
+      "httpStatus": 200,
+      "sha256": "5fe93502b643c9578fd4977d8995eb42ab4f818cde37c83e75e46d23355f0248",
+      "bytes": 945,
+      "serverDate": "Sat, 07 Nov 2026 12:04:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/9/times",
+      "fetchedAt": "2026-11-07T12:04:19.857221+00:00",
+      "httpStatus": 200,
+      "sha256": "527b85f8f131a2cffc3286300aea80cc564f0d9feaf8d0f5ba4b249f6ab62602",
+      "bytes": 262,
+      "serverDate": "Sat, 07 Nov 2026 12:04:19 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/90/times",
+      "fetchedAt": "2026-11-07T12:04:20.497691+00:00",
+      "httpStatus": 200,
+      "sha256": "4ce588d8bf01985efbe3e1ad7796df6e4d2c32fb6cb44689b4fcf533e39dc7f9",
+      "bytes": 476,
+      "serverDate": "Sat, 07 Nov 2026 12:04:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/91/times",
+      "fetchedAt": "2026-11-07T12:04:20.924568+00:00",
+      "httpStatus": 200,
+      "sha256": "6e1eaca5c65a6cc16b51ce8c9237d0f2bb01465067c766350e075fa5d31254b4",
+      "bytes": 472,
+      "serverDate": "Sat, 07 Nov 2026 12:04:20 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/92/times",
+      "fetchedAt": "2026-11-07T12:04:21.452877+00:00",
+      "httpStatus": 200,
+      "sha256": "bc4093820f62c3799ad0b566f7d1c186d3de764cbef6210f6b0a2ed0abab8f77",
+      "bytes": 944,
+      "serverDate": "Sat, 07 Nov 2026 12:04:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/93/times",
+      "fetchedAt": "2026-11-07T12:04:21.950669+00:00",
+      "httpStatus": 200,
+      "sha256": "a6d342a7230779859f42a64c342e9af07e98e6bc9ffb7cec9dd58112612092ab",
+      "bytes": 473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:21 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/94/times",
+      "fetchedAt": "2026-11-07T12:04:22.788561+00:00",
+      "httpStatus": 200,
+      "sha256": "be136b3c3bc3f998a713ea08c6158a124c6f835030f674e4c009195c78e319f8",
+      "bytes": 999,
+      "serverDate": "Sat, 07 Nov 2026 12:04:22 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/95/times",
+      "fetchedAt": "2026-11-07T12:04:23.152680+00:00",
+      "httpStatus": 200,
+      "sha256": "498f485aed53e9f5aa8d3e9ba60342ba75d36f8b28fdeba02bd1f77f5277bf03",
+      "bytes": 1473,
+      "serverDate": "Sat, 07 Nov 2026 12:04:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/96/times",
+      "fetchedAt": "2026-11-07T12:04:23.539090+00:00",
+      "httpStatus": 200,
+      "sha256": "2b4b9325e8ec703215e20b60ad1fd9fd8bd0d4bb8f42e35bfd6ee6886b47619d",
+      "bytes": 2032,
+      "serverDate": "Sat, 07 Nov 2026 12:04:23 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/97/times",
+      "fetchedAt": "2026-11-07T12:04:24.136374+00:00",
+      "httpStatus": 200,
+      "sha256": "5c2ce9f76de5d1521597e765e5803ae81351e03cd2d87f4ba16d86deb5f11930",
+      "bytes": 1205,
+      "serverDate": "Sat, 07 Nov 2026 12:04:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/98/times",
+      "fetchedAt": "2026-11-07T12:04:24.625335+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:24 GMT"
+    },
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops/99/times",
+      "fetchedAt": "2026-11-07T12:04:25.047928+00:00",
+      "httpStatus": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "serverDate": "Sat, 07 Nov 2026 12:04:25 GMT"
+    }
+  ],
+  "files": {
+    "arrivalsSnapshot.csv": {
+      "bytes": 78908,
+      "sha256": "28d1567da330a4bbcedfbfa2b2ec16eafcb45148b6ce546004ef2552306b2df0"
+    },
+    "arrivalsSnapshot.json": {
+      "bytes": 339280,
+      "sha256": "784e6951570bab77964b8b2e66d75a77f9486291450b6689dbb008a3877b12c2"
+    },
+    "patterns.csv": {
+      "bytes": 41294,
+      "sha256": "db8838e0d08c1c9ee6ba02df424de3c0098ffbea5b242356033f7f5579adceaa"
+    },
+    "patterns.json": {
+      "bytes": 61288,
+      "sha256": "2585e147506b3329ec3db29afbee74382223bbd7b568c47b187a497344e15dd8"
+    },
+    "routeStops.csv": {
+      "bytes": 16039,
+      "sha256": "2bb8dd216277a87f8851143cf0f7e7bc7174eb5d8eacaeec0cffadee0c8f6e9b"
+    },
+    "routeStops.json": {
+      "bytes": 96487,
+      "sha256": "9309c390940bc237f391efa9aed49381d20a00ffe2f2c2c6936720690322954f"
+    },
+    "routes.csv": {
+      "bytes": 3456,
+      "sha256": "113c4c11ce8a42f86389ee3a12a3a1fadfefff36dfbde1058701fab690a27666"
+    },
+    "routes.geojson": {
+      "bytes": 711431,
+      "sha256": "8198023c2dbb4f0b973bec4b9dda7586efd260dfa25ffaef2d375e2492e363e0"
+    },
+    "routes.json": {
+      "bytes": 8385,
+      "sha256": "a7ecc5abb7f782357ea6428bb7d206d24e863e23ca04218ade5f81181aac4609"
+    },
+    "stops.csv": {
+      "bytes": 31856,
+      "sha256": "6bcac9ac09b7372e59bf980411c4bd9ccdd2d1d7186f1a5a667b939a79bbd481"
+    },
+    "stops.geojson": {
+      "bytes": 135984,
+      "sha256": "87cec5247763b8c59c5259bcc319eaa0c4ba950de63c8a15e741adfed7fded4b"
+    },
+    "stops.json": {
+      "bytes": 197062,
+      "sha256": "43661d50bb0d8f863747a3abb998e1569f48f4476a82f029801baf8f761c4a61"
+    },
+    "vehiclesSnapshot.csv": {
+      "bytes": 3066,
+      "sha256": "7d5f20d2a586a549c71981d5670983ceb7fcc5ca63390cb49b362bf9efbc11ca"
+    },
+    "vehiclesSnapshot.geojson": {
+      "bytes": 12699,
+      "sha256": "1d4eaefc3df59f08e5cf3b1e2d070c059f6f6671551ee45c1c948c38574d6901"
+    },
+    "vehiclesSnapshot.json": {
+      "bytes": 8449,
+      "sha256": "d73039067c98e12774f51032b95b381c89e2f113466b2f89f4b34f2f842e5e52"
+    }
+  }
+}

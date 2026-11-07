@@ -1,0 +1,5637 @@
+[
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 97
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 68
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 23
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 94
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 82
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 48
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 49
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 100
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 57
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 57
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 101
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 50
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 47
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 81
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 93
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 22
+  },
+  {
+    "routeId": 3,
+    "patternId": "3:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 97
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 132
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 121
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 93
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 22
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 96
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 362
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 83
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 55
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 26
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 76
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 38
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 67
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 46
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 61
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 123
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 116
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 317
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 138
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 117
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 122
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 62
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 45
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 124
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 66
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 141
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 44
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 75
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 27
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 56
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 84
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 265
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 368
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 80
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 23
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 18,
+    "stopId": 95
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 19,
+    "stopId": 121
+  },
+  {
+    "routeId": 2,
+    "patternId": "2:-11",
+    "patternIndex": -11,
+    "stopSequence": 20,
+    "stopId": 133
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 10
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 40
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 59
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 14
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 69
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 97
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 97
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 68
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 13
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 60
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 41
+  },
+  {
+    "routeId": 5,
+    "patternId": "5:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 9
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 97
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 11
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 71
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 105
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 336
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 337
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 127
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 127
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 140
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 108
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 106
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 70
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 12
+  },
+  {
+    "routeId": 4,
+    "patternId": "4:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 97
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 89
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 53
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 95
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 120
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 133
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 34
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 36
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 114
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 346
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 125
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 129
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 103
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 135
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 296
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 295
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 134
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 104
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 128
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 126
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 347
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 115
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 37
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 35
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 132
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 121
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 94
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 54
+  },
+  {
+    "routeId": 7,
+    "patternId": "7:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 89
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 92
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 175
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 53
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 25
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 78
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 3
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 28
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 30
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 73
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 90
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 130
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 316
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 33
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 131
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 91
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 74
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 31
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 29
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 4
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 77
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 24
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 54
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 176
+  },
+  {
+    "routeId": 6,
+    "patternId": "6:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 92
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 39
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 142
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 144
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 146
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 147
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 148
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 145
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 143
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 38
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 38
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 87
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 21
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 7
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 8
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 20
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 88
+  },
+  {
+    "routeId": 9,
+    "patternId": "9:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 39
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-14",
+    "patternIndex": -14,
+    "stopSequence": 1,
+    "stopId": 109
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-14",
+    "patternIndex": -14,
+    "stopSequence": 2,
+    "stopId": 297
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-14",
+    "patternIndex": -14,
+    "stopSequence": 3,
+    "stopId": 15
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-14",
+    "patternIndex": -14,
+    "stopSequence": 4,
+    "stopId": 6
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-13",
+    "patternIndex": -13,
+    "stopSequence": 1,
+    "stopId": 6
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-13",
+    "patternIndex": -13,
+    "stopSequence": 2,
+    "stopId": 297
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-13",
+    "patternIndex": -13,
+    "stopSequence": 3,
+    "stopId": 109
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 6
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 102
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 27
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 27
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 26
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 58
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 110
+  },
+  {
+    "routeId": 8,
+    "patternId": "8:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 6
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 96
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 364
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 215
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 219
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 247
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 205
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 102
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 27
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 56
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 84
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 265
+  },
+  {
+    "routeId": 41,
+    "patternId": "41:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 96
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 96
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 3,
+    "stopId": 364
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 4,
+    "stopId": 215
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 5,
+    "stopId": 219
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 6,
+    "stopId": 247
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 7,
+    "stopId": 269
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 8,
+    "stopId": 366
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 9,
+    "stopId": 293
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 10,
+    "stopId": 291
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:1",
+    "patternIndex": 1,
+    "stopSequence": 11,
+    "stopId": 278
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 1,
+    "stopId": 96
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 3,
+    "stopId": 364
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 4,
+    "stopId": 215
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 5,
+    "stopId": 219
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 6,
+    "stopId": 247
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 7,
+    "stopId": 269
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 8,
+    "stopId": 109
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 9,
+    "stopId": 366
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 10,
+    "stopId": 293
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 11,
+    "stopId": 291
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:2",
+    "patternIndex": 2,
+    "stopSequence": 12,
+    "stopId": 278
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 279
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 292
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 3,
+    "stopId": 294
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 4,
+    "stopId": 366
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 5,
+    "stopId": 109
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 6,
+    "stopId": 270
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 7,
+    "stopId": 112
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 8,
+    "stopId": 220
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 9,
+    "stopId": 86
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 10,
+    "stopId": 363
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 11,
+    "stopId": 265
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:11",
+    "patternIndex": 11,
+    "stopSequence": 12,
+    "stopId": 236
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 1,
+    "stopId": 279
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 2,
+    "stopId": 292
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 3,
+    "stopId": 294
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 4,
+    "stopId": 366
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 5,
+    "stopId": 270
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 6,
+    "stopId": 112
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 7,
+    "stopId": 220
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 8,
+    "stopId": 86
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 9,
+    "stopId": 363
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 10,
+    "stopId": 265
+  },
+  {
+    "routeId": 40,
+    "patternId": "40:12",
+    "patternIndex": 12,
+    "stopSequence": 11,
+    "stopId": 236
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 5,
+    "stopId": 229
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 6,
+    "stopId": 160
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 7,
+    "stopId": 202
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 8,
+    "stopId": 168
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 9,
+    "stopId": 157
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 10,
+    "stopId": 203
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 11,
+    "stopId": 267
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-14",
+    "patternIndex": -14,
+    "stopSequence": 12,
+    "stopId": 253
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 1,
+    "stopId": 229
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 2,
+    "stopId": 160
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 3,
+    "stopId": 202
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 4,
+    "stopId": 168
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 5,
+    "stopId": 157
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 6,
+    "stopId": 203
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 7,
+    "stopId": 267
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-13",
+    "patternIndex": -13,
+    "stopSequence": 8,
+    "stopId": 253
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 254
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 268
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 204
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 158
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 167
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 201
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 159
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 230
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 193
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 197
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 365
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 254
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 268
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 204
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 158
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 167
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 201
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 159
+  },
+  {
+    "routeId": 21,
+    "patternId": "21:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 228
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 96
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 83
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 55
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 26
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 272
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 206
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 245
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 112
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 220
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 86
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 363
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 265
+  },
+  {
+    "routeId": 42,
+    "patternId": "42:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 96
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 233
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 221
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 261
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 244
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 166
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 172
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 170
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 196
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 171
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 165
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 243
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 262
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 222
+  },
+  {
+    "routeId": 12,
+    "patternId": "12:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 233
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 5,
+    "stopId": 229
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 6,
+    "stopId": 160
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 7,
+    "stopId": 202
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 8,
+    "stopId": 168
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 9,
+    "stopId": 234
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 10,
+    "stopId": 191
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 11,
+    "stopId": 239
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 12,
+    "stopId": 257
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-15",
+    "patternIndex": -15,
+    "stopSequence": 13,
+    "stopId": 225
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 1,
+    "stopId": 226
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 2,
+    "stopId": 258
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 3,
+    "stopId": 240
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 4,
+    "stopId": 192
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 5,
+    "stopId": 315
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 6,
+    "stopId": 235
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 7,
+    "stopId": 167
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 8,
+    "stopId": 201
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 9,
+    "stopId": 159
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 10,
+    "stopId": 230
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 11,
+    "stopId": 193
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 12,
+    "stopId": 197
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-14",
+    "patternIndex": -14,
+    "stopSequence": 13,
+    "stopId": 365
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 1,
+    "stopId": 226
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 2,
+    "stopId": 258
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 3,
+    "stopId": 240
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 4,
+    "stopId": 192
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 5,
+    "stopId": 315
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 6,
+    "stopId": 235
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 7,
+    "stopId": 167
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 8,
+    "stopId": 201
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 9,
+    "stopId": 159
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-13",
+    "patternIndex": -13,
+    "stopSequence": 10,
+    "stopId": 228
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 229
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 160
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 202
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 168
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 234
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 191
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 239
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 257
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 225
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 227
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 229
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 160
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 202
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 168
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 234
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 191
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 239
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 257
+  },
+  {
+    "routeId": 11,
+    "patternId": "11:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 225
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 97
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 11
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 349
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 350
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 351
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 367
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 352
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 353
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 354
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 12
+  },
+  {
+    "routeId": 36,
+    "patternId": "36:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 97
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 226
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 258
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 240
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 192
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 315
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 235
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 167
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 201
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 159
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 230
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 193
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 197
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 169
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 171
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 166
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 251
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 177
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-12",
+    "patternIndex": -12,
+    "stopSequence": 18,
+    "stopId": 223
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 224
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 177
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 251
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 165
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 172
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 170
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 198
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 194
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 229
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 160
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 202
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 168
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 234
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 191
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 239
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 257
+  },
+  {
+    "routeId": 14,
+    "patternId": "14:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 225
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 1,
+    "stopId": 229
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 2,
+    "stopId": 160
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 3,
+    "stopId": 202
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 4,
+    "stopId": 168
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 5,
+    "stopId": 234
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 6,
+    "stopId": 191
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 7,
+    "stopId": 239
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 8,
+    "stopId": 257
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 9,
+    "stopId": 225
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 10,
+    "stopId": 249
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 11,
+    "stopId": 259
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 12,
+    "stopId": 149
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 13,
+    "stopId": 181
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 14,
+    "stopId": 161
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 15,
+    "stopId": 255
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-14",
+    "patternIndex": -14,
+    "stopSequence": 16,
+    "stopId": 199
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 5,
+    "stopId": 229
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 6,
+    "stopId": 160
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 7,
+    "stopId": 202
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 8,
+    "stopId": 168
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 9,
+    "stopId": 234
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 10,
+    "stopId": 191
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 11,
+    "stopId": 239
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 12,
+    "stopId": 257
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 13,
+    "stopId": 225
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 14,
+    "stopId": 249
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 15,
+    "stopId": 259
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 16,
+    "stopId": 149
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 17,
+    "stopId": 181
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 18,
+    "stopId": 161
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 19,
+    "stopId": 255
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-13",
+    "patternIndex": -13,
+    "stopSequence": 20,
+    "stopId": 199
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 200
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 256
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 162
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 182
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 150
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 260
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 250
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 226
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 258
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 240
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 192
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 315
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 235
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 167
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 201
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 159
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 230
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 18,
+    "stopId": 193
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 19,
+    "stopId": 197
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-12",
+    "patternIndex": -12,
+    "stopSequence": 20,
+    "stopId": 365
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 200
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 256
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 162
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 182
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 150
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 260
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 250
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 226
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 258
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 240
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 192
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 315
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 235
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 167
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 201
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 159
+  },
+  {
+    "routeId": 13,
+    "patternId": "13:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 228
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 66
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 17
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 3,
+    "stopId": 87
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 4,
+    "stopId": 21
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 5,
+    "stopId": 7
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 6,
+    "stopId": 361
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 7,
+    "stopId": 359
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 8,
+    "stopId": 358
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 9,
+    "stopId": 357
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 10,
+    "stopId": 53
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 11,
+    "stopId": 95
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 12,
+    "stopId": 120
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:1",
+    "patternIndex": 1,
+    "stopSequence": 13,
+    "stopId": 133
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 132
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 121
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 3,
+    "stopId": 94
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 4,
+    "stopId": 54
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 5,
+    "stopId": 356
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 6,
+    "stopId": 147
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 7,
+    "stopId": 148
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 8,
+    "stopId": 360
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 9,
+    "stopId": 8
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 10,
+    "stopId": 20
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 11,
+    "stopId": 88
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 12,
+    "stopId": 16
+  },
+  {
+    "routeId": 38,
+    "patternId": "38:11",
+    "patternIndex": 11,
+    "stopSequence": 13,
+    "stopId": 67
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 227
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 241
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 175
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 209
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 153
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 183
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 151
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 237
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 189
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 190
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 187
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 185
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 217
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 155
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 230
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 193
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 197
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-12",
+    "patternIndex": -12,
+    "stopSequence": 18,
+    "stopId": 365
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 229
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 160
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 202
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 168
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 234
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 191
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 239
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 257
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 225
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 227
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 241
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 175
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 209
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 18,
+    "stopId": 153
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 19,
+    "stopId": 183
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 20,
+    "stopId": 151
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 21,
+    "stopId": 237
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 22,
+    "stopId": 189
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 23,
+    "stopId": 190
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 24,
+    "stopId": 187
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 25,
+    "stopId": 185
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 26,
+    "stopId": 217
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 27,
+    "stopId": 155
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 28,
+    "stopId": 232
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 29,
+    "stopId": 193
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 30,
+    "stopId": 197
+  },
+  {
+    "routeId": 15,
+    "patternId": "15:-11",
+    "patternIndex": -11,
+    "stopSequence": 31,
+    "stopId": 365
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 236
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 3,
+    "stopId": 364
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 4,
+    "stopId": 215
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 5,
+    "stopId": 219
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 6,
+    "stopId": 247
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 7,
+    "stopId": 269
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 8,
+    "stopId": 109
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 9,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 10,
+    "stopId": 293
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 11,
+    "stopId": 291
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 12,
+    "stopId": 280
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 13,
+    "stopId": 274
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 14,
+    "stopId": 282
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:1",
+    "patternIndex": 1,
+    "stopSequence": 15,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 1,
+    "stopId": 236
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 2,
+    "stopId": 362
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 3,
+    "stopId": 364
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 4,
+    "stopId": 215
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 5,
+    "stopId": 219
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 6,
+    "stopId": 247
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 7,
+    "stopId": 269
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 8,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 9,
+    "stopId": 293
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 10,
+    "stopId": 291
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 11,
+    "stopId": 278
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 12,
+    "stopId": 280
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 13,
+    "stopId": 274
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 14,
+    "stopId": 282
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:2",
+    "patternIndex": 2,
+    "stopSequence": 15,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 283
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 3,
+    "stopId": 275
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 4,
+    "stopId": 281
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 5,
+    "stopId": 278
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 6,
+    "stopId": 292
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 7,
+    "stopId": 294
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 8,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 9,
+    "stopId": 109
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 10,
+    "stopId": 270
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 11,
+    "stopId": 112
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 12,
+    "stopId": 220
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 13,
+    "stopId": 86
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 14,
+    "stopId": 363
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 15,
+    "stopId": 265
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:11",
+    "patternIndex": 11,
+    "stopSequence": 16,
+    "stopId": 236
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 1,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 2,
+    "stopId": 283
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 3,
+    "stopId": 275
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 4,
+    "stopId": 281
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 5,
+    "stopId": 292
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 6,
+    "stopId": 294
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 7,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 8,
+    "stopId": 109
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 9,
+    "stopId": 270
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 10,
+    "stopId": 112
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 11,
+    "stopId": 220
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 12,
+    "stopId": 86
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 13,
+    "stopId": 363
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 14,
+    "stopId": 265
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:12",
+    "patternIndex": 12,
+    "stopSequence": 15,
+    "stopId": 236
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 1,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 2,
+    "stopId": 283
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 3,
+    "stopId": 275
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 4,
+    "stopId": 281
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 5,
+    "stopId": 278
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 6,
+    "stopId": 292
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 7,
+    "stopId": 294
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 8,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 9,
+    "stopId": 270
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 10,
+    "stopId": 112
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 11,
+    "stopId": 220
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 12,
+    "stopId": 86
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 13,
+    "stopId": 363
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 14,
+    "stopId": 265
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:13",
+    "patternIndex": 13,
+    "stopSequence": 15,
+    "stopId": 236
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 1,
+    "stopId": 285
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 2,
+    "stopId": 283
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 3,
+    "stopId": 275
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 4,
+    "stopId": 281
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 5,
+    "stopId": 292
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 6,
+    "stopId": 294
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 7,
+    "stopId": 366
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 8,
+    "stopId": 270
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 9,
+    "stopId": 112
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 10,
+    "stopId": 220
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 11,
+    "stopId": 86
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 12,
+    "stopId": 363
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 13,
+    "stopId": 265
+  },
+  {
+    "routeId": 39,
+    "patternId": "39:14",
+    "patternIndex": 14,
+    "stopSequence": 14,
+    "stopId": 236
+  },
+  {
+    "routeId": 30,
+    "patternId": "30:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 96
+  },
+  {
+    "routeId": 30,
+    "patternId": "30:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 66
+  },
+  {
+    "routeId": 30,
+    "patternId": "30:12",
+    "patternIndex": 12,
+    "stopSequence": 1,
+    "stopId": 10
+  },
+  {
+    "routeId": 30,
+    "patternId": "30:12",
+    "patternIndex": 12,
+    "stopSequence": 2,
+    "stopId": 96
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 298
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 300
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 302
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 304
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 306
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 308
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 126
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 347
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 115
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 37
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 35
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 132
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 121
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 94
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 54
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 309
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 92
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 92
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 175
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 53
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 95
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 120
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 133
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 34
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 36
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 114
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 346
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 125
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 307
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 305
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 303
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 301
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 299
+  },
+  {
+    "routeId": 10,
+    "patternId": "10:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 298
+  },
+  {
+    "routeId": 31,
+    "patternId": "31:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 335
+  },
+  {
+    "routeId": 31,
+    "patternId": "31:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 64
+  },
+  {
+    "routeId": 31,
+    "patternId": "31:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 64
+  },
+  {
+    "routeId": 31,
+    "patternId": "31:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 335
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 226
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 258
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 240
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 192
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 315
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 235
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 157
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 203
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 267
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 253
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 254
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 268
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 204
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 158
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 234
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 191
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 239
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 257
+  },
+  {
+    "routeId": 23,
+    "patternId": "23:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 225
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 231
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 156
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 7,
+    "stopId": 218
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 8,
+    "stopId": 186
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 9,
+    "stopId": 188
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 10,
+    "stopId": 238
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 11,
+    "stopId": 152
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 12,
+    "stopId": 184
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 13,
+    "stopId": 154
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 14,
+    "stopId": 210
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 15,
+    "stopId": 176
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 16,
+    "stopId": 242
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-12",
+    "patternIndex": -12,
+    "stopSequence": 17,
+    "stopId": 226
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 196
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 170
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 198
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 194
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 231
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 156
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 7,
+    "stopId": 218
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 8,
+    "stopId": 186
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 9,
+    "stopId": 188
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 10,
+    "stopId": 238
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 11,
+    "stopId": 152
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 12,
+    "stopId": 184
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 13,
+    "stopId": 154
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 14,
+    "stopId": 210
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 15,
+    "stopId": 176
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 16,
+    "stopId": 242
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 17,
+    "stopId": 226
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 18,
+    "stopId": 258
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 19,
+    "stopId": 240
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 20,
+    "stopId": 192
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 21,
+    "stopId": 315
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 22,
+    "stopId": 235
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 23,
+    "stopId": 167
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 24,
+    "stopId": 201
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 25,
+    "stopId": 159
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 26,
+    "stopId": 230
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 27,
+    "stopId": 193
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 28,
+    "stopId": 197
+  },
+  {
+    "routeId": 25,
+    "patternId": "25:-11",
+    "patternIndex": -11,
+    "stopSequence": 29,
+    "stopId": 365
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 323
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 300
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 3,
+    "stopId": 302
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 4,
+    "stopId": 304
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 5,
+    "stopId": 322
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 6,
+    "stopId": 320
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:1",
+    "patternIndex": 1,
+    "stopSequence": 7,
+    "stopId": 318
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:2",
+    "patternIndex": 2,
+    "stopSequence": 1,
+    "stopId": 319
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:2",
+    "patternIndex": 2,
+    "stopSequence": 2,
+    "stopId": 64
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:2",
+    "patternIndex": 2,
+    "stopSequence": 3,
+    "stopId": 325
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 324
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 319
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:11",
+    "patternIndex": 11,
+    "stopSequence": 3,
+    "stopId": 323
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:11",
+    "patternIndex": 11,
+    "stopSequence": 4,
+    "stopId": 64
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:11",
+    "patternIndex": 11,
+    "stopSequence": 5,
+    "stopId": 325
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:12",
+    "patternIndex": 12,
+    "stopSequence": 1,
+    "stopId": 325
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:12",
+    "patternIndex": 12,
+    "stopSequence": 2,
+    "stopId": 63
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:12",
+    "patternIndex": 12,
+    "stopSequence": 3,
+    "stopId": 320
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 1,
+    "stopId": 318
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 2,
+    "stopId": 319
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 3,
+    "stopId": 321
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 4,
+    "stopId": 303
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 5,
+    "stopId": 301
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 6,
+    "stopId": 299
+  },
+  {
+    "routeId": 27,
+    "patternId": "27:13",
+    "patternIndex": 13,
+    "stopSequence": 7,
+    "stopId": 323
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 1,
+    "stopId": 97
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 2,
+    "stopId": 23
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 3,
+    "stopId": 94
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 4,
+    "stopId": 54
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 5,
+    "stopId": 98
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-12",
+    "patternIndex": -12,
+    "stopSequence": 6,
+    "stopId": 72
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 1,
+    "stopId": 72
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 2,
+    "stopId": 99
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 3,
+    "stopId": 53
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 4,
+    "stopId": 93
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 5,
+    "stopId": 22
+  },
+  {
+    "routeId": 26,
+    "patternId": "26:-11",
+    "patternIndex": -11,
+    "stopSequence": 6,
+    "stopId": 97
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 331
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 329
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:1",
+    "patternIndex": 1,
+    "stopSequence": 3,
+    "stopId": 328
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:1",
+    "patternIndex": 1,
+    "stopSequence": 4,
+    "stopId": 327
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:1",
+    "patternIndex": 1,
+    "stopSequence": 5,
+    "stopId": 72
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:2",
+    "patternIndex": 2,
+    "stopSequence": 1,
+    "stopId": 330
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:2",
+    "patternIndex": 2,
+    "stopSequence": 2,
+    "stopId": 329
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:2",
+    "patternIndex": 2,
+    "stopSequence": 3,
+    "stopId": 328
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:2",
+    "patternIndex": 2,
+    "stopSequence": 4,
+    "stopId": 72
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:3",
+    "patternIndex": 3,
+    "stopSequence": 1,
+    "stopId": 329
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:3",
+    "patternIndex": 3,
+    "stopSequence": 2,
+    "stopId": 328
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:3",
+    "patternIndex": 3,
+    "stopSequence": 3,
+    "stopId": 72
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 72
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 327
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 3,
+    "stopId": 328
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 4,
+    "stopId": 329
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 5,
+    "stopId": 330
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 6,
+    "stopId": 331
+  },
+  {
+    "routeId": 29,
+    "patternId": "29:11",
+    "patternIndex": 11,
+    "stopSequence": 7,
+    "stopId": 332
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:1",
+    "patternIndex": 1,
+    "stopSequence": 1,
+    "stopId": 38
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:1",
+    "patternIndex": 1,
+    "stopSequence": 2,
+    "stopId": 326
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:2",
+    "patternIndex": 2,
+    "stopSequence": 1,
+    "stopId": 92
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:2",
+    "patternIndex": 2,
+    "stopSequence": 2,
+    "stopId": 38
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:2",
+    "patternIndex": 2,
+    "stopSequence": 3,
+    "stopId": 17
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:2",
+    "patternIndex": 2,
+    "stopSequence": 4,
+    "stopId": 326
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:11",
+    "patternIndex": 11,
+    "stopSequence": 1,
+    "stopId": 326
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:11",
+    "patternIndex": 11,
+    "stopSequence": 2,
+    "stopId": 39
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:12",
+    "patternIndex": 12,
+    "stopSequence": 1,
+    "stopId": 326
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:12",
+    "patternIndex": 12,
+    "stopSequence": 2,
+    "stopId": 16
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:12",
+    "patternIndex": 12,
+    "stopSequence": 3,
+    "stopId": 39
+  },
+  {
+    "routeId": 28,
+    "patternId": "28:12",
+    "patternIndex": 12,
+    "stopSequence": 4,
+    "stopId": 92
+  }
+]

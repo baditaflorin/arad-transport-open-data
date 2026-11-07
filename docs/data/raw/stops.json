@@ -1,0 +1,8590 @@
+[
+  {
+    "id": 10,
+    "name": "Artarului",
+    "wheelchairBoarding": 0,
+    "code": "10",
+    "latitude": 46.2127204,
+    "longitude": 21.3204668,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": 12,
+        "routeId": 30,
+        "fromStopId": 10,
+        "toStopId": 96,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Pomenirea",
+    "wheelchairBoarding": 0,
+    "code": "100",
+    "latitude": 46.1688706,
+    "longitude": 21.2915254,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Pomenirea",
+    "wheelchairBoarding": 0,
+    "code": "101",
+    "latitude": 46.16957,
+    "longitude": 21.29206,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Profi Micalaca",
+    "wheelchairBoarding": 0,
+    "code": "102",
+    "latitude": 46.17149,
+    "longitude": 21.35451,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 27,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Radu Negru",
+    "wheelchairBoarding": 0,
+    "code": "103",
+    "latitude": 46.21829,
+    "longitude": 21.28328,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Radu Negru",
+    "wheelchairBoarding": 0,
+    "code": "104",
+    "latitude": 46.2179914,
+    "longitude": 21.2834917,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Randunicii",
+    "wheelchairBoarding": 0,
+    "code": "105",
+    "latitude": 46.1979949,
+    "longitude": 21.3264313,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Randunicii",
+    "wheelchairBoarding": 0,
+    "code": "106",
+    "latitude": 46.1978969,
+    "longitude": 21.3267146,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Rasnov",
+    "wheelchairBoarding": 0,
+    "code": "108",
+    "latitude": 46.19927,
+    "longitude": 21.32357,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "La Cocos",
+    "wheelchairBoarding": 2,
+    "code": "109",
+    "latitude": 46.1693548,
+    "longitude": 21.3782282,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 8,
+        "fromStopId": 109,
+        "toStopId": 6,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 109,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Astra Sector II",
+    "wheelchairBoarding": 0,
+    "code": "11",
+    "latitude": 46.191377,
+    "longitude": 21.3302949,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Renasterii",
+    "wheelchairBoarding": 0,
+    "code": "110",
+    "latitude": 46.17031,
+    "longitude": 21.35952,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 8,
+        "fromStopId": 27,
+        "toStopId": 6,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Renasterii",
+    "wheelchairBoarding": 0,
+    "code": "112",
+    "latitude": 46.17682,
+    "longitude": 21.36007,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Saturn",
+    "wheelchairBoarding": 0,
+    "code": "114",
+    "latitude": 46.20238,
+    "longitude": 21.29811,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Saturn",
+    "wheelchairBoarding": 0,
+    "code": "115",
+    "latitude": 46.2024989,
+    "longitude": 21.2978064,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Sanicolau Mic",
+    "wheelchairBoarding": 0,
+    "code": "116",
+    "latitude": 46.1355445,
+    "longitude": 21.3525452,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Sanicolaul Mic",
+    "wheelchairBoarding": 0,
+    "code": "117",
+    "latitude": 46.1356,
+    "longitude": 21.3526,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Astra Sector II",
+    "wheelchairBoarding": 0,
+    "code": "12",
+    "latitude": 46.191267,
+    "longitude": 21.3300551,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Simion Barnutiu",
+    "wheelchairBoarding": 0,
+    "code": "120",
+    "latitude": 46.186728,
+    "longitude": 21.3100164,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Simion Barnutiu",
+    "wheelchairBoarding": 0,
+    "code": "121",
+    "latitude": 46.18655,
+    "longitude": 21.3098,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Stefan Zarie",
+    "wheelchairBoarding": 0,
+    "code": "122",
+    "latitude": 46.13877,
+    "longitude": 21.34622,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Stefan Zarie",
+    "wheelchairBoarding": 0,
+    "code": "123",
+    "latitude": 46.1386542,
+    "longitude": 21.3460546,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Tarafului",
+    "wheelchairBoarding": 0,
+    "code": "124",
+    "latitude": 46.1483,
+    "longitude": 21.33928,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Toth Arpad",
+    "wheelchairBoarding": 0,
+    "code": "125",
+    "latitude": 46.21164,
+    "longitude": 21.29076,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Toth Arpad",
+    "wheelchairBoarding": 0,
+    "code": "126",
+    "latitude": 46.21191,
+    "longitude": 21.29033,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Trenului",
+    "wheelchairBoarding": 0,
+    "code": "127",
+    "latitude": 46.20659,
+    "longitude": 21.32292,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Tribunul Corches",
+    "wheelchairBoarding": 0,
+    "code": "128",
+    "latitude": 46.21443,
+    "longitude": 21.28799,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Tribunul Corches",
+    "wheelchairBoarding": 0,
+    "code": "129",
+    "latitude": 46.21523,
+    "longitude": 21.28717,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Atrium",
+    "wheelchairBoarding": 0,
+    "code": "13",
+    "latitude": 46.19162,
+    "longitude": 21.31957,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Trotusului",
+    "wheelchairBoarding": 0,
+    "code": "130",
+    "latitude": 46.19335,
+    "longitude": 21.27534,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Trotusului",
+    "wheelchairBoarding": 0,
+    "code": "131",
+    "latitude": 46.19392,
+    "longitude": 21.27528,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "UTA",
+    "wheelchairBoarding": 0,
+    "code": "132",
+    "latitude": 46.19172,
+    "longitude": 21.30892,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "UTA",
+    "wheelchairBoarding": 0,
+    "code": "133",
+    "latitude": 46.19206,
+    "longitude": 21.30985,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Universului",
+    "wheelchairBoarding": 0,
+    "code": "134",
+    "latitude": 46.22135,
+    "longitude": 21.27926,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Universului",
+    "wheelchairBoarding": 0,
+    "code": "135",
+    "latitude": 46.22121,
+    "longitude": 21.27957,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Vantului",
+    "wheelchairBoarding": 0,
+    "code": "138",
+    "latitude": 46.1319613,
+    "longitude": 21.3522236,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Atrium",
+    "wheelchairBoarding": 0,
+    "code": "14",
+    "latitude": 46.1919774,
+    "longitude": 21.3195664,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Viitorului",
+    "wheelchairBoarding": 0,
+    "code": "140",
+    "latitude": 46.20336,
+    "longitude": 21.32299,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Zimbrului",
+    "wheelchairBoarding": 0,
+    "code": "141",
+    "latitude": 46.14813,
+    "longitude": 21.32896,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Posada",
+    "wheelchairBoarding": 0,
+    "code": "142",
+    "latitude": 46.1555028,
+    "longitude": 21.3163307,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Posada",
+    "wheelchairBoarding": 0,
+    "code": "143",
+    "latitude": 46.1553096,
+    "longitude": 21.3158439,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Constitutiei",
+    "wheelchairBoarding": 0,
+    "code": "144",
+    "latitude": 46.1524325,
+    "longitude": 21.3072868,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Constitutiei",
+    "wheelchairBoarding": 0,
+    "code": "145",
+    "latitude": 46.15253,
+    "longitude": 21.30773,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "C. Turzii",
+    "wheelchairBoarding": 0,
+    "code": "146",
+    "latitude": 46.15413,
+    "longitude": 21.30362,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Economu",
+    "wheelchairBoarding": 0,
+    "code": "147",
+    "latitude": 46.15407,
+    "longitude": 21.29859,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Colonistilor 1",
+    "wheelchairBoarding": 0,
+    "code": "148",
+    "latitude": 46.1522977,
+    "longitude": 21.3033385,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Ana Ipatescu 1",
+    "wheelchairBoarding": 1,
+    "code": "149",
+    "latitude": 46.15569,
+    "longitude": 21.32174,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Aurel Crisan",
+    "wheelchairBoarding": 0,
+    "code": "15",
+    "latitude": 46.1716615,
+    "longitude": 21.3676529,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 8,
+        "fromStopId": 109,
+        "toStopId": 6,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Ana Ipatescu 2",
+    "wheelchairBoarding": 1,
+    "code": "150",
+    "latitude": 46.1569229,
+    "longitude": 21.3217938,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Alfa 1",
+    "wheelchairBoarding": 1,
+    "code": "151",
+    "latitude": 46.1666408,
+    "longitude": 21.290388,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Alfa 2",
+    "wheelchairBoarding": 1,
+    "code": "152",
+    "latitude": 46.1659699,
+    "longitude": 21.2912066,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Andrei Saguna 1",
+    "wheelchairBoarding": 1,
+    "code": "153",
+    "latitude": 46.1665895,
+    "longitude": 21.3009679,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Andrei Saguna 2",
+    "wheelchairBoarding": 1,
+    "code": "154",
+    "latitude": 46.1666469,
+    "longitude": 21.3024166,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Aris 1",
+    "wheelchairBoarding": 0,
+    "code": "155",
+    "latitude": 46.1886099,
+    "longitude": 21.3030983,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Aris 2",
+    "wheelchairBoarding": 0,
+    "code": "156",
+    "latitude": 46.1889803,
+    "longitude": 21.3032641,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Astra Sector II 1",
+    "wheelchairBoarding": 0,
+    "code": "157",
+    "latitude": 46.19175,
+    "longitude": 21.33038,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Astra Sector II 2",
+    "wheelchairBoarding": 0,
+    "code": "158",
+    "latitude": 46.1915351,
+    "longitude": 21.3301588,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Atrium 1",
+    "wheelchairBoarding": 1,
+    "code": "159",
+    "latitude": 46.1900242,
+    "longitude": 21.3192778,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Autoservice",
+    "wheelchairBoarding": 0,
+    "code": "16",
+    "latitude": 46.1449447,
+    "longitude": 21.3215095,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 92,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Atrium 2",
+    "wheelchairBoarding": 1,
+    "code": "160",
+    "latitude": 46.190068,
+    "longitude": 21.3186471,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Autoservice 1",
+    "wheelchairBoarding": 1,
+    "code": "161",
+    "latitude": 46.1459849,
+    "longitude": 21.3222023,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Autoservice 2",
+    "wheelchairBoarding": 1,
+    "code": "162",
+    "latitude": 46.1460679,
+    "longitude": 21.3219313,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Baile Termale 1",
+    "wheelchairBoarding": 0,
+    "code": "165",
+    "latitude": 46.20133,
+    "longitude": 21.28372,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Baile Termale 2",
+    "wheelchairBoarding": 0,
+    "code": "166",
+    "latitude": 46.20127,
+    "longitude": 21.28407,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Caius Iacob 1",
+    "wheelchairBoarding": 1,
+    "code": "167",
+    "latitude": 46.1856819,
+    "longitude": 21.3251098,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Caius Iacob 2",
+    "wheelchairBoarding": 1,
+    "code": "168",
+    "latitude": 46.1852,
+    "longitude": 21.32484,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Galleria 1",
+    "wheelchairBoarding": 1,
+    "code": "169",
+    "latitude": 46.2011074,
+    "longitude": 21.2919082,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Autoservice",
+    "wheelchairBoarding": 0,
+    "code": "17",
+    "latitude": 46.144871,
+    "longitude": 21.3213826,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 28,
+        "fromStopId": 92,
+        "toStopId": 326,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Galleria 2",
+    "wheelchairBoarding": 1,
+    "code": "170",
+    "latitude": 46.2009923,
+    "longitude": 21.2921168,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Galleria 3",
+    "wheelchairBoarding": 0,
+    "code": "171",
+    "latitude": 46.2016364,
+    "longitude": 21.2880814,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Galleria 4",
+    "wheelchairBoarding": 0,
+    "code": "172",
+    "latitude": 46.2016228,
+    "longitude": 21.2881797,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Biserica Sarbeasca 1",
+    "wheelchairBoarding": 0,
+    "code": "175",
+    "latitude": 46.16709,
+    "longitude": 21.31078,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Biserica Sarbeasca 2",
+    "wheelchairBoarding": 1,
+    "code": "176",
+    "latitude": 46.16682,
+    "longitude": 21.31097,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Bogdan Voievod 1",
+    "wheelchairBoarding": 0,
+    "code": "177",
+    "latitude": 46.20542,
+    "longitude": 21.28015,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Caraimanul 1",
+    "wheelchairBoarding": 1,
+    "code": "181",
+    "latitude": 46.15174,
+    "longitude": 21.32175,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Caraimanul 2",
+    "wheelchairBoarding": 1,
+    "code": "182",
+    "latitude": 46.1529535,
+    "longitude": 21.3218637,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Clujului 1",
+    "wheelchairBoarding": 1,
+    "code": "183",
+    "latitude": 46.16631,
+    "longitude": 21.29577,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Clujului 2",
+    "wheelchairBoarding": 1,
+    "code": "184",
+    "latitude": 46.1662018,
+    "longitude": 21.2948905,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Confectii 1",
+    "wheelchairBoarding": 1,
+    "code": "185",
+    "latitude": 46.18015,
+    "longitude": 21.29665,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Confectii 2",
+    "wheelchairBoarding": 1,
+    "code": "186",
+    "latitude": 46.180322,
+    "longitude": 21.2966949,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Cpt. Ignat 1",
+    "wheelchairBoarding": 1,
+    "code": "187",
+    "latitude": 46.1755837,
+    "longitude": 21.2944275,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Cpt. Ignat 2",
+    "wheelchairBoarding": 1,
+    "code": "188",
+    "latitude": 46.1744858,
+    "longitude": 21.293789,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Piata Obor-fac.",
+    "wheelchairBoarding": 1,
+    "code": "189",
+    "latitude": 46.1710802,
+    "longitude": 21.2925869,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Piata Obor-fac.",
+    "wheelchairBoarding": 1,
+    "code": "190",
+    "latitude": 46.1735689,
+    "longitude": 21.2936743,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Crisan 1",
+    "wheelchairBoarding": 1,
+    "code": "191",
+    "latitude": 46.1787369,
+    "longitude": 21.319911,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Crisan 2",
+    "wheelchairBoarding": 1,
+    "code": "192",
+    "latitude": 46.1782254,
+    "longitude": 21.3200712,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Electrometal 1",
+    "wheelchairBoarding": 1,
+    "code": "193",
+    "latitude": 46.1951649,
+    "longitude": 21.3008617,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Electrometal 2",
+    "wheelchairBoarding": 1,
+    "code": "194",
+    "latitude": 46.1945845,
+    "longitude": 21.3019916,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Fat Frumos 2",
+    "wheelchairBoarding": 1,
+    "code": "196",
+    "latitude": 46.2028832,
+    "longitude": 21.2916746,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Fortuna 1",
+    "wheelchairBoarding": 1,
+    "code": "197",
+    "latitude": 46.1999712,
+    "longitude": 21.2941177,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Fortuna 2",
+    "wheelchairBoarding": 1,
+    "code": "198",
+    "latitude": 46.1990342,
+    "longitude": 21.2954894,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Gara Aradul Nou 1",
+    "wheelchairBoarding": 1,
+    "code": "199",
+    "latitude": 46.1449537,
+    "longitude": 21.3344783,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bagdazar",
+    "wheelchairBoarding": 0,
+    "code": "20",
+    "latitude": 46.1410635,
+    "longitude": 21.3157035,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Gara Aradul Nou 2",
+    "wheelchairBoarding": 1,
+    "code": "200",
+    "latitude": 46.1447855,
+    "longitude": 21.3343015,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Gara CFR 1",
+    "wheelchairBoarding": 1,
+    "code": "201",
+    "latitude": 46.1888827,
+    "longitude": 21.3244167,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Gara CFR 2",
+    "wheelchairBoarding": 1,
+    "code": "202",
+    "latitude": 46.1885949,
+    "longitude": 21.3248306,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Gorunului 1",
+    "wheelchairBoarding": 0,
+    "code": "203",
+    "latitude": 46.195289,
+    "longitude": 21.3341308,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Gorunului 2",
+    "wheelchairBoarding": 0,
+    "code": "204",
+    "latitude": 46.1952166,
+    "longitude": 21.3340221,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Gradinita 1",
+    "wheelchairBoarding": 0,
+    "code": "205",
+    "latitude": 46.1711642,
+    "longitude": 21.3580527,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Gradinita 2",
+    "wheelchairBoarding": 0,
+    "code": "206",
+    "latitude": 46.1712923,
+    "longitude": 21.3581846,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Hodos 1",
+    "wheelchairBoarding": 1,
+    "code": "209",
+    "latitude": 46.1669013,
+    "longitude": 21.3063005,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Bagdazar",
+    "wheelchairBoarding": 0,
+    "code": "21",
+    "latitude": 46.1411663,
+    "longitude": 21.3149548,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Hodos 2",
+    "wheelchairBoarding": 1,
+    "code": "210",
+    "latitude": 46.16681,
+    "longitude": 21.30586,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Miorita 1",
+    "wheelchairBoarding": 0,
+    "code": "215",
+    "latitude": 46.17905,
+    "longitude": 21.34916,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Orologerie 1",
+    "wheelchairBoarding": 0,
+    "code": "217",
+    "latitude": 46.1847889,
+    "longitude": 21.3001852,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Orologerie 2",
+    "wheelchairBoarding": 0,
+    "code": "218",
+    "latitude": 46.18498,
+    "longitude": 21.30023,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Pasunii 1",
+    "wheelchairBoarding": 0,
+    "code": "219",
+    "latitude": 46.17745,
+    "longitude": 21.35619,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Banu Maracine",
+    "wheelchairBoarding": 0,
+    "code": "22",
+    "latitude": 46.1850681,
+    "longitude": 21.3161556,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "name": "Pasunii 2",
+    "wheelchairBoarding": 0,
+    "code": "220",
+    "latitude": 46.1776661,
+    "longitude": 21.355909,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Piata Auto 1",
+    "wheelchairBoarding": 0,
+    "code": "221",
+    "latitude": 46.2020728,
+    "longitude": 21.2609302,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": "Piata Auto 2",
+    "wheelchairBoarding": 0,
+    "code": "222",
+    "latitude": 46.2020406,
+    "longitude": 21.2605404,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Piata Gai 1",
+    "wheelchairBoarding": 0,
+    "code": "223",
+    "latitude": 46.21018,
+    "longitude": 21.2777,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Piata Gai 2",
+    "wheelchairBoarding": 0,
+    "code": "224",
+    "latitude": 46.20948,
+    "longitude": 21.27803,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Piata Romana 1",
+    "wheelchairBoarding": 1,
+    "code": "225",
+    "latitude": 46.16742,
+    "longitude": 21.32003,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Piata Romana 2",
+    "wheelchairBoarding": 1,
+    "code": "226",
+    "latitude": 46.167967,
+    "longitude": 21.3193971,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Piata Romana 3",
+    "wheelchairBoarding": 0,
+    "code": "227",
+    "latitude": 46.16636,
+    "longitude": 21.31902,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Piata UTA 4",
+    "wheelchairBoarding": 1,
+    "code": "228",
+    "latitude": 46.19214,
+    "longitude": 21.30841,
+    "patterns": [
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Piata UTA 2",
+    "wheelchairBoarding": 1,
+    "code": "229",
+    "latitude": 46.19194,
+    "longitude": 21.30917,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Banu Maracine",
+    "wheelchairBoarding": 0,
+    "code": "23",
+    "latitude": 46.1852103,
+    "longitude": 21.3171485,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Piata UTA 1",
+    "wheelchairBoarding": 1,
+    "code": "230",
+    "latitude": 46.19273,
+    "longitude": 21.30663,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Piata UTA 3",
+    "wheelchairBoarding": 1,
+    "code": "231",
+    "latitude": 46.192522,
+    "longitude": 21.3068727,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Piata UTA 5",
+    "wheelchairBoarding": 1,
+    "code": "232",
+    "latitude": 46.1924559,
+    "longitude": 21.3072161,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Platforma Vest",
+    "wheelchairBoarding": 0,
+    "code": "233",
+    "latitude": 46.20504,
+    "longitude": 21.25546,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Podgoria 2",
+    "wheelchairBoarding": 1,
+    "code": "234",
+    "latitude": 46.18205,
+    "longitude": 21.32266,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Podgoria 3",
+    "wheelchairBoarding": 1,
+    "code": "235",
+    "latitude": 46.1838,
+    "longitude": 21.32437,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Podgoria 6",
+    "wheelchairBoarding": 1,
+    "code": "236",
+    "latitude": 46.18239,
+    "longitude": 21.32503,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Pomenirea 1",
+    "wheelchairBoarding": 1,
+    "code": "237",
+    "latitude": 46.1690014,
+    "longitude": 21.2915312,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Pomenirea 2",
+    "wheelchairBoarding": 1,
+    "code": "238",
+    "latitude": 46.1694744,
+    "longitude": 21.2917349,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Primariei 1",
+    "wheelchairBoarding": 1,
+    "code": "239",
+    "latitude": 46.175286,
+    "longitude": 21.3178229,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Bela Bartok",
+    "wheelchairBoarding": 0,
+    "code": "24",
+    "latitude": 46.1797041,
+    "longitude": 21.3081934,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Primariei 2",
+    "wheelchairBoarding": 1,
+    "code": "240",
+    "latitude": 46.1764041,
+    "longitude": 21.3187831,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Paul Chinezul 1",
+    "wheelchairBoarding": 0,
+    "code": "241",
+    "latitude": 46.16693,
+    "longitude": 21.31389,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Paul Chinezul 2",
+    "wheelchairBoarding": 0,
+    "code": "242",
+    "latitude": 46.16589,
+    "longitude": 21.31717,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 226,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "name": "RAR 1",
+    "wheelchairBoarding": 0,
+    "code": "243",
+    "latitude": 46.2013801,
+    "longitude": 21.2764805,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "name": "RAR 2",
+    "wheelchairBoarding": 0,
+    "code": "244",
+    "latitude": 46.2013449,
+    "longitude": 21.2762163,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Renasterii 3",
+    "wheelchairBoarding": 0,
+    "code": "245",
+    "latitude": 46.17576,
+    "longitude": 21.36032,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Renasterii 1",
+    "wheelchairBoarding": 0,
+    "code": "247",
+    "latitude": 46.17668,
+    "longitude": 21.36008,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Romanilor 1",
+    "wheelchairBoarding": 1,
+    "code": "249",
+    "latitude": 46.16583,
+    "longitude": 21.32175,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bela Bartok",
+    "wheelchairBoarding": 0,
+    "code": "25",
+    "latitude": 46.1797184,
+    "longitude": 21.3083556,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Romanilor 2",
+    "wheelchairBoarding": 1,
+    "code": "250",
+    "latitude": 46.16617,
+    "longitude": 21.32165,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Scoala 1",
+    "wheelchairBoarding": 0,
+    "code": "251",
+    "latitude": 46.20297,
+    "longitude": 21.2818,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Sere 1",
+    "wheelchairBoarding": 0,
+    "code": "253",
+    "latitude": 46.20308,
+    "longitude": 21.34283,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Sere 2",
+    "wheelchairBoarding": 0,
+    "code": "254",
+    "latitude": 46.20287,
+    "longitude": 21.34243,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Stan Dragul 1",
+    "wheelchairBoarding": 0,
+    "code": "255",
+    "latitude": 46.14515,
+    "longitude": 21.32667,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Stan Dragul 2",
+    "wheelchairBoarding": 0,
+    "code": "256",
+    "latitude": 46.1453222,
+    "longitude": 21.3262489,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Teatru 1",
+    "wheelchairBoarding": 1,
+    "code": "257",
+    "latitude": 46.17222,
+    "longitude": 21.31594,
+    "patterns": [
+      {
+        "index": -15,
+        "routeId": 11,
+        "fromStopId": 196,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 227,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 14,
+        "fromStopId": 224,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 11,
+        "fromStopId": 229,
+        "toStopId": 225,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Teatru 2",
+    "wheelchairBoarding": 1,
+    "code": "258",
+    "latitude": 46.17267,
+    "longitude": 21.3164,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Traian 1",
+    "wheelchairBoarding": 1,
+    "code": "259",
+    "latitude": 46.162,
+    "longitude": 21.32322,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 13,
+        "fromStopId": 229,
+        "toStopId": 199,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 13,
+        "fromStopId": 196,
+        "toStopId": 199,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Billa",
+    "wheelchairBoarding": 0,
+    "code": "26",
+    "latitude": 46.1741057,
+    "longitude": 21.3480444,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 8,
+        "fromStopId": 27,
+        "toStopId": 6,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Traian 2",
+    "wheelchairBoarding": 1,
+    "code": "260",
+    "latitude": 46.1623614,
+    "longitude": 21.3231564,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "name": "UM 1",
+    "wheelchairBoarding": 0,
+    "code": "261",
+    "latitude": 46.2013983,
+    "longitude": 21.2688529,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 12,
+        "fromStopId": 233,
+        "toStopId": 196,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "name": "UM 2",
+    "wheelchairBoarding": 0,
+    "code": "262",
+    "latitude": 46.2014502,
+    "longitude": 21.2685149,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 12,
+        "fromStopId": 196,
+        "toStopId": 233,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "name": "Uzina Electrica 1",
+    "wheelchairBoarding": 0,
+    "code": "265",
+    "latitude": 46.1811289,
+    "longitude": 21.3335995,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Vama Gradiste 1",
+    "wheelchairBoarding": 0,
+    "code": "267",
+    "latitude": 46.19964,
+    "longitude": 21.33899,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 21,
+        "fromStopId": 196,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 21,
+        "fromStopId": 229,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Vama Gradiste 2",
+    "wheelchairBoarding": 0,
+    "code": "268",
+    "latitude": 46.19952,
+    "longitude": 21.33878,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 23,
+        "fromStopId": 254,
+        "toStopId": 225,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "name": "Vama Micalaca 1",
+    "wheelchairBoarding": 0,
+    "code": "269",
+    "latitude": 46.17545,
+    "longitude": 21.36573,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Billa",
+    "wheelchairBoarding": 0,
+    "code": "27",
+    "latitude": 46.1730316,
+    "longitude": 21.3488845,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 27,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 8,
+        "fromStopId": 27,
+        "toStopId": 6,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "name": "Vama Micalaca 2",
+    "wheelchairBoarding": 0,
+    "code": "270",
+    "latitude": 46.17562,
+    "longitude": 21.36519,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Voinicilor 2",
+    "wheelchairBoarding": 0,
+    "code": "272",
+    "latitude": 46.1713451,
+    "longitude": 21.3547397,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "name": "Cicir 1",
+    "wheelchairBoarding": 0,
+    "code": "274",
+    "latitude": 46.14602,
+    "longitude": 21.48073,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Cicir 2",
+    "wheelchairBoarding": 0,
+    "code": "275",
+    "latitude": 46.1459159,
+    "longitude": 21.4806817,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "name": "DN 7 1",
+    "wheelchairBoarding": 0,
+    "code": "278",
+    "latitude": 46.1572624,
+    "longitude": 21.4273993,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "name": "DN 7 2",
+    "wheelchairBoarding": 0,
+    "code": "279",
+    "latitude": 46.1573392,
+    "longitude": 21.4272402,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Brancoveanu",
+    "wheelchairBoarding": 0,
+    "code": "28",
+    "latitude": 46.1901697,
+    "longitude": 21.2980044,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Mandruloc 1",
+    "wheelchairBoarding": 0,
+    "code": "280",
+    "latitude": 46.14816,
+    "longitude": 21.46546,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "name": "Mandruloc 2",
+    "wheelchairBoarding": 0,
+    "code": "281",
+    "latitude": 46.1480039,
+    "longitude": 21.4653742,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "name": "Sambateni 1",
+    "wheelchairBoarding": 0,
+    "code": "282",
+    "latitude": 46.1410673,
+    "longitude": 21.5241806,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Sambateni 2",
+    "wheelchairBoarding": 0,
+    "code": "283",
+    "latitude": 46.1409819,
+    "longitude": 21.5241377,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Ghioroc",
+    "wheelchairBoarding": 2,
+    "code": "285",
+    "latitude": 46.15645,
+    "longitude": 21.59367,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Brancoveanu",
+    "wheelchairBoarding": 0,
+    "code": "29",
+    "latitude": 46.1901308,
+    "longitude": 21.2980702,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "name": "Vladimirescu Moara 1",
+    "wheelchairBoarding": 0,
+    "code": "291",
+    "latitude": 46.1633684,
+    "longitude": 21.4053622,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Vladimirescu Moara 2",
+    "wheelchairBoarding": 0,
+    "code": "292",
+    "latitude": 46.16348,
+    "longitude": 21.40517,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Vladimirescu Politie",
+    "wheelchairBoarding": 0,
+    "code": "293",
+    "latitude": 46.16565,
+    "longitude": 21.39819,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Vladimirescu Politie",
+    "wheelchairBoarding": 0,
+    "code": "294",
+    "latitude": 46.16584,
+    "longitude": 21.39764,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Sanpaolo",
+    "wheelchairBoarding": 0,
+    "code": "295",
+    "latitude": 46.25272,
+    "longitude": 21.261801,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Sanpaolo",
+    "wheelchairBoarding": 0,
+    "code": "296",
+    "latitude": 46.252702,
+    "longitude": 21.261921,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Selgros",
+    "wheelchairBoarding": 0,
+    "code": "297",
+    "latitude": 46.172554,
+    "longitude": 21.372656,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 8,
+        "fromStopId": 109,
+        "toStopId": 6,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 109,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Concordiei",
+    "wheelchairBoarding": 0,
+    "code": "298",
+    "latitude": 46.20481,
+    "longitude": 21.26946,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Caltunas",
+    "wheelchairBoarding": 0,
+    "code": "299",
+    "latitude": 46.2113,
+    "longitude": 21.27707,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Abatorului",
+    "wheelchairBoarding": 0,
+    "code": "3",
+    "latitude": 46.18214,
+    "longitude": 21.29725,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Brancusi",
+    "wheelchairBoarding": 0,
+    "code": "30",
+    "latitude": 46.18927,
+    "longitude": 21.2922,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Caltunas",
+    "wheelchairBoarding": 0,
+    "code": "300",
+    "latitude": 46.21093,
+    "longitude": 21.27739,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Anton Pan",
+    "wheelchairBoarding": 0,
+    "code": "301",
+    "latitude": 46.21397,
+    "longitude": 21.27531,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Anton Pan",
+    "wheelchairBoarding": 0,
+    "code": "302",
+    "latitude": 46.21413,
+    "longitude": 21.27532,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Faurilor",
+    "wheelchairBoarding": 0,
+    "code": "303",
+    "latitude": 46.2128,
+    "longitude": 21.27112,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Faurilor",
+    "wheelchairBoarding": 0,
+    "code": "304",
+    "latitude": 46.21295,
+    "longitude": 21.27107,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Manastirea Gal",
+    "wheelchairBoarding": 0,
+    "code": "305",
+    "latitude": 46.21676,
+    "longitude": 21.27429,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Manastirea Gal",
+    "wheelchairBoarding": 0,
+    "code": "306",
+    "latitude": 46.21674,
+    "longitude": 21.27449,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Izvor",
+    "wheelchairBoarding": 0,
+    "code": "307",
+    "latitude": 46.21321,
+    "longitude": 21.28283,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "name": "Izvor",
+    "wheelchairBoarding": 0,
+    "code": "308",
+    "latitude": 46.21307,
+    "longitude": 21.28281,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Biserica Sarbeasca",
+    "wheelchairBoarding": 0,
+    "code": "309",
+    "latitude": 46.1669872,
+    "longitude": 21.3109968,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Brancusi",
+    "wheelchairBoarding": 0,
+    "code": "31",
+    "latitude": 46.1891697,
+    "longitude": 21.2920551,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "name": "I.C. Bratianu",
+    "wheelchairBoarding": 1,
+    "code": "311",
+    "latitude": 46.1806468,
+    "longitude": 21.3219291,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 14,
+        "fromStopId": 226,
+        "toStopId": 223,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 23,
+        "fromStopId": 226,
+        "toStopId": 253,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 228,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "name": "Bujac1",
+    "wheelchairBoarding": 0,
+    "code": "316",
+    "latitude": 46.1967263,
+    "longitude": 21.2760629,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Vantului1",
+    "wheelchairBoarding": 2,
+    "code": "317",
+    "latitude": 46.1317606,
+    "longitude": 21.3520173,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Santoma",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1882782,
+    "longitude": 21.190902,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Ceala",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2037039,
+    "longitude": 21.2373414,
+    "patterns": [
+      {
+        "index": 2,
+        "routeId": 27,
+        "fromStopId": 319,
+        "toStopId": 325,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 27,
+        "fromStopId": 324,
+        "toStopId": 325,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Ceala",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2038181,
+    "longitude": 21.2364604,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      },
+      {
+        "index": 12,
+        "routeId": 27,
+        "fromStopId": 325,
+        "toStopId": 320,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Noua",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2082204,
+    "longitude": 21.2676219,
+    "patterns": [
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Noua",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2081715,
+    "longitude": 21.2675464,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "name": "ScGimFN",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2032015,
+    "longitude": 21.2839637,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 27,
+        "fromStopId": 323,
+        "toStopId": 318,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 27,
+        "fromStopId": 324,
+        "toStopId": 325,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 27,
+        "fromStopId": 318,
+        "toStopId": 323,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Ferma Plopi",
+    "wheelchairBoarding": 0,
+    "latitude": 46.2035795,
+    "longitude": 21.2201536,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 27,
+        "fromStopId": 324,
+        "toStopId": 325,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "name": "LicTehnCons",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1886999,
+    "longitude": 21.3018855,
+    "patterns": [
+      {
+        "index": 2,
+        "routeId": 27,
+        "fromStopId": 319,
+        "toStopId": 325,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 27,
+        "fromStopId": 324,
+        "toStopId": 325,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 27,
+        "fromStopId": 325,
+        "toStopId": 320,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "name": "IAS ArNOU",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1185805,
+    "longitude": 21.3015632,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 28,
+        "fromStopId": 38,
+        "toStopId": 326,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 28,
+        "fromStopId": 92,
+        "toStopId": 326,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 39,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 92,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Marului",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1601172,
+    "longitude": 21.2831682,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 29,
+        "fromStopId": 331,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "name": "SG IM Alfa",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1663015,
+    "longitude": 21.2931724,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 29,
+        "fromStopId": 331,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 29,
+        "fromStopId": 330,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 3,
+        "routeId": 29,
+        "fromStopId": 329,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "name": "SG IM OITUZ",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1738086,
+    "longitude": 21.3016585,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 29,
+        "fromStopId": 331,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 29,
+        "fromStopId": 330,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 3,
+        "routeId": 29,
+        "fromStopId": 329,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Bujac",
+    "wheelchairBoarding": 0,
+    "code": "33",
+    "latitude": 46.1966027,
+    "longitude": 21.275794,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "name": "GN24 I Rebreanu",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1779643,
+    "longitude": 21.305558,
+    "patterns": [
+      {
+        "index": 2,
+        "routeId": 29,
+        "fromStopId": 330,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "name": "SG IM Ciorograiu",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1798949,
+    "longitude": 21.3001664,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 29,
+        "fromStopId": 331,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "name": "SG AI V Conta",
+    "wheelchairBoarding": 0,
+    "latitude": 46.1922279,
+    "longitude": 21.3033632,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Raza de Soare",
+    "wheelchairBoarding": 0,
+    "latitude": 46.15933,
+    "longitude": 21.3311138,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 31,
+        "fromStopId": 335,
+        "toStopId": 64,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 31,
+        "fromStopId": 64,
+        "toStopId": 335,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Bisericii",
+    "wheelchairBoarding": 0,
+    "code": "336",
+    "latitude": 46.2015621,
+    "longitude": 21.3274469,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Papadiei",
+    "wheelchairBoarding": 0,
+    "code": "337",
+    "latitude": 46.2067554,
+    "longitude": 21.3266096,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Bumbacului",
+    "wheelchairBoarding": 0,
+    "code": "34",
+    "latitude": 46.19471,
+    "longitude": 21.30735,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "name": "Jiului",
+    "wheelchairBoarding": 0,
+    "code": "346",
+    "latitude": 46.2061604,
+    "longitude": 21.2939353,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Jiului",
+    "wheelchairBoarding": 0,
+    "code": "347",
+    "latitude": 46.2061596,
+    "longitude": 21.2938262,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "name": "I.B. Deleanu",
+    "wheelchairBoarding": 0,
+    "code": "349",
+    "latitude": 46.194429,
+    "longitude": 21.3353983,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Bumbacului",
+    "wheelchairBoarding": 0,
+    "code": "35",
+    "latitude": 46.1952446,
+    "longitude": 21.3063771,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Mierlei",
+    "wheelchairBoarding": 0,
+    "code": "350",
+    "latitude": 46.1922615,
+    "longitude": 21.3394856,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Orient",
+    "wheelchairBoarding": 0,
+    "code": "351",
+    "latitude": 46.1887362,
+    "longitude": 21.3425469,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Gelu",
+    "wheelchairBoarding": 0,
+    "code": "352",
+    "latitude": 46.1861436,
+    "longitude": 21.3405215,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Visinului",
+    "wheelchairBoarding": 0,
+    "code": "353",
+    "latitude": 46.1877212,
+    "longitude": 21.3375438,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Razboieni",
+    "wheelchairBoarding": 0,
+    "code": "354",
+    "latitude": 46.1896805,
+    "longitude": 21.3354908,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Andrei Saguna",
+    "wheelchairBoarding": 0,
+    "code": "356",
+    "latitude": 46.1661171,
+    "longitude": 21.3015816,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Andrei Saguna",
+    "wheelchairBoarding": 0,
+    "code": "357",
+    "latitude": 46.1660147,
+    "longitude": 21.3015769,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "name": "Economu",
+    "wheelchairBoarding": 0,
+    "code": "358",
+    "latitude": 46.1538232,
+    "longitude": 21.2986533,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Colonistilor",
+    "wheelchairBoarding": 0,
+    "code": "359",
+    "latitude": 46.1525204,
+    "longitude": 21.302337,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Calarasilor",
+    "wheelchairBoarding": 0,
+    "code": "36",
+    "latitude": 46.198891,
+    "longitude": 21.3009942,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "name": "C-tin Ticu Dumitrescu",
+    "wheelchairBoarding": 0,
+    "code": "360",
+    "latitude": 46.1480047,
+    "longitude": 21.3076314,
+    "patterns": [
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "name": "C-tin Ticu Dumitrescu",
+    "wheelchairBoarding": 0,
+    "code": "361",
+    "latitude": 46.1480037,
+    "longitude": 21.3077048,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "name": "Uzina Electrica",
+    "wheelchairBoarding": 0,
+    "code": "362",
+    "latitude": 46.1811175,
+    "longitude": 21.3329601,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "name": "Maximilian",
+    "wheelchairBoarding": 0,
+    "code": "363",
+    "latitude": 46.1803664,
+    "longitude": 21.3443859,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Maximilian",
+    "wheelchairBoarding": 0,
+    "code": "364",
+    "latitude": 46.1801872,
+    "longitude": 21.3442916,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "name": "Fat Frumos 1",
+    "wheelchairBoarding": 0,
+    "code": "365",
+    "latitude": 46.2034878,
+    "longitude": 21.292607,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 11,
+        "fromStopId": 226,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 21,
+        "fromStopId": 254,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 13,
+        "fromStopId": 200,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 15,
+        "fromStopId": 227,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 15,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 25,
+        "fromStopId": 196,
+        "toStopId": 365,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "name": "Vladimirescu Via Carmina",
+    "wheelchairBoarding": 2,
+    "code": "366",
+    "latitude": 46.1663251,
+    "longitude": 21.3898206,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 39,
+        "fromStopId": 236,
+        "toStopId": 285,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "name": "Gradina Postei",
+    "wheelchairBoarding": 2,
+    "code": "367",
+    "latitude": 46.1860485,
+    "longitude": 21.3497024,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "name": "L.N.I.",
+    "wheelchairBoarding": 2,
+    "code": "368",
+    "latitude": 46.1819882,
+    "longitude": 21.3284804,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Calarasilor",
+    "wheelchairBoarding": 0,
+    "code": "37",
+    "latitude": 46.1987451,
+    "longitude": 21.3010451,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Caraiman",
+    "wheelchairBoarding": 0,
+    "code": "38",
+    "latitude": 46.1540229,
+    "longitude": 21.3217396,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 28,
+        "fromStopId": 38,
+        "toStopId": 326,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 28,
+        "fromStopId": 92,
+        "toStopId": 326,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Caraiman",
+    "wheelchairBoarding": 0,
+    "code": "39",
+    "latitude": 46.1536534,
+    "longitude": 21.3220045,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 9,
+        "fromStopId": 39,
+        "toStopId": 38,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 39,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 92,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Abatorului",
+    "wheelchairBoarding": 0,
+    "code": "4",
+    "latitude": 46.1819546,
+    "longitude": 21.2965929,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Cedrului",
+    "wheelchairBoarding": 0,
+    "code": "40",
+    "latitude": 46.20736,
+    "longitude": 21.3204812,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Cedrului",
+    "wheelchairBoarding": 0,
+    "code": "41",
+    "latitude": 46.2073562,
+    "longitude": 21.3206215,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Cibinului",
+    "wheelchairBoarding": 0,
+    "code": "44",
+    "latitude": 46.1546844,
+    "longitude": 21.3265576,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Clopotului",
+    "wheelchairBoarding": 0,
+    "code": "45",
+    "latitude": 46.14601,
+    "longitude": 21.33918,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Clopotului",
+    "wheelchairBoarding": 0,
+    "code": "46",
+    "latitude": 46.14625,
+    "longitude": 21.3391517,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Confectii",
+    "wheelchairBoarding": 0,
+    "code": "47",
+    "latitude": 46.1800329,
+    "longitude": 21.2971956,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Confectii",
+    "wheelchairBoarding": 0,
+    "code": "48",
+    "latitude": 46.1800889,
+    "longitude": 21.2972147,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Cpt. Ignat",
+    "wheelchairBoarding": 0,
+    "code": "49",
+    "latitude": 46.1745907,
+    "longitude": 21.2938889,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Cpt. Ignat",
+    "wheelchairBoarding": 0,
+    "code": "50",
+    "latitude": 46.17481,
+    "longitude": 21.29426,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Eminescu",
+    "wheelchairBoarding": 0,
+    "code": "53",
+    "latitude": 46.17199,
+    "longitude": 21.30473,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Eminescu",
+    "wheelchairBoarding": 0,
+    "code": "54",
+    "latitude": 46.17145,
+    "longitude": 21.30429,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Euromedica",
+    "wheelchairBoarding": 0,
+    "code": "55",
+    "latitude": 46.17627,
+    "longitude": 21.34624,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Euromedica",
+    "wheelchairBoarding": 0,
+    "code": "56",
+    "latitude": 46.1770349,
+    "longitude": 21.3454529,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Faleza Sud",
+    "wheelchairBoarding": 0,
+    "code": "57",
+    "latitude": 46.1638157,
+    "longitude": 21.2906139,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Felix",
+    "wheelchairBoarding": 0,
+    "code": "58",
+    "latitude": 46.16902,
+    "longitude": 21.35187,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 8,
+        "fromStopId": 27,
+        "toStopId": 6,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Feroneria",
+    "wheelchairBoarding": 0,
+    "code": "59",
+    "latitude": 46.1989451,
+    "longitude": 21.3201664,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ANL",
+    "wheelchairBoarding": 0,
+    "code": "6",
+    "latitude": 46.16788,
+    "longitude": 21.36657,
+    "patterns": [
+      {
+        "index": -14,
+        "routeId": 8,
+        "fromStopId": 109,
+        "toStopId": 6,
+        "direction": -1
+      },
+      {
+        "index": -13,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 109,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 8,
+        "fromStopId": 6,
+        "toStopId": 27,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 8,
+        "fromStopId": 27,
+        "toStopId": 6,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Feroneria",
+    "wheelchairBoarding": 0,
+    "code": "60",
+    "latitude": 46.19927,
+    "longitude": 21.32016,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Flacara",
+    "wheelchairBoarding": 0,
+    "code": "61",
+    "latitude": 46.14196,
+    "longitude": 21.33838,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Flacara",
+    "wheelchairBoarding": 0,
+    "code": "62",
+    "latitude": 46.14198,
+    "longitude": 21.33856,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Fortuna",
+    "wheelchairBoarding": 0,
+    "code": "63",
+    "latitude": 46.2003,
+    "longitude": 21.29375,
+    "patterns": [
+      {
+        "index": 12,
+        "routeId": 27,
+        "fromStopId": 325,
+        "toStopId": 320,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Fortuna",
+    "wheelchairBoarding": 0,
+    "code": "64",
+    "latitude": 46.1984687,
+    "longitude": 21.2960871,
+    "patterns": [
+      {
+        "index": 1,
+        "routeId": 31,
+        "fromStopId": 335,
+        "toStopId": 64,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 27,
+        "fromStopId": 319,
+        "toStopId": 325,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 27,
+        "fromStopId": 324,
+        "toStopId": 325,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 31,
+        "fromStopId": 64,
+        "toStopId": 335,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Gara Aradului Nou",
+    "wheelchairBoarding": 0,
+    "code": "66",
+    "latitude": 46.14532,
+    "longitude": 21.33438,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 30,
+        "fromStopId": 96,
+        "toStopId": 66,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Gara Aradului Nou",
+    "wheelchairBoarding": 0,
+    "code": "67",
+    "latitude": 46.14532,
+    "longitude": 21.33455,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Gara CFR",
+    "wheelchairBoarding": 0,
+    "code": "68",
+    "latitude": 46.18725,
+    "longitude": 21.32582,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Gara CFR",
+    "wheelchairBoarding": 0,
+    "code": "69",
+    "latitude": 46.1885052,
+    "longitude": 21.3246657,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Armoniei",
+    "wheelchairBoarding": 0,
+    "code": "7",
+    "latitude": 46.1412136,
+    "longitude": 21.3116855,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Gorunului",
+    "wheelchairBoarding": 0,
+    "code": "70",
+    "latitude": 46.1960657,
+    "longitude": 21.3329644,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Gorunului",
+    "wheelchairBoarding": 0,
+    "code": "71",
+    "latitude": 46.1960566,
+    "longitude": 21.3331268,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "IAS Muresul",
+    "wheelchairBoarding": 0,
+    "code": "72",
+    "latitude": 46.17256,
+    "longitude": 21.238,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 29,
+        "fromStopId": 331,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 29,
+        "fromStopId": 330,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 3,
+        "routeId": 29,
+        "fromStopId": 329,
+        "toStopId": 72,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 29,
+        "fromStopId": 72,
+        "toStopId": 332,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Independentei",
+    "wheelchairBoarding": 0,
+    "code": "73",
+    "latitude": 46.19265,
+    "longitude": 21.288,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Independentei",
+    "wheelchairBoarding": 0,
+    "code": "74",
+    "latitude": 46.1928454,
+    "longitude": 21.2867715,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Infanteriei",
+    "wheelchairBoarding": 0,
+    "code": "75",
+    "latitude": 46.16118,
+    "longitude": 21.32993,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Infanteriei",
+    "wheelchairBoarding": 0,
+    "code": "76",
+    "latitude": 46.16161,
+    "longitude": 21.32999,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ion Ratiu",
+    "wheelchairBoarding": 0,
+    "code": "77",
+    "latitude": 46.18084,
+    "longitude": 21.30377,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Ion Ratiu",
+    "wheelchairBoarding": 0,
+    "code": "78",
+    "latitude": 46.18074,
+    "longitude": 21.30416,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Armoniei",
+    "wheelchairBoarding": 0,
+    "code": "8",
+    "latitude": 46.1411137,
+    "longitude": 21.3128563,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Lacului",
+    "wheelchairBoarding": 0,
+    "code": "80",
+    "latitude": 46.18324,
+    "longitude": 21.32272,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Liviu Rebreanu",
+    "wheelchairBoarding": 0,
+    "code": "81",
+    "latitude": 46.17854,
+    "longitude": 21.3034,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Liviu Rebreanu",
+    "wheelchairBoarding": 0,
+    "code": "82",
+    "latitude": 46.1783394,
+    "longitude": 21.3042003,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Maranata",
+    "wheelchairBoarding": 0,
+    "code": "83",
+    "latitude": 46.17869,
+    "longitude": 21.34143,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Maranata",
+    "wheelchairBoarding": 0,
+    "code": "84",
+    "latitude": 46.1791477,
+    "longitude": 21.3411005,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Miorita",
+    "wheelchairBoarding": 0,
+    "code": "86",
+    "latitude": 46.17958,
+    "longitude": 21.34779,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 11,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 40,
+        "fromStopId": 279,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 13,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      },
+      {
+        "index": 14,
+        "routeId": 39,
+        "fromStopId": 285,
+        "toStopId": 236,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Ogorului",
+    "wheelchairBoarding": 0,
+    "code": "87",
+    "latitude": 46.1410656,
+    "longitude": 21.3199829,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Ogorului",
+    "wheelchairBoarding": 0,
+    "code": "88",
+    "latitude": 46.1410184,
+    "longitude": 21.3198575,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 9,
+        "fromStopId": 38,
+        "toStopId": 39,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Parcul Reconcilierii",
+    "wheelchairBoarding": 0,
+    "code": "89",
+    "latitude": 46.17109,
+    "longitude": 21.30829,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Artarului",
+    "wheelchairBoarding": 0,
+    "code": "9",
+    "latitude": 46.2128594,
+    "longitude": 21.3205593,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Piata Bujac",
+    "wheelchairBoarding": 0,
+    "code": "90",
+    "latitude": 46.19297,
+    "longitude": 21.28254,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Piata Bujac",
+    "wheelchairBoarding": 0,
+    "code": "91",
+    "latitude": 46.19293,
+    "longitude": 21.28202,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Piata Romana",
+    "wheelchairBoarding": 0,
+    "code": "92",
+    "latitude": 46.1664561,
+    "longitude": 21.3199698,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 6,
+        "fromStopId": 92,
+        "toStopId": 316,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 6,
+        "fromStopId": 33,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 2,
+        "routeId": 28,
+        "fromStopId": 92,
+        "toStopId": 326,
+        "direction": 0
+      },
+      {
+        "index": 12,
+        "routeId": 28,
+        "fromStopId": 326,
+        "toStopId": 92,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Piata Spitalului",
+    "wheelchairBoarding": 0,
+    "code": "93",
+    "latitude": 46.18261,
+    "longitude": 21.31166,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Piata Spitalului",
+    "wheelchairBoarding": 0,
+    "code": "94",
+    "latitude": 46.18119,
+    "longitude": 21.30933,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 10,
+        "fromStopId": 298,
+        "toStopId": 92,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 7,
+        "fromStopId": 295,
+        "toStopId": 89,
+        "direction": -1
+      },
+      {
+        "index": 11,
+        "routeId": 38,
+        "fromStopId": 132,
+        "toStopId": 67,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Piata Spitalului",
+    "wheelchairBoarding": 0,
+    "code": "95",
+    "latitude": 46.1832569,
+    "longitude": 21.3097395,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 7,
+        "fromStopId": 89,
+        "toStopId": 296,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 2,
+        "fromStopId": 138,
+        "toStopId": 133,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 10,
+        "fromStopId": 92,
+        "toStopId": 298,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 38,
+        "fromStopId": 66,
+        "toStopId": 133,
+        "direction": 0
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Podgoria",
+    "wheelchairBoarding": 2,
+    "code": "96",
+    "latitude": 46.1823586,
+    "longitude": 21.3247157,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 2,
+        "fromStopId": 132,
+        "toStopId": 317,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 41,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 42,
+        "fromStopId": 96,
+        "toStopId": 96,
+        "direction": -1
+      },
+      {
+        "index": 1,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 2,
+        "routeId": 40,
+        "fromStopId": 96,
+        "toStopId": 278,
+        "direction": 0
+      },
+      {
+        "index": 11,
+        "routeId": 30,
+        "fromStopId": 96,
+        "toStopId": 66,
+        "direction": 1
+      },
+      {
+        "index": 12,
+        "routeId": 30,
+        "fromStopId": 10,
+        "toStopId": 96,
+        "direction": 1
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Podgoria",
+    "wheelchairBoarding": 1,
+    "code": "97",
+    "latitude": 46.1832913,
+    "longitude": 21.3252284,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 5,
+        "fromStopId": 10,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 3,
+        "fromStopId": 97,
+        "toStopId": 57,
+        "direction": -1
+      },
+      {
+        "index": -12,
+        "routeId": 4,
+        "fromStopId": 97,
+        "toStopId": 127,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 5,
+        "fromStopId": 97,
+        "toStopId": 9,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 3,
+        "fromStopId": 57,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 4,
+        "fromStopId": 127,
+        "toStopId": 97,
+        "direction": -1
+      },
+      {
+        "index": -11,
+        "routeId": 36,
+        "fromStopId": 97,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Pomenirea",
+    "wheelchairBoarding": 0,
+    "code": "98",
+    "latitude": 46.16923,
+    "longitude": 21.29093,
+    "patterns": [
+      {
+        "index": -12,
+        "routeId": 26,
+        "fromStopId": 97,
+        "toStopId": 72,
+        "direction": -1
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Pomenirea",
+    "wheelchairBoarding": 0,
+    "code": "99",
+    "latitude": 46.16911,
+    "longitude": 21.29034,
+    "patterns": [
+      {
+        "index": -11,
+        "routeId": 26,
+        "fromStopId": 72,
+        "toStopId": 97,
+        "direction": -1
+      }
+    ]
+  }
+]

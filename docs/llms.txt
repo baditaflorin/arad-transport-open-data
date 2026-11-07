@@ -1,0 +1,27 @@
+# Arad public transport integration kit
+
+> Public live buses and trams, routes, stops, CSV/JSON/GeoJSON. Prefer Go examples. No API key required. The upstream is Telelink; GitHub Pages hosts dated static exports only.
+
+## Start here
+- [Complete integration guide](https://baditaflorin.github.io/arad-transport-open-data/llms-full.txt): IDs, joins, freshness, polling, provenance, snapshots, examples.
+- [Human-readable guide](https://baditaflorin.github.io/arad-transport-open-data/api.html)
+- [OpenAPI 3.1](https://baditaflorin.github.io/arad-transport-open-data/openapi.json)
+- [JSON Schema](https://baditaflorin.github.io/arad-transport-open-data/schema.json)
+- [Snapshot manifest](https://baditaflorin.github.io/arad-transport-open-data/data/manifest.json)
+- [Go client](https://github.com/baditaflorin/arad-transport-open-data/blob/main/examples/go/main.go)
+- [Agent instructions](https://github.com/baditaflorin/arad-transport-open-data/blob/main/AGENTS.md)
+
+## Live source
+- [All vehicle positions](https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/vehicles): array, unauthenticated. lastUpdated UTC, stale after 120s by demo convention.
+- [Source routes](https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/routes)
+- [Source stops](https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport/planner/stops)
+
+## Static files
+- [Routes](https://baditaflorin.github.io/arad-transport-open-data/data/routes.json)
+- [Patterns](https://baditaflorin.github.io/arad-transport-open-data/data/patterns.json)
+- [Ordered stops](https://baditaflorin.github.io/arad-transport-open-data/data/routeStops.json)
+- [Stops](https://baditaflorin.github.io/arad-transport-open-data/data/stops.json)
+- [Route geometry](https://baditaflorin.github.io/arad-transport-open-data/data/routes.geojson)
+- [All exports ZIP](https://baditaflorin.github.io/arad-transport-open-data/data/arad-transport.zip)
+
+Never treat vehiclesSnapshot as live; never join routeId to shortName. Pattern indexes may be negative. GeoJSON is [longitude, latitude]. No full weekly schedule, station photos, verified static GTFS archive or WebSocket endpoint is provided. MIT covers code only; no explicit upstream data license was identified.

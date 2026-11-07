@@ -1,0 +1,525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "335",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3084908,
+          46.1891098
+        ]
+      },
+      "properties": {
+        "routeId": 38,
+        "patternIndex": 1,
+        "tripId": "5.10849",
+        "vehicleId": "335",
+        "label": "9994",
+        "headsign": "G Ar Nou - UTA",
+        "delaySeconds": 936,
+        "nextStopArrival": "2026-11-07T12:02:36Z",
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 133,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "396",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3248405,
+          46.1822815
+        ]
+      },
+      "properties": {
+        "routeId": 41,
+        "patternIndex": -11,
+        "tripId": "22.10655",
+        "vehicleId": "396",
+        "label": "503",
+        "headsign": "POD-POD",
+        "delaySeconds": 163,
+        "nextStopArrival": "2026-11-07T12:04:43Z",
+        "heading": 244.6999969482422,
+        "lastUpdated": "2026-11-07T12:01:35Z",
+        "stopId": 362,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "284",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3313198,
+          46.1927299
+        ]
+      },
+      "properties": {
+        "routeId": 23,
+        "patternIndex": -11,
+        "tripId": "21.10584",
+        "vehicleId": "284",
+        "label": "76",
+        "delaySeconds": 185,
+        "nextStopArrival": "2026-11-07T12:02:05Z",
+        "heading": 216.60000610351562,
+        "speed": 6.94444465637207,
+        "lastUpdated": "2026-11-07T12:01:34Z",
+        "stopId": 158,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "267",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2911701,
+          46.2023888
+        ]
+      },
+      "properties": {
+        "routeId": 21,
+        "patternIndex": -14,
+        "tripId": "21.10451",
+        "vehicleId": "267",
+        "label": "1100",
+        "delaySeconds": -98,
+        "nextStopArrival": "2026-11-07T12:02:22Z",
+        "heading": 210.5,
+        "speed": 4.577777862548828,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 170,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "239",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3203506,
+          46.1898003
+        ]
+      },
+      "properties": {
+        "routeId": 21,
+        "patternIndex": -13,
+        "tripId": "21.10597",
+        "vehicleId": "239",
+        "label": "1857",
+        "delaySeconds": 283,
+        "nextStopArrival": "2026-11-07T12:02:43Z",
+        "heading": 105.0999984741211,
+        "speed": 7.663888931274414,
+        "lastUpdated": "2026-11-07T12:01:35Z",
+        "stopId": 202,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4447708,
+          46.1529999
+        ]
+      },
+      "properties": {
+        "routeId": 39,
+        "patternIndex": 11,
+        "tripId": "28.10920",
+        "vehicleId": "378",
+        "label": "485",
+        "headsign": "GH - POD",
+        "delaySeconds": 268,
+        "nextStopArrival": "2026-11-07T12:02:28Z",
+        "heading": 288.79998779296875,
+        "speed": 16.875,
+        "lastUpdated": "2026-11-07T12:01:34Z",
+        "stopId": 278,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3159504,
+          46.1719704
+        ]
+      },
+      "properties": {
+        "routeId": 11,
+        "patternIndex": -13,
+        "tripId": "21.10545",
+        "vehicleId": "240",
+        "label": "1862",
+        "delaySeconds": -61,
+        "nextStopArrival": "2026-11-07T12:01:59Z",
+        "heading": 9.0,
+        "speed": 1.183333396911621,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 258,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3196907,
+          46.1898613
+        ]
+      },
+      "properties": {
+        "routeId": 11,
+        "patternIndex": -11,
+        "tripId": "21.10633",
+        "vehicleId": "241",
+        "label": "1863",
+        "delaySeconds": 113,
+        "nextStopArrival": "2026-11-07T12:02:53Z",
+        "heading": 107.9000015258789,
+        "speed": 7.408333778381348,
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 202,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "274",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2967396,
+          46.198101
+        ]
+      },
+      "properties": {
+        "routeId": 14,
+        "patternIndex": -11,
+        "tripId": "21.10616",
+        "vehicleId": "274",
+        "label": "1006",
+        "delaySeconds": -83,
+        "nextStopArrival": "2026-11-07T12:03:37Z",
+        "heading": 141.8000030517578,
+        "speed": 4.733333587646484,
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 194,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "236",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3194408,
+          46.1679497
+        ]
+      },
+      "properties": {
+        "routeId": 14,
+        "patternIndex": -12,
+        "tripId": "21.10509",
+        "vehicleId": "236",
+        "label": "1860",
+        "delaySeconds": 105,
+        "nextStopArrival": "2026-11-07T12:04:45Z",
+        "heading": 298.0,
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 258,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "275",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2847595,
+          46.2012787
+        ]
+      },
+      "properties": {
+        "routeId": 14,
+        "patternIndex": -12,
+        "tripId": "21.10508",
+        "vehicleId": "275",
+        "label": "1008",
+        "delaySeconds": 215,
+        "nextStopArrival": "2026-11-07T12:01:35Z",
+        "heading": 267.0,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 166,
+        "stopStatus": "STOPPED_AT"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3253899,
+          46.1851692
+        ]
+      },
+      "properties": {
+        "routeId": 5,
+        "patternIndex": -11,
+        "tripId": "25.10780",
+        "vehicleId": "4",
+        "label": "224",
+        "delaySeconds": 36,
+        "nextStopArrival": "2026-11-07T12:02:36Z",
+        "heading": 326.8999938964844,
+        "speed": 2.9333336353302,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 68,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "302",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3179703,
+          46.1686516
+        ]
+      },
+      "properties": {
+        "routeId": 13,
+        "patternIndex": -12,
+        "tripId": "21.10361",
+        "vehicleId": "302",
+        "label": "2112",
+        "delaySeconds": -143,
+        "nextStopArrival": "2026-11-07T12:03:37Z",
+        "heading": 324.3999938964844,
+        "speed": 6.894444465637207,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 258,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "368",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3200397,
+          46.1674194
+        ]
+      },
+      "properties": {
+        "routeId": 13,
+        "patternIndex": -13,
+        "tripId": "21.10392",
+        "vehicleId": "368",
+        "label": "2430",
+        "delaySeconds": 41,
+        "nextStopArrival": "2026-11-07T12:02:41Z",
+        "heading": 155.1999969482422,
+        "lastUpdated": "2026-11-07T12:01:35Z",
+        "stopId": 249,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3093491,
+          46.1812401
+        ]
+      },
+      "properties": {
+        "routeId": 38,
+        "patternIndex": 11,
+        "tripId": "5.10836",
+        "vehicleId": "334",
+        "label": "9993",
+        "headsign": "UTA-G Ar Nou",
+        "delaySeconds": 41,
+        "nextStopArrival": "2026-11-07T12:04:41Z",
+        "heading": 186.60000610351562,
+        "speed": 3.6000001430511475,
+        "lastUpdated": "2026-11-07T12:01:34Z",
+        "stopId": 54,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3201199,
+          46.1667099
+        ]
+      },
+      "properties": {
+        "routeId": 6,
+        "patternIndex": -12,
+        "tripId": "5.2288",
+        "vehicleId": "443",
+        "label": "527",
+        "delaySeconds": 106,
+        "nextStopArrival": "2026-11-07T12:04:46Z",
+        "heading": 20.299999237060547,
+        "lastUpdated": "2026-11-07T12:01:31Z",
+        "stopId": 175,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3071899,
+          46.19244
+        ]
+      },
+      "properties": {
+        "routeId": 25,
+        "patternIndex": -11,
+        "tripId": "21.10479",
+        "vehicleId": "328",
+        "label": "2222",
+        "delaySeconds": -56,
+        "nextStopArrival": "2026-11-07T12:04:04Z",
+        "heading": 118.5999984741211,
+        "lastUpdated": "2026-11-07T12:01:34Z",
+        "stopId": 156,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "439",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3162594,
+          46.1725998
+        ]
+      },
+      "properties": {
+        "routeId": 25,
+        "patternIndex": -11,
+        "tripId": "21.10478",
+        "vehicleId": "439",
+        "label": "2651",
+        "delaySeconds": 343,
+        "nextStopArrival": "2026-11-07T12:03:43Z",
+        "heading": 19.100000381469727,
+        "lastUpdated": "2026-11-07T12:01:32Z",
+        "stopId": 240,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "429",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2970009,
+          46.1978493
+        ]
+      },
+      "properties": {
+        "routeId": 15,
+        "patternIndex": -11,
+        "tripId": "21.10423",
+        "vehicleId": "429",
+        "label": "2544",
+        "delaySeconds": -70,
+        "nextStopArrival": "2026-11-07T12:03:50Z",
+        "heading": 142.5,
+        "speed": 4.7833333015441895,
+        "lastUpdated": "2026-11-07T12:01:33Z",
+        "stopId": 194,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3189201,
+          46.1663513
+        ]
+      },
+      "properties": {
+        "routeId": 15,
+        "patternIndex": -11,
+        "tripId": "21.10422",
+        "vehicleId": "323",
+        "label": "2221",
+        "delaySeconds": 345,
+        "nextStopArrival": "2026-11-07T12:02:45Z",
+        "heading": 283.6000061035156,
+        "speed": 0.25833335518836975,
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 241,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3488102,
+          46.1731491
+        ]
+      },
+      "properties": {
+        "routeId": 8,
+        "patternIndex": -11,
+        "tripId": "5.2336",
+        "vehicleId": "440",
+        "label": "524",
+        "delaySeconds": 45,
+        "nextStopArrival": "2026-11-07T12:03:45Z",
+        "heading": 342.70001220703125,
+        "speed": 5.555555820465088,
+        "lastUpdated": "2026-11-07T12:01:36Z",
+        "stopId": 26,
+        "stopStatus": "IN_TRANSIT_TO"
+      }
+    }
+  ]
+}

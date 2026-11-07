@@ -1,0 +1,455 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Arad public transport integration kit",
+    "version": "1.0.0",
+    "description": "Observed public Telelink API plus dated GitHub Pages exports. Independent community project. No API key. CORS from GitHub Pages verified 2026-11-07. No upstream reuse license identified; MIT covers project code only."
+  },
+  "servers": [
+    {
+      "url": "https://www.telelink.city/api/v1/e39aa927-11c1-435f-92b9-57804f7bc1b4/transport",
+      "description": "Public upstream live source, not a project relay"
+    }
+  ],
+  "security": [],
+  "paths": {
+    "/planner/vehicles": {
+      "get": {
+        "operationId": "getLiveVehicles",
+        "summary": "All publicly available live vehicle positions",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/Vehicle"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "One request returns all vehicles. No credentials. Poll every 30s in the demo, pause hidden tabs, mark lastUpdated older than 120s stale. These are project conventions, not published operator limits."
+      }
+    },
+    "/planner/vehicles/route/{routeId}": {
+      "get": {
+        "operationId": "getRouteVehicles",
+        "summary": "Vehicles for an internal route ID",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/RouteVehicle"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "parameters": [
+          {
+            "name": "routeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    },
+    "/planner/routes": {
+      "get": {
+        "operationId": "getSourceRoutes",
+        "summary": "Source routes with embedded patterns",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/RawRoute"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        }
+      }
+    },
+    "/planner/routes/{routeId}": {
+      "get": {
+        "operationId": "getRoutePatterns",
+        "summary": "Patterns for a route, returned as an array",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/RawPattern"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "parameters": [
+          {
+            "name": "routeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    },
+    "/planner/stops": {
+      "get": {
+        "operationId": "getSourceStops",
+        "summary": "All source stops",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/RawStop"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        }
+      }
+    },
+    "/planner/stops/{stopId}/times": {
+      "get": {
+        "operationId": "getStopArrivals",
+        "summary": "Upcoming arrivals, grouped by route and pattern",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/ArrivalGroup"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "parameters": [
+          {
+            "name": "stopId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "description": "Window of upcoming arrivals, not a complete weekly timetable. UTC timestamps. Estimated arrival = scheduledArrival + arrivalDelay seconds only when realtime=true."
+      }
+    },
+    "/gtfsrt/alerts": {
+      "get": {
+        "operationId": "getAlerts",
+        "summary": "GTFS Realtime alerts as JSON",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "header": {
+                      "type": "object"
+                    },
+                    "entity": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "parameters": [
+          {
+            "name": "mediaType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "WebPortal"
+            }
+          }
+        ]
+      }
+    },
+    "/data/routes.json": {
+      "get": {
+        "operationId": "getSnapshotRoutes",
+        "summary": "Dated static snapshot: routes",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/Route"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/patterns.json": {
+      "get": {
+        "operationId": "getSnapshotPatterns",
+        "summary": "Dated static snapshot: patterns",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/Pattern"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/routeStops.json": {
+      "get": {
+        "operationId": "getSnapshotRouteStops",
+        "summary": "Dated static snapshot: routeStops",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/RouteStop"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/stops.json": {
+      "get": {
+        "operationId": "getSnapshotStops",
+        "summary": "Dated static snapshot: stops",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/Stop"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/vehiclesSnapshot.json": {
+      "get": {
+        "operationId": "getSnapshotVehiclesSnapshot",
+        "summary": "Dated static snapshot: vehiclesSnapshot",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/Vehicle"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/arrivalsSnapshot.json": {
+      "get": {
+        "operationId": "getSnapshotArrivalsSnapshot",
+        "summary": "Dated static snapshot: arrivalsSnapshot",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "./schema.json#/$defs/ArrivalSnapshot"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "description": "Static file on GitHub Pages. Inspect /data/manifest.json for extraction time. This is not a live endpoint.",
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    },
+    "/data/manifest.json": {
+      "get": {
+        "operationId": "getManifest",
+        "summary": "Snapshot provenance, timestamps and file hashes",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "JSON response; arrays may be empty.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Upstream/network failure. Do not assume a JSON error body; check HTTP status and back off."
+          }
+        },
+        "servers": [
+          {
+            "url": "https://baditaflorin.github.io/arad-transport-open-data"
+          }
+        ]
+      }
+    }
+  }
+}

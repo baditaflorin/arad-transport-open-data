@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trasee, stații și vehicule live din transportul public Arad. Date CSV, JSON și GeoJSON pentru hackathon.">
+  <meta name="theme-color" content="#c72d26">
+  <title>Arad în mișcare · Date pentru idei noi</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/leaflet/leaflet.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Arad în mișcare, acasă"><span class="brand-icon">a<span>↗</span></span><span>ARAD<span class="brand-sub">ÎN MIȘCARE</span></span></a>
+    <nav aria-label="Navigare"><a href="api.html">API & ghid Go ↗</a><a href="#downloads">Descarcă datele <span aria-hidden="true">↗</span></a><a href="https://github.com/baditaflorin/arad-transport-open-data" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow"><span class="dot"></span> TRANSPORT PUBLIC · ARAD</p><h1>Orașul se mișcă.<br><span>Datele, la fel.</span></h1><p class="intro-text">Tramvaie, autobuze și stații. O hartă pentru toți,<br class="desktop"> date gata de folosit pentru următoarea ta idee.</p><p style="margin:18px 0 0"><a class="docs-link" href="api.html">Începe integrarea: Go, API live & ghid pentru AI →</a></p></div>
+      <div class="stats" aria-label="Date disponibile"><div><strong id="route-count">—</strong><span>linii publicate</span></div><div><strong id="stop-count">—</strong><span>stații pe hartă</span></div><p id="snapshot-date">Se încarcă datele…</p></div>
+    </section>
+    <section id="explore" class="explorer" aria-label="Explorează rețeaua">
+      <aside class="sidebar">
+        <div class="sidebar-head"><h2>Găsește-ți traseul <span>↘</span></h2><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Linie sau stație…" aria-label="Caută linie sau stație"></label><div class="tabs" role="group" aria-label="Tip de transport"><button class="active" data-mode="all" aria-pressed="true">Toate</button><button data-mode="tram" aria-pressed="false">Tramvai</button><button data-mode="bus" aria-pressed="false">Autobuz</button></div></div>
+        <div class="list-caption"><span id="list-label">REȚEAUA PUBLICATĂ</span><button id="reset-view" class="text-button">Vezi tot</button></div>
+        <div id="route-list" class="route-list" aria-live="polite"><p class="empty">Se încarcă liniile…</p></div>
+        <div class="sidebar-foot"><span class="mini-symbol">↗</span> Alege o linie pentru variante și stații.</div>
+      </aside>
+      <div class="map-wrap"><div id="map" aria-label="Hartă interactivă cu traseele și stațiile din Arad"></div><div class="map-controls"><label class="live-toggle"><input type="checkbox" id="live-toggle"><span class="dot"></span> Vehicule live</label><span id="live-status" role="status">Pornește pozițiile live</span></div><div class="map-legend"><span><i class="legend-tram"></i> Tramvai</span><span><i class="legend-bus"></i> Autobuz</span><span>○ Stație</span></div></div>
+    </section>
+    <section id="detail" class="detail" aria-live="polite" hidden></section>
+    <section id="downloads" class="downloads">
+      <div class="section-heading"><div><p class="eyebrow">DE LA HARTĂ LA PROTOTIP</p><h2>Construiește ceva<br>pentru oraș.</h2></div><p>Date structurate, fără cheie API.<br>Descarcă un snapshot sau conectează-te<br>direct la sursa pozițiilor live.</p></div>
+      <div class="download-grid"><a class="download-card" href="data/arad-transport.zip" download><span class="file-type">01 / PACHET COMPLET</span><h3>Totul într-un ZIP <span>↓</span></h3><p>CSV + JSON + GeoJSON, inclusiv datele sursă și metadatele extragerii.</p><span class="card-link">Descarcă pachetul</span></a><a class="download-card" href="data/routes.csv" download><span class="file-type">02 / PENTRU TABELE</span><h3>CSV <span>↓</span></h3><p>Linii, variante, stații și ordinea opririlor. Compatibil cu Excel și Python.</p><span class="card-link">Descarcă liniile</span></a><a class="download-card" href="data/routes.json" download><span class="file-type">03 / PENTRU APLICAȚII</span><h3>JSON <span>↓</span></h3><p>Câmpuri camelCase și ID-uri de legătură. Fetch, parse, construiește.</p><span class="card-link">Descarcă liniile</span></a><a class="download-card" href="data/routes.geojson" download><span class="file-type">04 / PENTRU HĂRȚI</span><h3>GeoJSON <span>↓</span></h3><p>Geometriile variantelor și coordonatele stațiilor, în WGS84.</p><span class="card-link">Descarcă traseele</span></a></div>
+      <div class="file-links" id="file-links"></div>
+    </section>
+    <section class="developers"><div><p class="eyebrow">PRIMUL TĂU REQUEST</p><h2>O idee bună începe<br>cu date accesibile.</h2><p>Endpoint-uri statice pe GitHub Pages, fără autentificare.<br>API-ul sursă oferă vehicule live și sosiri în stații.</p><a href="https://github.com/baditaflorin/arad-transport-open-data#api-public" class="docs-link">Vezi documentația și exemplele ↗</a></div><div class="code-panel"><div><span class="dot"></span> JavaScript <button id="copy-code">Copiază</button></div><pre><code id="code-example">const base = new URL('data/', location.href);
+
+const routes = await fetch(
+  new URL('routes.json', base)
+).then(response =&gt; response.json());
+
+console.log(routes[0]);
+// { id, shortName, longName, mode, … }</code></pre></div></section>
+    <section class="source-note"><strong>Despre aceste date</strong><p>Proiect independent pentru comunitate și hackathon. Sursa: <a href="https://arad-transport.telelink.city/app/lines" target="_blank" rel="noopener">portalul public Arad / Telelink ↗</a>. Include toate liniile returnate de portal la extragere; acoperirea întregii rețele CTP nu a fost verificată separat. Fișierele sunt snapshot-uri, iar pozițiile live se citesc separat, la 30 de secunde când sunt activate. Nu am identificat o licență explicită de reutilizare a datelor sursă; licența MIT se aplică codului proiectului.</p></section>
+  </main>
+  <footer><span>ARAD ÎN MIȘCARE <span class="footer-dot">●</span> Date pentru idei noi.</span><a href="data/manifest.json">Metadate & proveniență ↗</a><span>Creat pentru comunitate · 2026</span></footer>
+  <noscript><p class="noscript">Harta necesită JavaScript. <a href="data/arad-transport.zip">Descarcă toate datele aici.</a></p></noscript>
+</body>
+</html>

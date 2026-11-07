@@ -1,0 +1,300 @@
+﻿id,code,name,latitude,longitude,wheelchairBoarding,routeIds,sourceUrl
+10,10,Artarului,46.2127204,21.3204668,0,"[5, 30]",https://arad-transport.telelink.city/app/lines/stop/10
+100,100,Pomenirea,46.1688706,21.2915254,0,[3],https://arad-transport.telelink.city/app/lines/stop/100
+101,101,Pomenirea,46.16957,21.29206,0,[3],https://arad-transport.telelink.city/app/lines/stop/101
+102,102,Profi Micalaca,46.17149,21.35451,0,"[8, 41]",https://arad-transport.telelink.city/app/lines/stop/102
+103,103,Radu Negru,46.21829,21.28328,0,[7],https://arad-transport.telelink.city/app/lines/stop/103
+104,104,Radu Negru,46.2179914,21.2834917,0,[7],https://arad-transport.telelink.city/app/lines/stop/104
+105,105,Randunicii,46.1979949,21.3264313,0,[4],https://arad-transport.telelink.city/app/lines/stop/105
+106,106,Randunicii,46.1978969,21.3267146,0,[4],https://arad-transport.telelink.city/app/lines/stop/106
+108,108,Rasnov,46.19927,21.32357,0,[4],https://arad-transport.telelink.city/app/lines/stop/108
+109,109,La Cocos,46.1693548,21.3782282,2,"[8, 39, 40]",https://arad-transport.telelink.city/app/lines/stop/109
+11,11,Astra Sector II,46.191377,21.3302949,0,"[4, 36]",https://arad-transport.telelink.city/app/lines/stop/11
+110,110,Renasterii,46.17031,21.35952,0,[8],https://arad-transport.telelink.city/app/lines/stop/110
+112,112,Renasterii,46.17682,21.36007,0,"[39, 40, 42]",https://arad-transport.telelink.city/app/lines/stop/112
+114,114,Saturn,46.20238,21.29811,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/114
+115,115,Saturn,46.2024989,21.2978064,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/115
+116,116,Sanicolau Mic,46.1355445,21.3525452,0,[2],https://arad-transport.telelink.city/app/lines/stop/116
+117,117,Sanicolaul Mic,46.1356,21.3526,0,[2],https://arad-transport.telelink.city/app/lines/stop/117
+12,12,Astra Sector II,46.191267,21.3300551,0,"[4, 36]",https://arad-transport.telelink.city/app/lines/stop/12
+120,120,Simion Barnutiu,46.186728,21.3100164,0,"[7, 10, 38]",https://arad-transport.telelink.city/app/lines/stop/120
+121,121,Simion Barnutiu,46.18655,21.3098,0,"[2, 7, 10, 38]",https://arad-transport.telelink.city/app/lines/stop/121
+122,122,Stefan Zarie,46.13877,21.34622,0,[2],https://arad-transport.telelink.city/app/lines/stop/122
+123,123,Stefan Zarie,46.1386542,21.3460546,0,[2],https://arad-transport.telelink.city/app/lines/stop/123
+124,124,Tarafului,46.1483,21.33928,0,[2],https://arad-transport.telelink.city/app/lines/stop/124
+125,125,Toth Arpad,46.21164,21.29076,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/125
+126,126,Toth Arpad,46.21191,21.29033,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/126
+127,127,Trenului,46.20659,21.32292,0,[4],https://arad-transport.telelink.city/app/lines/stop/127
+128,128,Tribunul Corches,46.21443,21.28799,0,[7],https://arad-transport.telelink.city/app/lines/stop/128
+129,129,Tribunul Corches,46.21523,21.28717,0,[7],https://arad-transport.telelink.city/app/lines/stop/129
+13,13,Atrium,46.19162,21.31957,0,[5],https://arad-transport.telelink.city/app/lines/stop/13
+130,130,Trotusului,46.19335,21.27534,0,[6],https://arad-transport.telelink.city/app/lines/stop/130
+131,131,Trotusului,46.19392,21.27528,0,[6],https://arad-transport.telelink.city/app/lines/stop/131
+132,132,UTA,46.19172,21.30892,0,"[2, 7, 10, 38]",https://arad-transport.telelink.city/app/lines/stop/132
+133,133,UTA,46.19206,21.30985,0,"[2, 7, 10, 38]",https://arad-transport.telelink.city/app/lines/stop/133
+134,134,Universului,46.22135,21.27926,0,[7],https://arad-transport.telelink.city/app/lines/stop/134
+135,135,Universului,46.22121,21.27957,0,[7],https://arad-transport.telelink.city/app/lines/stop/135
+138,138,Vantului,46.1319613,21.3522236,0,[2],https://arad-transport.telelink.city/app/lines/stop/138
+14,14,Atrium,46.1919774,21.3195664,0,[5],https://arad-transport.telelink.city/app/lines/stop/14
+140,140,Viitorului,46.20336,21.32299,0,[4],https://arad-transport.telelink.city/app/lines/stop/140
+141,141,Zimbrului,46.14813,21.32896,0,[2],https://arad-transport.telelink.city/app/lines/stop/141
+142,142,Posada,46.1555028,21.3163307,0,[9],https://arad-transport.telelink.city/app/lines/stop/142
+143,143,Posada,46.1553096,21.3158439,0,[9],https://arad-transport.telelink.city/app/lines/stop/143
+144,144,Constitutiei,46.1524325,21.3072868,0,[9],https://arad-transport.telelink.city/app/lines/stop/144
+145,145,Constitutiei,46.15253,21.30773,0,[9],https://arad-transport.telelink.city/app/lines/stop/145
+146,146,C. Turzii,46.15413,21.30362,0,[9],https://arad-transport.telelink.city/app/lines/stop/146
+147,147,Economu,46.15407,21.29859,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/147
+148,148,Colonistilor 1,46.1522977,21.3033385,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/148
+149,149,Ana Ipatescu 1,46.15569,21.32174,1,[13],https://arad-transport.telelink.city/app/lines/stop/149
+15,15,Aurel Crisan,46.1716615,21.3676529,0,[8],https://arad-transport.telelink.city/app/lines/stop/15
+150,150,Ana Ipatescu 2,46.1569229,21.3217938,1,[13],https://arad-transport.telelink.city/app/lines/stop/150
+151,151,Alfa 1,46.1666408,21.290388,1,[15],https://arad-transport.telelink.city/app/lines/stop/151
+152,152,Alfa 2,46.1659699,21.2912066,1,[25],https://arad-transport.telelink.city/app/lines/stop/152
+153,153,Andrei Saguna 1,46.1665895,21.3009679,1,[15],https://arad-transport.telelink.city/app/lines/stop/153
+154,154,Andrei Saguna 2,46.1666469,21.3024166,1,[25],https://arad-transport.telelink.city/app/lines/stop/154
+155,155,Aris 1,46.1886099,21.3030983,0,[15],https://arad-transport.telelink.city/app/lines/stop/155
+156,156,Aris 2,46.1889803,21.3032641,0,[25],https://arad-transport.telelink.city/app/lines/stop/156
+157,157,Astra Sector II 1,46.19175,21.33038,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/157
+158,158,Astra Sector II 2,46.1915351,21.3301588,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/158
+159,159,Atrium 1,46.1900242,21.3192778,1,"[11, 13, 14, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/159
+16,16,Autoservice,46.1449447,21.3215095,0,"[28, 38]",https://arad-transport.telelink.city/app/lines/stop/16
+160,160,Atrium 2,46.190068,21.3186471,1,"[11, 13, 14, 15, 21]",https://arad-transport.telelink.city/app/lines/stop/160
+161,161,Autoservice 1,46.1459849,21.3222023,1,[13],https://arad-transport.telelink.city/app/lines/stop/161
+162,162,Autoservice 2,46.1460679,21.3219313,1,[13],https://arad-transport.telelink.city/app/lines/stop/162
+165,165,Baile Termale 1,46.20133,21.28372,0,"[12, 14]",https://arad-transport.telelink.city/app/lines/stop/165
+166,166,Baile Termale 2,46.20127,21.28407,0,"[12, 14]",https://arad-transport.telelink.city/app/lines/stop/166
+167,167,Caius Iacob 1,46.1856819,21.3251098,1,"[11, 13, 14, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/167
+168,168,Caius Iacob 2,46.1852,21.32484,1,"[11, 13, 14, 15, 21]",https://arad-transport.telelink.city/app/lines/stop/168
+169,169,Galleria 1,46.2011074,21.2919082,1,[14],https://arad-transport.telelink.city/app/lines/stop/169
+17,17,Autoservice,46.144871,21.3213826,0,"[28, 38]",https://arad-transport.telelink.city/app/lines/stop/17
+170,170,Galleria 2,46.2009923,21.2921168,1,"[11, 12, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/170
+171,171,Galleria 3,46.2016364,21.2880814,0,"[12, 14]",https://arad-transport.telelink.city/app/lines/stop/171
+172,172,Galleria 4,46.2016228,21.2881797,0,"[12, 14]",https://arad-transport.telelink.city/app/lines/stop/172
+175,175,Biserica Sarbeasca 1,46.16709,21.31078,0,"[6, 10, 15]",https://arad-transport.telelink.city/app/lines/stop/175
+176,176,Biserica Sarbeasca 2,46.16682,21.31097,1,"[6, 25]",https://arad-transport.telelink.city/app/lines/stop/176
+177,177,Bogdan Voievod 1,46.20542,21.28015,0,[14],https://arad-transport.telelink.city/app/lines/stop/177
+181,181,Caraimanul 1,46.15174,21.32175,1,[13],https://arad-transport.telelink.city/app/lines/stop/181
+182,182,Caraimanul 2,46.1529535,21.3218637,1,[13],https://arad-transport.telelink.city/app/lines/stop/182
+183,183,Clujului 1,46.16631,21.29577,1,[15],https://arad-transport.telelink.city/app/lines/stop/183
+184,184,Clujului 2,46.1662018,21.2948905,1,[25],https://arad-transport.telelink.city/app/lines/stop/184
+185,185,Confectii 1,46.18015,21.29665,1,[15],https://arad-transport.telelink.city/app/lines/stop/185
+186,186,Confectii 2,46.180322,21.2966949,1,[25],https://arad-transport.telelink.city/app/lines/stop/186
+187,187,Cpt. Ignat 1,46.1755837,21.2944275,1,[15],https://arad-transport.telelink.city/app/lines/stop/187
+188,188,Cpt. Ignat 2,46.1744858,21.293789,1,[25],https://arad-transport.telelink.city/app/lines/stop/188
+189,189,Piata Obor-fac.,46.1710802,21.2925869,1,[15],https://arad-transport.telelink.city/app/lines/stop/189
+190,190,Piata Obor-fac.,46.1735689,21.2936743,1,[15],https://arad-transport.telelink.city/app/lines/stop/190
+191,191,Crisan 1,46.1787369,21.319911,1,"[11, 13, 14, 15, 23]",https://arad-transport.telelink.city/app/lines/stop/191
+192,192,Crisan 2,46.1782254,21.3200712,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/192
+193,193,Electrometal 1,46.1951649,21.3008617,1,"[11, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/193
+194,194,Electrometal 2,46.1945845,21.3019916,1,"[11, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/194
+196,196,Fat Frumos 2,46.2028832,21.2916746,1,"[11, 12, 13, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/196
+197,197,Fortuna 1,46.1999712,21.2941177,1,"[11, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/197
+198,198,Fortuna 2,46.1990342,21.2954894,1,"[11, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/198
+199,199,Gara Aradul Nou 1,46.1449537,21.3344783,1,[13],https://arad-transport.telelink.city/app/lines/stop/199
+20,20,Bagdazar,46.1410635,21.3157035,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/20
+200,200,Gara Aradul Nou 2,46.1447855,21.3343015,1,[13],https://arad-transport.telelink.city/app/lines/stop/200
+201,201,Gara CFR 1,46.1888827,21.3244167,1,"[11, 13, 14, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/201
+202,202,Gara CFR 2,46.1885949,21.3248306,1,"[11, 13, 14, 15, 21]",https://arad-transport.telelink.city/app/lines/stop/202
+203,203,Gorunului 1,46.195289,21.3341308,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/203
+204,204,Gorunului 2,46.1952166,21.3340221,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/204
+205,205,Gradinita 1,46.1711642,21.3580527,0,[41],https://arad-transport.telelink.city/app/lines/stop/205
+206,206,Gradinita 2,46.1712923,21.3581846,0,[42],https://arad-transport.telelink.city/app/lines/stop/206
+209,209,Hodos 1,46.1669013,21.3063005,1,[15],https://arad-transport.telelink.city/app/lines/stop/209
+21,21,Bagdazar,46.1411663,21.3149548,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/21
+210,210,Hodos 2,46.16681,21.30586,1,[25],https://arad-transport.telelink.city/app/lines/stop/210
+215,215,Miorita 1,46.17905,21.34916,0,"[39, 40, 41]",https://arad-transport.telelink.city/app/lines/stop/215
+217,217,Orologerie 1,46.1847889,21.3001852,0,[15],https://arad-transport.telelink.city/app/lines/stop/217
+218,218,Orologerie 2,46.18498,21.30023,0,[25],https://arad-transport.telelink.city/app/lines/stop/218
+219,219,Pasunii 1,46.17745,21.35619,0,"[39, 40, 41]",https://arad-transport.telelink.city/app/lines/stop/219
+22,22,Banu Maracine,46.1850681,21.3161556,0,"[2, 3, 26]",https://arad-transport.telelink.city/app/lines/stop/22
+220,220,Pasunii 2,46.1776661,21.355909,0,"[39, 40, 42]",https://arad-transport.telelink.city/app/lines/stop/220
+221,221,Piata Auto 1,46.2020728,21.2609302,0,[12],https://arad-transport.telelink.city/app/lines/stop/221
+222,222,Piata Auto 2,46.2020406,21.2605404,0,[12],https://arad-transport.telelink.city/app/lines/stop/222
+223,223,Piata Gai 1,46.21018,21.2777,0,[14],https://arad-transport.telelink.city/app/lines/stop/223
+224,224,Piata Gai 2,46.20948,21.27803,0,[14],https://arad-transport.telelink.city/app/lines/stop/224
+225,225,Piata Romana 1,46.16742,21.32003,1,"[11, 13, 14, 15, 23]",https://arad-transport.telelink.city/app/lines/stop/225
+226,226,Piata Romana 2,46.167967,21.3193971,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/226
+227,227,Piata Romana 3,46.16636,21.31902,0,"[11, 15]",https://arad-transport.telelink.city/app/lines/stop/227
+228,228,Piata UTA 4,46.19214,21.30841,1,"[11, 13, 21]",https://arad-transport.telelink.city/app/lines/stop/228
+229,229,Piata UTA 2,46.19194,21.30917,1,"[11, 13, 14, 15, 21]",https://arad-transport.telelink.city/app/lines/stop/229
+23,23,Banu Maracine,46.1852103,21.3171485,0,"[2, 3, 26]",https://arad-transport.telelink.city/app/lines/stop/23
+230,230,Piata UTA 1,46.19273,21.30663,1,"[11, 13, 14, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/230
+231,231,Piata UTA 3,46.192522,21.3068727,1,[25],https://arad-transport.telelink.city/app/lines/stop/231
+232,232,Piata UTA 5,46.1924559,21.3072161,1,[15],https://arad-transport.telelink.city/app/lines/stop/232
+233,233,Platforma Vest,46.20504,21.25546,0,[12],https://arad-transport.telelink.city/app/lines/stop/233
+234,234,Podgoria 2,46.18205,21.32266,1,"[11, 13, 14, 15, 23]",https://arad-transport.telelink.city/app/lines/stop/234
+235,235,Podgoria 3,46.1838,21.32437,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/235
+236,236,Podgoria 6,46.18239,21.32503,1,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/236
+237,237,Pomenirea 1,46.1690014,21.2915312,1,[15],https://arad-transport.telelink.city/app/lines/stop/237
+238,238,Pomenirea 2,46.1694744,21.2917349,1,[25],https://arad-transport.telelink.city/app/lines/stop/238
+239,239,Primariei 1,46.175286,21.3178229,1,"[11, 13, 14, 15, 23]",https://arad-transport.telelink.city/app/lines/stop/239
+24,24,Bela Bartok,46.1797041,21.3081934,0,[6],https://arad-transport.telelink.city/app/lines/stop/24
+240,240,Primariei 2,46.1764041,21.3187831,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/240
+241,241,Paul Chinezul 1,46.16693,21.31389,0,[15],https://arad-transport.telelink.city/app/lines/stop/241
+242,242,Paul Chinezul 2,46.16589,21.31717,0,[25],https://arad-transport.telelink.city/app/lines/stop/242
+243,243,RAR 1,46.2013801,21.2764805,0,[12],https://arad-transport.telelink.city/app/lines/stop/243
+244,244,RAR 2,46.2013449,21.2762163,0,[12],https://arad-transport.telelink.city/app/lines/stop/244
+245,245,Renasterii 3,46.17576,21.36032,0,[42],https://arad-transport.telelink.city/app/lines/stop/245
+247,247,Renasterii 1,46.17668,21.36008,0,"[39, 40, 41]",https://arad-transport.telelink.city/app/lines/stop/247
+249,249,Romanilor 1,46.16583,21.32175,1,[13],https://arad-transport.telelink.city/app/lines/stop/249
+25,25,Bela Bartok,46.1797184,21.3083556,0,[6],https://arad-transport.telelink.city/app/lines/stop/25
+250,250,Romanilor 2,46.16617,21.32165,1,[13],https://arad-transport.telelink.city/app/lines/stop/250
+251,251,Scoala 1,46.20297,21.2818,0,[14],https://arad-transport.telelink.city/app/lines/stop/251
+253,253,Sere 1,46.20308,21.34283,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/253
+254,254,Sere 2,46.20287,21.34243,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/254
+255,255,Stan Dragul 1,46.14515,21.32667,0,[13],https://arad-transport.telelink.city/app/lines/stop/255
+256,256,Stan Dragul 2,46.1453222,21.3262489,0,[13],https://arad-transport.telelink.city/app/lines/stop/256
+257,257,Teatru 1,46.17222,21.31594,1,"[11, 13, 14, 15, 23]",https://arad-transport.telelink.city/app/lines/stop/257
+258,258,Teatru 2,46.17267,21.3164,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/258
+259,259,Traian 1,46.162,21.32322,1,[13],https://arad-transport.telelink.city/app/lines/stop/259
+26,26,Billa,46.1741057,21.3480444,0,"[2, 8, 42]",https://arad-transport.telelink.city/app/lines/stop/26
+260,260,Traian 2,46.1623614,21.3231564,1,[13],https://arad-transport.telelink.city/app/lines/stop/260
+261,261,UM 1,46.2013983,21.2688529,0,[12],https://arad-transport.telelink.city/app/lines/stop/261
+262,262,UM 2,46.2014502,21.2685149,0,[12],https://arad-transport.telelink.city/app/lines/stop/262
+265,265,Uzina Electrica 1,46.1811289,21.3335995,0,"[2, 39, 40, 41, 42]",https://arad-transport.telelink.city/app/lines/stop/265
+267,267,Vama Gradiste 1,46.19964,21.33899,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/267
+268,268,Vama Gradiste 2,46.19952,21.33878,0,"[21, 23]",https://arad-transport.telelink.city/app/lines/stop/268
+269,269,Vama Micalaca 1,46.17545,21.36573,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/269
+27,27,Billa,46.1730316,21.3488845,0,"[2, 8, 41]",https://arad-transport.telelink.city/app/lines/stop/27
+270,270,Vama Micalaca 2,46.17562,21.36519,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/270
+272,272,Voinicilor 2,46.1713451,21.3547397,0,[42],https://arad-transport.telelink.city/app/lines/stop/272
+274,274,Cicir 1,46.14602,21.48073,0,[39],https://arad-transport.telelink.city/app/lines/stop/274
+275,275,Cicir 2,46.1459159,21.4806817,0,[39],https://arad-transport.telelink.city/app/lines/stop/275
+278,278,DN 7 1,46.1572624,21.4273993,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/278
+279,279,DN 7 2,46.1573392,21.4272402,0,[40],https://arad-transport.telelink.city/app/lines/stop/279
+28,28,Brancoveanu,46.1901697,21.2980044,0,[6],https://arad-transport.telelink.city/app/lines/stop/28
+280,280,Mandruloc 1,46.14816,21.46546,0,[39],https://arad-transport.telelink.city/app/lines/stop/280
+281,281,Mandruloc 2,46.1480039,21.4653742,0,[39],https://arad-transport.telelink.city/app/lines/stop/281
+282,282,Sambateni 1,46.1410673,21.5241806,0,[39],https://arad-transport.telelink.city/app/lines/stop/282
+283,283,Sambateni 2,46.1409819,21.5241377,0,[39],https://arad-transport.telelink.city/app/lines/stop/283
+285,285,Ghioroc,46.15645,21.59367,2,[39],https://arad-transport.telelink.city/app/lines/stop/285
+29,29,Brancoveanu,46.1901308,21.2980702,0,[6],https://arad-transport.telelink.city/app/lines/stop/29
+291,291,Vladimirescu Moara 1,46.1633684,21.4053622,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/291
+292,292,Vladimirescu Moara 2,46.16348,21.40517,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/292
+293,293,Vladimirescu Politie,46.16565,21.39819,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/293
+294,294,Vladimirescu Politie,46.16584,21.39764,0,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/294
+295,295,Sanpaolo,46.25272,21.261801,0,[7],https://arad-transport.telelink.city/app/lines/stop/295
+296,296,Sanpaolo,46.252702,21.261921,0,[7],https://arad-transport.telelink.city/app/lines/stop/296
+297,297,Selgros,46.172554,21.372656,0,[8],https://arad-transport.telelink.city/app/lines/stop/297
+298,298,Concordiei,46.20481,21.26946,0,[10],https://arad-transport.telelink.city/app/lines/stop/298
+299,299,Caltunas,46.2113,21.27707,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/299
+3,3,Abatorului,46.18214,21.29725,0,[6],https://arad-transport.telelink.city/app/lines/stop/3
+30,30,Brancusi,46.18927,21.2922,0,[6],https://arad-transport.telelink.city/app/lines/stop/30
+300,300,Caltunas,46.21093,21.27739,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/300
+301,301,Anton Pan,46.21397,21.27531,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/301
+302,302,Anton Pan,46.21413,21.27532,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/302
+303,303,Faurilor,46.2128,21.27112,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/303
+304,304,Faurilor,46.21295,21.27107,0,"[10, 27]",https://arad-transport.telelink.city/app/lines/stop/304
+305,305,Manastirea Gal,46.21676,21.27429,0,[10],https://arad-transport.telelink.city/app/lines/stop/305
+306,306,Manastirea Gal,46.21674,21.27449,0,[10],https://arad-transport.telelink.city/app/lines/stop/306
+307,307,Izvor,46.21321,21.28283,0,[10],https://arad-transport.telelink.city/app/lines/stop/307
+308,308,Izvor,46.21307,21.28281,0,[10],https://arad-transport.telelink.city/app/lines/stop/308
+309,309,Biserica Sarbeasca,46.1669872,21.3109968,0,[10],https://arad-transport.telelink.city/app/lines/stop/309
+31,31,Brancusi,46.1891697,21.2920551,0,[6],https://arad-transport.telelink.city/app/lines/stop/31
+315,311,I.C. Bratianu,46.1806468,21.3219291,1,"[11, 13, 14, 23, 25]",https://arad-transport.telelink.city/app/lines/stop/315
+316,316,Bujac1,46.1967263,21.2760629,0,[6],https://arad-transport.telelink.city/app/lines/stop/316
+317,317,Vantului1,46.1317606,21.3520173,2,[2],https://arad-transport.telelink.city/app/lines/stop/317
+318,,Santoma,46.1882782,21.190902,0,[27],https://arad-transport.telelink.city/app/lines/stop/318
+319,,Ceala,46.2037039,21.2373414,0,[27],https://arad-transport.telelink.city/app/lines/stop/319
+320,,Ceala,46.2038181,21.2364604,0,[27],https://arad-transport.telelink.city/app/lines/stop/320
+321,,Noua,46.2082204,21.2676219,0,[27],https://arad-transport.telelink.city/app/lines/stop/321
+322,,Noua,46.2081715,21.2675464,0,[27],https://arad-transport.telelink.city/app/lines/stop/322
+323,,ScGimFN,46.2032015,21.2839637,0,[27],https://arad-transport.telelink.city/app/lines/stop/323
+324,,Ferma Plopi,46.2035795,21.2201536,0,[27],https://arad-transport.telelink.city/app/lines/stop/324
+325,,LicTehnCons,46.1886999,21.3018855,0,[27],https://arad-transport.telelink.city/app/lines/stop/325
+326,,IAS ArNOU,46.1185805,21.3015632,0,[28],https://arad-transport.telelink.city/app/lines/stop/326
+327,,Marului,46.1601172,21.2831682,0,[29],https://arad-transport.telelink.city/app/lines/stop/327
+328,,SG IM Alfa,46.1663015,21.2931724,0,[29],https://arad-transport.telelink.city/app/lines/stop/328
+329,,SG IM OITUZ,46.1738086,21.3016585,0,[29],https://arad-transport.telelink.city/app/lines/stop/329
+33,33,Bujac,46.1966027,21.275794,0,[6],https://arad-transport.telelink.city/app/lines/stop/33
+330,,GN24 I Rebreanu,46.1779643,21.305558,0,[29],https://arad-transport.telelink.city/app/lines/stop/330
+331,,SG IM Ciorograiu,46.1798949,21.3001664,0,[29],https://arad-transport.telelink.city/app/lines/stop/331
+332,,SG AI V Conta,46.1922279,21.3033632,0,[29],https://arad-transport.telelink.city/app/lines/stop/332
+335,,Raza de Soare,46.15933,21.3311138,0,[31],https://arad-transport.telelink.city/app/lines/stop/335
+336,336,Bisericii,46.2015621,21.3274469,0,[4],https://arad-transport.telelink.city/app/lines/stop/336
+337,337,Papadiei,46.2067554,21.3266096,0,[4],https://arad-transport.telelink.city/app/lines/stop/337
+34,34,Bumbacului,46.19471,21.30735,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/34
+346,346,Jiului,46.2061604,21.2939353,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/346
+347,347,Jiului,46.2061596,21.2938262,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/347
+349,349,I.B. Deleanu,46.194429,21.3353983,0,[36],https://arad-transport.telelink.city/app/lines/stop/349
+35,35,Bumbacului,46.1952446,21.3063771,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/35
+350,350,Mierlei,46.1922615,21.3394856,0,[36],https://arad-transport.telelink.city/app/lines/stop/350
+351,351,Orient,46.1887362,21.3425469,0,[36],https://arad-transport.telelink.city/app/lines/stop/351
+352,352,Gelu,46.1861436,21.3405215,0,[36],https://arad-transport.telelink.city/app/lines/stop/352
+353,353,Visinului,46.1877212,21.3375438,0,[36],https://arad-transport.telelink.city/app/lines/stop/353
+354,354,Razboieni,46.1896805,21.3354908,0,[36],https://arad-transport.telelink.city/app/lines/stop/354
+356,356,Andrei Saguna,46.1661171,21.3015816,0,[38],https://arad-transport.telelink.city/app/lines/stop/356
+357,357,Andrei Saguna,46.1660147,21.3015769,0,[38],https://arad-transport.telelink.city/app/lines/stop/357
+358,358,Economu,46.1538232,21.2986533,0,[38],https://arad-transport.telelink.city/app/lines/stop/358
+359,359,Colonistilor,46.1525204,21.302337,0,[38],https://arad-transport.telelink.city/app/lines/stop/359
+36,36,Calarasilor,46.198891,21.3009942,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/36
+360,360,C-tin Ticu Dumitrescu,46.1480047,21.3076314,0,[38],https://arad-transport.telelink.city/app/lines/stop/360
+361,361,C-tin Ticu Dumitrescu,46.1480037,21.3077048,0,[38],https://arad-transport.telelink.city/app/lines/stop/361
+362,362,Uzina Electrica,46.1811175,21.3329601,0,"[2, 39, 40, 41, 42]",https://arad-transport.telelink.city/app/lines/stop/362
+363,363,Maximilian,46.1803664,21.3443859,0,"[39, 40, 42]",https://arad-transport.telelink.city/app/lines/stop/363
+364,364,Maximilian,46.1801872,21.3442916,0,"[39, 40, 41]",https://arad-transport.telelink.city/app/lines/stop/364
+365,365,Fat Frumos 1,46.2034878,21.292607,0,"[11, 13, 15, 21, 25]",https://arad-transport.telelink.city/app/lines/stop/365
+366,366,Vladimirescu Via Carmina,46.1663251,21.3898206,2,"[39, 40]",https://arad-transport.telelink.city/app/lines/stop/366
+367,367,Gradina Postei,46.1860485,21.3497024,2,[36],https://arad-transport.telelink.city/app/lines/stop/367
+368,368,L.N.I.,46.1819882,21.3284804,2,[2],https://arad-transport.telelink.city/app/lines/stop/368
+37,37,Calarasilor,46.1987451,21.3010451,0,"[7, 10]",https://arad-transport.telelink.city/app/lines/stop/37
+38,38,Caraiman,46.1540229,21.3217396,0,"[2, 9, 28]",https://arad-transport.telelink.city/app/lines/stop/38
+39,39,Caraiman,46.1536534,21.3220045,0,"[9, 28]",https://arad-transport.telelink.city/app/lines/stop/39
+4,4,Abatorului,46.1819546,21.2965929,0,[6],https://arad-transport.telelink.city/app/lines/stop/4
+40,40,Cedrului,46.20736,21.3204812,0,[5],https://arad-transport.telelink.city/app/lines/stop/40
+41,41,Cedrului,46.2073562,21.3206215,0,[5],https://arad-transport.telelink.city/app/lines/stop/41
+44,44,Cibinului,46.1546844,21.3265576,0,[2],https://arad-transport.telelink.city/app/lines/stop/44
+45,45,Clopotului,46.14601,21.33918,0,[2],https://arad-transport.telelink.city/app/lines/stop/45
+46,46,Clopotului,46.14625,21.3391517,0,[2],https://arad-transport.telelink.city/app/lines/stop/46
+47,47,Confectii,46.1800329,21.2971956,0,[3],https://arad-transport.telelink.city/app/lines/stop/47
+48,48,Confectii,46.1800889,21.2972147,0,[3],https://arad-transport.telelink.city/app/lines/stop/48
+49,49,Cpt. Ignat,46.1745907,21.2938889,0,[3],https://arad-transport.telelink.city/app/lines/stop/49
+50,50,Cpt. Ignat,46.17481,21.29426,0,[3],https://arad-transport.telelink.city/app/lines/stop/50
+53,53,Eminescu,46.17199,21.30473,0,"[6, 7, 10, 26, 38]",https://arad-transport.telelink.city/app/lines/stop/53
+54,54,Eminescu,46.17145,21.30429,0,"[6, 7, 10, 26, 38]",https://arad-transport.telelink.city/app/lines/stop/54
+55,55,Euromedica,46.17627,21.34624,0,"[2, 42]",https://arad-transport.telelink.city/app/lines/stop/55
+56,56,Euromedica,46.1770349,21.3454529,0,"[2, 41]",https://arad-transport.telelink.city/app/lines/stop/56
+57,57,Faleza Sud,46.1638157,21.2906139,0,[3],https://arad-transport.telelink.city/app/lines/stop/57
+58,58,Felix,46.16902,21.35187,0,[8],https://arad-transport.telelink.city/app/lines/stop/58
+59,59,Feroneria,46.1989451,21.3201664,0,[5],https://arad-transport.telelink.city/app/lines/stop/59
+6,6,ANL,46.16788,21.36657,0,[8],https://arad-transport.telelink.city/app/lines/stop/6
+60,60,Feroneria,46.19927,21.32016,0,[5],https://arad-transport.telelink.city/app/lines/stop/60
+61,61,Flacara,46.14196,21.33838,0,[2],https://arad-transport.telelink.city/app/lines/stop/61
+62,62,Flacara,46.14198,21.33856,0,[2],https://arad-transport.telelink.city/app/lines/stop/62
+63,63,Fortuna,46.2003,21.29375,0,[27],https://arad-transport.telelink.city/app/lines/stop/63
+64,64,Fortuna,46.1984687,21.2960871,0,"[27, 31]",https://arad-transport.telelink.city/app/lines/stop/64
+66,66,Gara Aradului Nou,46.14532,21.33438,0,"[2, 30, 38]",https://arad-transport.telelink.city/app/lines/stop/66
+67,67,Gara Aradului Nou,46.14532,21.33455,0,"[2, 38]",https://arad-transport.telelink.city/app/lines/stop/67
+68,68,Gara CFR,46.18725,21.32582,0,"[3, 5]",https://arad-transport.telelink.city/app/lines/stop/68
+69,69,Gara CFR,46.1885052,21.3246657,0,[5],https://arad-transport.telelink.city/app/lines/stop/69
+7,7,Armoniei,46.1412136,21.3116855,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/7
+70,70,Gorunului,46.1960657,21.3329644,0,[4],https://arad-transport.telelink.city/app/lines/stop/70
+71,71,Gorunului,46.1960566,21.3331268,0,[4],https://arad-transport.telelink.city/app/lines/stop/71
+72,72,IAS Muresul,46.17256,21.238,0,"[26, 29]",https://arad-transport.telelink.city/app/lines/stop/72
+73,73,Independentei,46.19265,21.288,0,[6],https://arad-transport.telelink.city/app/lines/stop/73
+74,74,Independentei,46.1928454,21.2867715,0,[6],https://arad-transport.telelink.city/app/lines/stop/74
+75,75,Infanteriei,46.16118,21.32993,0,[2],https://arad-transport.telelink.city/app/lines/stop/75
+76,76,Infanteriei,46.16161,21.32999,0,[2],https://arad-transport.telelink.city/app/lines/stop/76
+77,77,Ion Ratiu,46.18084,21.30377,0,[6],https://arad-transport.telelink.city/app/lines/stop/77
+78,78,Ion Ratiu,46.18074,21.30416,0,[6],https://arad-transport.telelink.city/app/lines/stop/78
+8,8,Armoniei,46.1411137,21.3128563,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/8
+80,80,Lacului,46.18324,21.32272,0,[2],https://arad-transport.telelink.city/app/lines/stop/80
+81,81,Liviu Rebreanu,46.17854,21.3034,0,[3],https://arad-transport.telelink.city/app/lines/stop/81
+82,82,Liviu Rebreanu,46.1783394,21.3042003,0,[3],https://arad-transport.telelink.city/app/lines/stop/82
+83,83,Maranata,46.17869,21.34143,0,"[2, 42]",https://arad-transport.telelink.city/app/lines/stop/83
+84,84,Maranata,46.1791477,21.3411005,0,"[2, 41]",https://arad-transport.telelink.city/app/lines/stop/84
+86,86,Miorita,46.17958,21.34779,0,"[39, 40, 42]",https://arad-transport.telelink.city/app/lines/stop/86
+87,87,Ogorului,46.1410656,21.3199829,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/87
+88,88,Ogorului,46.1410184,21.3198575,0,"[9, 38]",https://arad-transport.telelink.city/app/lines/stop/88
+89,89,Parcul Reconcilierii,46.17109,21.30829,0,[7],https://arad-transport.telelink.city/app/lines/stop/89
+9,9,Artarului,46.2128594,21.3205593,0,[5],https://arad-transport.telelink.city/app/lines/stop/9
+90,90,Piata Bujac,46.19297,21.28254,0,[6],https://arad-transport.telelink.city/app/lines/stop/90
+91,91,Piata Bujac,46.19293,21.28202,0,[6],https://arad-transport.telelink.city/app/lines/stop/91
+92,92,Piata Romana,46.1664561,21.3199698,0,"[6, 10, 28]",https://arad-transport.telelink.city/app/lines/stop/92
+93,93,Piata Spitalului,46.18261,21.31166,0,"[2, 3, 26]",https://arad-transport.telelink.city/app/lines/stop/93
+94,94,Piata Spitalului,46.18119,21.30933,0,"[3, 7, 10, 26, 38]",https://arad-transport.telelink.city/app/lines/stop/94
+95,95,Piata Spitalului,46.1832569,21.3097395,0,"[2, 7, 10, 38]",https://arad-transport.telelink.city/app/lines/stop/95
+96,96,Podgoria,46.1823586,21.3247157,2,"[2, 30, 40, 41, 42]",https://arad-transport.telelink.city/app/lines/stop/96
+97,97,Podgoria,46.1832913,21.3252284,1,"[3, 4, 5, 26, 36]",https://arad-transport.telelink.city/app/lines/stop/97
+98,98,Pomenirea,46.16923,21.29093,0,[26],https://arad-transport.telelink.city/app/lines/stop/98
+99,99,Pomenirea,46.16911,21.29034,0,[26],https://arad-transport.telelink.city/app/lines/stop/99
